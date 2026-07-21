@@ -1,0 +1,41 @@
+:root {
+
+    /* Brand */
+
+    --gold: #C6A86A;
+    --navy: #1D3F72;
+
+    /* Program Colours */
+
+    --cambridge: #16A34A;
+    --cambridge-bg: #ECFDF5;
+
+    --ielts: #2563EB;
+    --ielts-bg: #EFF6FF;
+
+    --sat: #DC2626;
+    --sat-bg: #FEF2F2;
+
+    --professional: var(--gold);
+    --professional-bg: #FFF8E8;
+
+    /* Website */
+
+    --bg: #FAFAF8;
+
+    --text: #111111;
+    --text-light: #666666;
+
+    --border: #EAEAEA;
+
+    --shadow:
+        0 10px 30px rgba(0,0,0,0.08);
+
+    --radius-sm:16px;
+    --radius-md:24px;
+    --radius-lg:32px;
+
+    --transition:.35s ease;
+
+    --container:1280px;
+}

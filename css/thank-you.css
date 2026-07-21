@@ -1,0 +1,223 @@
+.eyebrow{
+
+    color:var(--gold);
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+}
+
+.thank-you{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+    background:linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #faf8f3 100%
+    );
+
+}
+
+.thank-you-card{
+
+    width:min(700px,95%);
+
+    background:white;
+
+    border:1px solid var(--border);
+
+    border-radius:36px;
+
+    padding:70px 60px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+}
+
+.thank-you-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    margin-bottom:30px;
+
+    border-radius:50%;
+
+    background:var(--gold);
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:2.2rem;
+
+    font-weight:700;
+
+}
+
+.thank-you h1{
+
+    margin:20px 0;
+
+}
+
+.description{
+
+    max-width:520px;
+
+    margin:auto;
+
+    color:var(--text-light);
+
+    line-height:1.9;
+
+}
+
+.divider{
+
+    width:80px;
+
+    height:2px;
+
+    background:var(--gold);
+
+    margin:45px auto;
+
+}
+
+.small-text{
+
+    color:var(--text-light);
+
+    line-height:1.8;
+
+    margin-bottom:45px;
+
+}
+
+.thankyou-actions{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:18px;
+    margin-top:45px;
+}
+
+.thankyou-actions a{
+    width:260px;
+    text-align:center;
+}
+
+.secondary-button{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:16px 34px;
+
+    border:2px solid var(--gold);
+    border-radius:999px;
+
+    color:var(--gold);
+    background:white;
+
+    font-weight:600;
+    text-decoration:none;
+
+    transition:var(--transition);
+}
+
+.secondary-button:hover{
+    background:var(--gold);
+    color:white;
+    transform:translateY(-3px);
+}
+
+@media(max-width:768px){
+
+    .thank-you-card{
+
+        padding:55px 35px;
+
+    }
+
+    .thankyou-actions{
+
+        gap:16px;
+
+    }
+
+    .thankyou-actions a{
+
+        width:220px;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .thank-you{
+
+        padding:25px;
+
+    }
+
+    .thank-you-card{
+
+        padding:45px 28px;
+
+    }
+
+    .button-group{
+
+        flex-direction:column;
+
+    }
+
+    .thankyou-actions{
+
+        flex-direction:column;
+
+        width:100%;
+
+        gap:14px;
+
+    }
+
+    .thankyou-actions a{
+
+        width:100%;
+
+        max-width:320px;
+
+    }
+
+    .secondary-button{
+
+        width:100%;
+
+    }
+
+}

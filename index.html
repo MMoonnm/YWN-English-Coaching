@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+
+    <title> English Tutor YWN | YWN Gia sư tiếng Anh</title>
+</head>
+<body>
+<!-- =========================
+        NAVIGATION
+========================= -->
+<nav class="navbar">
+
+    <!-- Logo -->
+    <div class="nav-logo">
+        <a href="index.html">YWN</a>
+    </div>
+
+    <!-- =========================
+            Desktop Navigation
+    ========================= -->
+    <div class="nav-links">
+
+        <!-- Programs -->
+        <div class="nav-item programs-trigger">
+
+            <a href="programs/index.html" data-i18n="nav.programs.label">
+                Programs
+            </a>
+
+            <div class="mega-menu">
+
+                <a href="programs/cambridge.html" class="menu-card">
+                    <h3>
+                        Cambridge
+                    </h3>
+
+                    <p data-i18n="nav.programs.cambridgeDesc">
+                        International curriculum and exam preparation.
+                    </p>
+                </a>
+
+                <a href="programs/ielts.html" class="menu-card">
+                    <h3>
+                        IELTS
+                    </h3>
+
+                    <p data-i18n="nav.programs.ieltsDesc">
+                        Speaking, Listening, Reading & Writing.
+                    </p>
+                </a>
+
+                <a href="programs/sat.html" class="menu-card">
+                    <h3>
+                        SAT
+                    </h3>
+
+                    <p data-i18n="nav.programs.satDesc">
+                        Digital SAT university preparation.
+                    </p>
+                </a>
+
+                <a href="programs/professional.html" class="menu-card">
+                    <h3 data-i18n="nav.programs.professional">
+                        Professional English
+                    </h3>
+
+                    <p data-i18n="nav.programs.professionalDesc">
+                        Business communication & interviews.
+                    </p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Parents -->
+
+        <div class="nav-item">
+            <a href="parents.html" data-i18n="nav.parents">
+                Parents
+            </a>
+        </div>
+
+        <!-- About -->
+
+        <div class="nav-item about-trigger">
+
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <div class="about-menu">
+
+                <a href="testimonials.html" class="about-link">
+
+                    <h3 data-i18n="nav.testimonials">
+                        Testimonials
+                    </h3>
+
+                    <p data-i18n="nav.testimonialsDesc">
+                        Read what students and parents have shared.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Policies -->
+
+        <div class="nav-item">
+            <a href="policies.html" data-i18n="nav.policies">Policies</a>
+        </div>
+
+        <!-- Contact -->
+
+        <div class="nav-item">
+            <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- =========================
+          Desktop Language
+    ========================= -->
+
+<div class="language-toggle">
+
+    <div class="toggle-pill"></div>
+
+    <span class="active" data-lang="en">EN</span>
+    <span data-lang="vi">VI</span>
+
+</div>
+</nav>
+
+<!-- =========================
+            Hamburger
+    ========================= -->
+
+    <button class="hamburger">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+<div class="mobile-overlay"></div>
+
+<!-- =========================
+        Mobile Drawer
+========================= -->
+<div class="mobile-menu">
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="programs/index.html" data-i18n="nav.programs">
+                Programs
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="programs/cambridge.html">Cambridge</a>
+            <a href="programs/ielts.html">IELTS</a>
+            <a href="programs/sat.html">SAT</a>
+            <a href="programs/professional.html" data-i18n="nav.programs.professional">Professional English</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="parents.html" data-i18n="nav.parents">Parents</a>
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="testimonials.html" data-i18n="nav.testimonials">Testimonials</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="policies.html" data-i18n="nav.policies">
+        Policies
+    </a>
+
+    <a class="mobile-link" href="contact.html" data-i18n="nav.contact">
+        Contact
+    </a>
+
+    <div class="mobile-language">
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+
+</div>
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+    <div class="hero-left">
+
+        <p class="hero-tag"
+           data-i18n="home.hero.tag">
+            1-on-1 English Coaching
+        </p>
+
+        <h1 data-i18n-html="home.hero.title">
+            Build Confidence.<br>
+            Master English.<br>
+            Unlock New Opportunities.
+        </h1>
+
+        <p class="hero-description"
+           data-i18n="home.hero.description">
+            Cambridge, IELTS, SAT and Professional English coaching
+            designed for ambitious students, university learners,
+            working professionals, and parents who value structured
+            learning and measurable progress.
+        </p>
+
+        <div class="hero-programs">
+
+            <a href="programs/cambridge.html"
+               class="program-pill cambridge">
+                Cambridge
+            </a>
+
+            <a href="programs/ielts.html"
+               class="program-pill ielts">
+                IELTS
+            </a>
+
+            <a href="programs/sat.html"
+               class="program-pill sat">
+                SAT
+            </a>
+
+            <a href="programs/professional.html"
+               class="program-pill business"
+               data-i18n="home.hero.professional">
+                Professional English
+            </a>
+
+        </div>
+
+        <a href="programs/index.html"
+           class="hero-button">
+
+            <span data-i18n="home.hero.button">
+                Explore Programs →
+            </span>
+
+        </a>
+
+    </div>
+
+    <div class="hero-right">
+
+        <!-- IMAGE -->
+        <div class="hero-image">
+
+            <img
+                src="assets/images/download.jpg"
+                alt="YEO English Tutor">
+
+        </div>
+
+        <div class="floating-card card1">
+
+            <i data-lucide="award"></i>
+
+            <span data-i18n="home.hero.card1">
+                Assessment Session
+            </span>
+
+        </div>
+
+        <div class="floating-card card2">
+
+            <i data-lucide="book-open"></i>
+
+            <span data-i18n="home.hero.card2">
+                Personalised Coaching
+            </span>
+
+        </div>
+
+        <div class="floating-card card3">
+
+            <i data-lucide="trending-up"></i>
+
+            <span data-i18n="home.hero.card3">
+                Goal-Oriented Learning
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHY YEO -->
+<section class="why-yeo">
+
+    <div class="section-heading">
+
+        <p data-i18n="home.why.label">WHY YEO</p>
+
+        <h2 data-i18n-html="home.why.title">
+            More Than Lessons.<br>
+            A Structured Learning Journey.
+        </h2>
+
+    </div>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <h3>
+                <i data-lucide="target"></i>
+                <span data-i18n="home.why.goalTitle">Goal-Oriented Learning</span>
+            </h3>
+
+            <p data-i18n="home.why.goalDesc">
+                Every lesson is planned around measurable objectives so students always know what they are working towards.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>
+                <i data-lucide="user-round"></i>
+                <span data-i18n="home.why.coachTitle">Personal Coaching</span>
+            </h3>
+
+            <p data-i18n="home.why.coachDesc">
+                Lessons are adapted to each student's pace, strengths and areas for improvement.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>
+                <i data-lucide="chart-column"></i>
+                <span data-i18n="home.why.progressTitle">Track Your Progress</span>
+            </h3>
+
+            <p data-i18n="home.why.progressDesc">
+                Clear milestones help students and parents see continuous improvement throughout the course.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>
+                <i data-lucide="clock-3"></i>
+                <span data-i18n="home.why.scheduleTitle">Flexible Scheduling</span>
+            </h3>
+
+            <p data-i18n="home.why.scheduleDesc">
+                Study plans designed around school, university and working professionals.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROGRAMS SECTION -->
+<section class="programs">
+
+    <div class="section-heading">
+
+        <p data-i18n="home.programs.label">
+            PROGRAMS
+        </p>
+
+        <h2 data-i18n="home.programs.title">
+            Find The Right Learning Path
+        </h2>
+
+    </div>
+
+    <div class="program-grid">
+
+        <!-- Cambridge -->
+        <div class="program-card">
+
+            <div class="program-header">
+
+                <h3 class="cambridge-title">
+                    Cambridge
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="program-content">
+
+                <ul>
+
+                    <li data-i18n="home.programs.cambridge.primary">
+                        Primary
+                    </li>
+
+                    <li data-i18n="home.programs.cambridge.checkpoint">
+                        Checkpoint
+                    </li>
+
+                    <li data-i18n="home.programs.cambridge.igcse">
+                        IGCSE
+                    </li>
+
+                    <li data-i18n="home.programs.cambridge.alevel">
+                        AS & A Level
+                    </li>
+
+                </ul>
+
+                <a href="programs/cambridge.html" class="program-btn">
+
+                    <span data-i18n="home.programs.cambridge.button">
+                        Learn More →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- IELTS -->
+        <div class="program-card">
+
+            <div class="program-header">
+
+                <h3 class="ielts-title">
+                    IELTS
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="program-content">
+
+                <ul>
+
+                    <li data-i18n="home.programs.ielts.listening">
+                        Listening
+                    </li>
+
+                    <li data-i18n="home.programs.ielts.reading">
+                        Reading
+                    </li>
+
+                    <li data-i18n="home.programs.ielts.writing">
+                        Writing
+                    </li>
+
+                    <li data-i18n="home.programs.ielts.speaking">
+                        Speaking
+                    </li>
+
+                </ul>
+
+                <a href="programs/ielts.html" class="program-btn">
+
+                    <span data-i18n="home.programs.ielts.button">
+                        Learn More →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- SAT -->
+        <div class="program-card">
+
+            <div class="program-header">
+
+                <h3 class="sat-title">
+                    SAT
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="program-content">
+
+                <ul>
+
+                    <li data-i18n="home.programs.sat.digital">
+                        Digital SAT
+                    </li>
+
+                    <li data-i18n="home.programs.sat.rw">
+                        Reading & Writing
+                    </li>
+
+                    <li data-i18n="home.programs.sat.math">
+                        Math
+                    </li>
+
+                </ul>
+
+                <a href="programs/sat.html" class="program-btn">
+
+                    <span data-i18n="home.programs.sat.button">
+                        Learn More →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Professional English -->
+        <div class="program-card">
+
+            <div class="program-header">
+
+                <h3 class="business-title"
+                    data-i18n="home.programs.professional.title">
+
+                    Professional English
+
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="program-content">
+
+                <ul>
+
+                    <li data-i18n="home.programs.professional.business">
+                        Business Communication
+                    </li>
+
+                    <li data-i18n="home.programs.professional.emails">
+                        Emails
+                    </li>
+
+                    <li data-i18n="home.programs.professional.interviews">
+                        Interviews
+                    </li>
+
+                    <li data-i18n="home.programs.professional.meetings">
+                        Meetings
+                    </li>
+
+                </ul>
+
+                <a href="programs/professional.html" class="program-btn">
+
+                    <span data-i18n="home.programs.professional.button">
+                        Learn More →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="success">
+
+    <div class="section-heading">
+
+        <p data-i18n="home.testimonials.label">TESTIMONIALS</p>
+
+        <h2 data-i18n="home.testimonials.title">
+            Growth Stories
+        </h2>
+
+    </div>
+
+    <div class="success-grid">
+
+        <!-- LEFT -->
+        <div class="success-card success-cta">
+
+            <div class="testimonial-stars">
+                ★★★★★
+            </div>
+
+            <h3>
+                Huỳnh Như
+            </h3>
+
+            <p data-i18n="home.testimonials.studentInfo" class="success-program">
+                Cambridge Student • 🇻🇳 Vietnam
+            </p>
+
+            <blockquote data-i18n="home.testimonials.quote">
+                "Điều mình thích nhất là cách anh giải thích kiến thức.
+                Qua cách anh hướng dẫn thì mọi thứ trở nên dễ hiểu,
+                dễ nhớ hơn rất nhiều."
+            </blockquote>
+
+            <a href="testimonials.html" class="hero-button">
+                <span data-i18n="home.testimonials.button">
+                    Read More Testimonials →
+                </span>
+            </a>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="stats-card">
+
+            <div class="stat">
+
+                <h3 data-i18n="home.testimonials.stat1Number">
+                    Initial
+                </h3>
+
+                <p data-i18n="home.testimonials.stat1Text">
+                    Assessment Session
+                </p>
+
+            </div>
+
+            <div class="stat">
+
+                <h3 data-i18n="home.testimonials.stat2Number">1-on-1</h3>
+
+                <p data-i18n="home.testimonials.stat2Text">
+                    Personal Coaching
+                </p>
+
+            </div>
+
+            <div class="stat">
+
+                <h3 data-i18n="home.testimonials.stat3Number">
+                    Flexible
+                </h3>
+
+                <p data-i18n="home.testimonials.stat3Text">
+                    Schedule
+                </p>
+
+            </div>
+
+            <div class="stat">
+
+                <h3 data-i18n="home.testimonials.stat4Number">
+                    Tailored
+                </h3>
+
+                <p data-i18n="home.testimonials.stat4Text">
+                    Learning Plans
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    
+<!-- FAQ -->
+<section class="faq">
+
+    <div class="section-heading">
+
+        <p data-i18n="home.faq.label">
+            FAQ
+        </p>
+
+        <h2 data-i18n="home.faq.title">
+            Frequently Asked Questions
+        </h2>
+
+    </div>
+
+    <div class="faq-container">
+
+        <!-- 1 -->
+
+        <div class="faq-item active">
+
+            <div class="faq-question">
+                <h3 data-i18n="home.faq.q1.question">
+                    Who are your lessons suitable for?
+                </h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p data-i18n="home.faq.q1.answer">
+                    Lessons are designed for school students, university students,
+                    working professionals, and anyone preparing for Cambridge,
+                    IELTS, SAT or Professional English.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 2 -->
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                <h3 data-i18n="home.faq.q2.question">
+                    Do you offer an assessment session?
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                <p data-i18n="home.faq.q2.answer">
+                    Yes. Every new student begins with an initial assessment session.
+                    During this session, we'll discuss your goals, evaluate your
+                    current English level, identify strengths and areas for
+                    improvement, and recommend the most suitable learning plan.
+                    A small assessment fee applies.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- 3 -->
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+                <h3 data-i18n="home.faq.q3.question">
+                    Are lessons conducted online or in person?
+                </h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p data-i18n="home.faq.q3.answer">
+                    Lessons are currently conducted online, allowing flexible
+                    scheduling while maintaining an interactive and personalised
+                    learning experience.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 4 -->
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+                <h3 data-i18n="home.faq.q4.question">
+                    How are lessons personalised?
+                </h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p data-i18n="home.faq.q4.answer">
+                    Every student receives a customised learning plan based on
+                    their current level, objectives, strengths, and areas that
+                    require improvement. Lessons are continuously adjusted as
+                    progress is made.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 5 -->
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+                <h3 data-i18n="home.faq.q5.question">
+                    How can international students make payments?
+                </h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p data-i18n="home.faq.q5.answer">
+                    Students outside Vietnam can make payments through Wise,
+                    allowing secure transfers in their local currency. Vietnamese
+                    students may pay by local bank transfer. Full payment details
+                    are provided with each monthly invoice, and I'm happy to assist
+                    if you have any questions about the payment process.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 6 -->
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+                <h3 data-i18n="home.faq.q6.question">
+                    When are tuition fees due?
+                </h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p data-i18n-html="home.faq.q6.answer">
+                    Monthly invoices are issued on the <strong>25th of each month</strong>
+                    for the following month's lessons.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 7 -->
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+                <h3 data-i18n="home.faq.q7.question">
+                    Can lessons be rescheduled?
+                </h3>
+                <span>+</span>
+            </div>
+
+            <div class="faq-answer">
+                <p data-i18n="home.faq.q7.answer">
+                    Yes. If you need to reschedule a lesson, please provide
+                    at least 24 hours' notice whenever possible.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+
+    <div class="section-heading">
+
+        <p data-i18n="home.contact.label">
+            GET STARTED
+        </p>
+
+        <h2 data-i18n-html="home.contact.title">
+            Let's Build Your English Journey Together
+        </h2>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <!-- LEFT CARD -->
+        <div class="contact-card">
+
+            <span class="contact-tag" data-i18n="home.contact.tag">
+                Initial Assessment Session
+            </span>
+
+            <h3 data-i18n="home.contact.heading">
+                Book Your Assessment
+            </h3>
+
+            <p class="contact-description" data-i18n="home.contact.description">
+                Whether you're preparing for Cambridge, IELTS, SAT or
+                Professional English, we'll discuss your goals, evaluate
+                your current level, and create a personalised learning
+                roadmap designed specifically for you.
+            </p>
+
+            <div class="contact-list">
+
+                <a class="contact-item" href="mailto:yeowoonnam1234@gmail.com">
+
+                    <div class="contact-icon">
+                        <i data-lucide="mail"></i>
+                    </div>
+
+                    <div>
+                        <h4 data-i18n="home.contact.email">
+                            Email
+                        </h4>
+                        <p>yeowoonnam1234@gmail.com</p>
+                    </div>
+
+                </a>
+
+                <a class="contact-item" href="tel:0906641225">
+
+                    <div class="contact-icon">
+                        <i data-lucide="smartphone"></i>
+                    </div>
+
+                    <div>
+                        <h4>Zalo</h4>
+                        <p>0906641225</p>
+                    </div>
+
+                </a>
+
+                <a class="contact-item"
+                    href="https://www.facebook.com/profile.php?id=100006512059024"
+                    target="_blank">
+
+                    <div class="contact-icon">
+                        <i data-lucide="message-circle"></i>
+                    </div>
+
+                    <div>
+                        <h4 data-i18n="home.contact.messenger">
+                            Messenger
+                        </h4>
+
+                        <p data-i18n="home.contact.messageYwn">
+                            Message YWN
+                        </p>
+                    </div>
+
+                </a>
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i data-lucide="globe"></i>
+                    </div>
+
+                    <div>
+
+                        <h4 data-i18n="home.contact.lessonFormat">
+                            Lesson Format
+                        </h4>
+
+                        <p data-i18n="home.contact.lessonMode">
+                            Online • Worldwide
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contact-note"
+                 data-i18n="home.contact.note">
+                ⭐ Average response within 6 hours
+            </div>
+
+        </div>
+
+        <!-- FORM -->
+
+        <form
+            class="contact-form"
+            action="https://formspree.io/f/meeyjrdj"
+            method="POST">
+
+            <input
+                type="text"
+                name="name"
+                data-i18n-placeholder="home.contact.form.name"
+                placeholder="Full Name"
+                required>
+
+            <input
+                type="email"
+                name="email"
+                data-i18n-placeholder="home.contact.form.email"
+                placeholder="Email Address"
+                required>
+
+            <div class="select-wrapper">
+
+                <select required>
+
+                    <option
+                        value=""
+                        selected
+                        disabled
+                        data-i18n="home.contact.form.selectProgram">
+                        Select a Program
+                    </option>
+
+                    <option>Cambridge</option>
+                    <option>IELTS</option>
+                    <option>SAT</option>
+
+                    <option
+                        data-i18n="home.contact.form.professional">
+                        Professional English
+                    </option>
+
+                </select>
+
+            </div>
+
+            <textarea
+                name="message"
+                rows="6"
+                data-i18n-placeholder="home.contact.form.message"
+                placeholder="Tell me about your goals..."
+                required></textarea>
+
+            <button class="hero-button" type="submit">
+
+                <span data-i18n="home.contact.form.button">
+                    Book My Free Trial
+                </span>
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <h2>YEO</h2>
+
+            <p data-i18n="footer.description">
+                Personalised one-to-one English coaching designed
+                to help every student grow with confidence.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4 data-i18n="footer.programs">
+                    Programs
+                </h4>
+
+                <a href="programs/cambridge.html">Cambridge</a>
+
+                <a href="programs/ielts.html">IELTS</a>
+
+                <a href="programs/sat.html">SAT</a>
+
+                <a href="programs/professional.html"
+                   data-i18n="footer.professional">
+                    Professional English
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="footer.resources">
+                    Resources
+                </h4>
+
+                <a href="parents.html"
+                   data-i18n="footer.parents">
+                    Parents
+                </a>
+
+                <a href="about.html"
+                   data-i18n="footer.about">
+                    About
+                </a>
+
+                <a href="policies.html"
+                   data-i18n="footer.policies">
+                    Student & Parent Policies
+                </a>
+
+                <a href="index.html#faq">
+                    FAQ
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="footer.contact">
+                    Contact
+                </h4>
+
+                <a href="mailto:yeowoonnam1234@gmail.com"
+                   data-i18n="home.footer.email">
+                    Email
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100006512059024"
+                   target="_blank"
+                   data-i18n="footer.messenger">
+                    Messenger
+                </a>
+
+                <a href="tel:0906641225"
+                   data-i18n="footer.phone">
+                    Phone
+                </a>
+
+                <a href="contact.html">
+                    Zalo
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p data-i18n="footer.copyright">
+            © 2024 YWN. All rights reserved.
+        </p>
+
+        <p data-i18n="footer.credit">
+            Designed & Developed with care by Yeo Woon Nam.
+        </p>
+
+    </div>
+
+</footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/programs.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/mobile-menu.js"></script>
+
+    <script src="js/language.js"></script>
+
+</body>
+</html>

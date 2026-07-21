@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personalised one-to-one IELTS coaching focused on practical improvement in Listening, Reading, Writing and Speaking, with lessons tailored to your current band and target score.">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="../assets/icons/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/course.css">
+
+    <title>
+    IELTS Coaching | YWN English Coaching
+    </title>
+
+    <style>
+        :root{
+            --accent: var(--ielts);
+            --accent-light: var(--ielts-bg);
+        }
+    </style>
+</head>
+<body>
+<!-- =========================
+        NAVIGATION
+========================= -->
+<nav class="navbar">
+
+    <!-- Logo -->
+    <div class="nav-logo">
+        <a href="../index.html">YWN</a>
+    </div>
+
+    <!-- =========================
+            Desktop Navigation
+    ========================= -->
+    <div class="nav-links">
+
+        <!-- Programs -->
+        <div class="nav-item programs-trigger">
+
+            <a href="index.html" data-i18n="nav.programs.label">
+                Programs
+            </a>
+
+            <div class="mega-menu">
+
+                <a href="cambridge.html" class="menu-card">
+                    <h3>
+                        Cambridge
+                    </h3>
+
+                    <p data-i18n="nav.programs.cambridgeDesc">
+                        International curriculum and exam preparation.
+                    </p>
+                </a>
+
+                <a href="ielts.html" class="menu-card">
+                    <h3>
+                        IELTS
+                    </h3>
+
+                    <p data-i18n="nav.programs.ieltsDesc">
+                        Speaking, Listening, Reading & Writing.
+                    </p>
+                </a>
+
+                <a href="sat.html" class="menu-card">
+                    <h3>
+                        SAT
+                    </h3>
+
+                    <p data-i18n="nav.programs.satDesc">
+                        Digital SAT university preparation.
+                    </p>
+                </a>
+
+                <a href="professional.html" class="menu-card">
+                    <h3 data-i18n="nav.programs.professional">
+                        Professional English
+                    </h3>
+
+                    <p data-i18n="nav.programs.professionalDesc">
+                        Business communication & interviews.
+                    </p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Parents -->
+
+        <div class="nav-item">
+            <a href="../parents.html" data-i18n="nav.parents">
+                Parents
+            </a>
+        </div>
+
+        <!-- About -->
+
+        <div class="nav-item about-trigger">
+
+            <a href="../about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <div class="about-menu">
+
+                <a href="../testimonials.html" class="about-link">
+
+                    <h3 data-i18n="nav.testimonials">
+                        Testimonials
+                    </h3>
+
+                    <p data-i18n="nav.testimonialsDesc">
+                        Read what students and parents have shared.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Policies -->
+
+        <div class="nav-item">
+            <a href="../policies.html" data-i18n="nav.policies">Policies</a>
+        </div>
+
+        <!-- Contact -->
+
+        <div class="nav-item">
+            <a href="../contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- =========================
+          Desktop Language
+    ========================= -->
+
+    <div class="language-toggle">
+
+        <div class="toggle-pill"></div>
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</nav>
+
+<!-- =========================
+            Hamburger
+    ========================= -->
+
+    <button class="hamburger">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+<div class="mobile-overlay"></div>
+
+<!-- =========================
+        Mobile Drawer
+========================= -->
+<div class="mobile-menu">
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="index.html" data-i18n="nav.programs">
+                Programs
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="cambridge.html">Cambridge</a>
+            <a href="ielts.html">IELTS</a>
+            <a href="sat.html">SAT</a>
+            <a href="professional.html" data-i18n="nav.programs.professional">Professional English</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="../parents.html" data-i18n="nav.parents">Parents</a>
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="../about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="../testimonials.html" data-i18n="nav.testimonials">Testimonials</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="../policies.html" data-i18n="nav.policies">
+        Policies
+    </a>
+
+    <a class="mobile-link" href="../contact.html" data-i18n="nav.contact">
+        Contact
+    </a>
+
+    <div class="mobile-language">
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</div>
+
+<!-- Hero -->
+<section class="course-hero">
+
+    <span class="eyebrow" data-i18n="programs.ielts.hero.label">
+        IELTS
+    </span>
+
+    <h1 class="lang-course-title" data-i18n-html="programs.ielts.hero.title">
+        Build The English<br>
+        Skills Needed<br>
+        For Your Target Score.
+    </h1>
+
+    <div class="hero-image">
+
+        <img
+            src="../assets/images/program/ielts-hero.jpg"
+            alt="IELTS tutoring lesson"
+        >
+
+        <div class="image-overlay">
+
+            <span data-i18n="programs.ielts.hero.overlayLabel">
+                IELTS PREPARATION
+            </span>
+
+            <h3 data-i18n="programs.ielts.hero.overlayLine1">
+                Band 5.0 → 8.0+
+            </h3>
+
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+
+        <p data-i18n="programs.ielts.hero.description">
+            Personalised one-to-one IELTS coaching focused on practical
+            improvement in Listening, Reading, Writing and Speaking,
+            with lessons tailored to your current band and target score.
+        </p>
+
+        <a href="../index.html#contact" class="hero-button">
+
+            <span data-i18n="programs.ielts.hero.button">
+                Book My Assessment Session
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Who It's For -->
+<section class="audience">
+
+    <div class="section-heading">
+
+        <p data-i18n="programs.ielts.audience.label">
+            WHO THIS IS FOR
+        </p>
+
+        <h2 data-i18n="programs.ielts.audience.title">
+            Every Student Has A Different Starting Point
+        </h2>
+
+    </div>
+
+    <div class="audience-grid">
+
+        <div class="audience-card">
+
+            <h3 data-i18n="programs.ielts.audience.card1Title">
+                Beginner
+            </h3>
+
+            <p data-i18n="programs.ielts.audience.card1Desc">
+                Build confidence before attempting the official IELTS examination.
+            </p>
+
+        </div>
+
+        <div class="audience-card">
+
+            <h3 data-i18n="programs.ielts.audience.card2Title">
+                Students
+            </h3>
+
+            <p data-i18n="programs.ielts.audience.card2Desc">
+                Prepare for university admissions or overseas study requirements.
+            </p>
+
+        </div>
+
+        <div class="audience-card">
+
+            <h3 data-i18n="programs.ielts.audience.card3Title">
+                Working Professionals
+            </h3>
+
+            <p data-i18n="programs.ielts.audience.card3Desc">
+                Meet immigration or career English requirements.
+            </p>
+
+        </div>
+
+        <div class="audience-card">
+
+            <h3 data-i18n="programs.ielts.audience.card4Title">
+                Retakers
+            </h3>
+
+            <p data-i18n="programs.ielts.audience.card4Desc">
+                Identify weaknesses and improve efficiently for a higher score.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Learning Journey -->
+<section class="journey">
+
+    <div class="section-heading">
+
+        <p data-i18n="programs.ielts.journey.label">
+            THE LEARNING JOURNEY
+        </p>
+
+        <h2 data-i18n="programs.ielts.journey.title">
+            A Programme Built Around Progress
+        </h2>
+
+    </div>
+
+    <div class="journey-flow">
+
+        <div class="flow-card">
+
+            <h3>01</h3>
+
+            <h4 data-i18n="programs.ielts.journey.step1Title">
+                Assessment
+            </h4>
+
+            <p data-i18n="programs.ielts.journey.step1Desc">
+                Identify strengths and the quickest path to improvement.
+            </p>
+
+        </div>
+
+        <div class="flow-card">
+
+            <h3>02</h3>
+
+            <h4 data-i18n="programs.ielts.journey.step2Title">
+                Personal Study Plan
+            </h4>
+
+            <p data-i18n="programs.ielts.journey.step2Desc">
+                A weekly roadmap targeting the skills that matter most.
+            </p>
+
+        </div>
+
+        <div class="flow-card">
+
+            <h3>03</h3>
+
+            <h4 data-i18n="programs.ielts.journey.step3Title">
+                Intensive Practice
+            </h4>
+
+            <p data-i18n="programs.ielts.journey.step3Desc">
+                Real IELTS-style exercises with detailed feedback.
+            </p>
+
+        </div>
+
+        <div class="flow-card">
+
+            <h3>04</h3>
+
+            <h4 data-i18n="programs.ielts.journey.step4Title">
+                Mock Exams
+            </h4>
+
+            <p data-i18n="programs.ielts.journey.step4Desc">
+                Build confidence under real exam conditions.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Personalized Lessons -->
+<section class="personalised">
+
+    <div class="personal-image">
+        <img src="../assets/images/program/ielts2.jpg">
+    </div>
+
+    <div class="personal-content">
+
+        <span data-i18n="programs.ielts.personalised.label">
+            PERSONALISED LEARNING
+        </span>
+
+        <h2 data-i18n="programs.ielts.personalised.title">
+            Preparation That Fits Your Goals
+        </h2>
+
+        <p data-i18n="programs.ielts.personalised.description">
+            Every learner starts from a different level.
+            Lessons focus on the areas that deliver the greatest improvement
+            instead of following a fixed textbook sequence.
+        </p>
+
+        <div class="personal-points">
+
+            <div>
+
+                <h3 data-i18n="programs.ielts.personalised.point1Title">
+                    Writing Feedback
+                </h3>
+
+                <p data-i18n="programs.ielts.personalised.point1Desc">
+                    Detailed correction for grammar, vocabulary and organisation.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3 data-i18n="programs.ielts.personalised.point2Title">
+                    Speaking Practice
+                </h3>
+
+                <p data-i18n="programs.ielts.personalised.point2Desc">
+                    Develop fluency through realistic interview simulations.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3 data-i18n="programs.ielts.personalised.point3Title">
+                    Progress Tracking
+                </h3>
+
+                <p data-i18n="programs.ielts.personalised.point3Desc">
+                    Monitor improvement with regular mock assessments.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Outcomes -->
+<section class="outcomes">
+
+    <div class="section-heading">
+
+        <p data-i18n="programs.ielts.outcomes.label">
+            OUTCOMES
+        </p>
+
+        <h2 data-i18n="programs.ielts.outcomes.title">
+            Beyond Better Grades
+        </h2>
+
+    </div>
+
+    <div class="outcome-grid">
+
+        <div class="outcome-card">
+
+            <h3 data-i18n="programs.ielts.outcomes.card1Title">
+                Academic Writing
+            </h3>
+
+            <p data-i18n="programs.ielts.outcomes.card1Desc">
+                Produce organised and coherent essays confidently.
+            </p>
+
+        </div>
+
+        <div class="outcome-card">
+
+            <h3 data-i18n="programs.ielts.outcomes.card2Title">
+                Critical Reading
+            </h3>
+
+            <p data-i18n="programs.ielts.outcomes.card2Desc">
+                Analyse texts more confidently while identifying key ideas and supporting evidence.
+            </p>
+
+        </div>
+
+        <div class="outcome-card">
+
+            <h3 data-i18n="programs.ielts.outcomes.card3Title">
+                Higher Speaking Fluency
+            </h3>
+
+            <p data-i18n="programs.ielts.outcomes.card3Desc">
+                Communicate naturally with greater confidence.
+            </p>
+
+        </div>
+
+        <div class="outcome-card">
+
+            <h3 data-i18n="programs.ielts.outcomes.card4Title">
+                Reading Accuracy
+            </h3>
+
+            <p data-i18n="programs.ielts.outcomes.card4Desc">
+                Understand complex texts more efficiently.
+            </p>
+
+        </div>
+
+        <div class="outcome-card">
+
+            <h3 data-i18n="programs.ielts.outcomes.card5Title">
+                Listening Skills
+            </h3>
+
+            <p data-i18n="programs.ielts.outcomes.card5Desc">
+                Recognise information quickly during recordings.
+            </p>
+
+        </div>
+
+        <div class="outcome-card">
+
+            <h3 data-i18n="programs.ielts.outcomes.card6Title">
+                Effective Exam Strategy
+            </h3>
+
+            <p data-i18n="programs.ielts.outcomes.card6Desc">
+                Improve timing and maximise scoring opportunities.
+            </p>
+
+        </div>
+
+        <div class="outcome-card">
+
+            <h3 data-i18n="programs.ielts.outcomes.card7Title">
+                Target Band Achievement
+            </h3>
+
+            <p data-i18n="programs.ielts.outcomes.card7Desc">
+                Work systematically towards your desired IELTS score.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="course-cta">
+
+    <h2 data-i18n="programs.ielts.cta.title">
+        Let's Reach Your Target Band.
+    </h2>
+
+    <p data-i18n="programs.ielts.cta.description">
+        Book a personalised assessment session and we'll create
+        a learning roadmap tailored specifically to your goals.
+    </p>
+
+    <a href="../index.html#contact" class="hero-button">
+
+        <span data-i18n="programs.ielts.cta.button">
+            Book My Assessment Session
+        </span>
+
+    </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <h2>YEO</h2>
+
+            <p data-i18n="footer.description">
+                Personalised one-to-one English coaching designed
+                to help every student grow with confidence.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4 data-i18n="footer.programs">
+                    Programs
+                </h4>
+
+                <a href="cambridge.html">Cambridge</a>
+
+                <a href="ielts.html">IELTS</a>
+
+                <a href="sat.html">SAT</a>
+
+                <a href="professional.html"
+                   data-i18n="footer.professional">
+                    Professional English
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="footer.resources">
+                    Resources
+                </h4>
+
+                <a href="../parents.html"
+                   data-i18n="footer.parents">
+                    Parents
+                </a>
+
+                <a href="../about.html"
+                   data-i18n="footer.about">
+                    About
+                </a>
+
+                <a href="../policies.html"
+                   data-i18n="footer.policies">
+                    Student & Parent Policies
+                </a>
+
+                <a href="../index.html#contact">
+                    FAQ
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="footer.contact">
+                    Contact
+                </h4>
+
+                <a href="mailto:yeowoonnam1234@gmail.com"
+                   data-i18n="footer.email">
+                    Email
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100006512059024"
+                   target="_blank"
+                   data-i18n="footer.messenger">
+                    Messenger
+                </a>
+
+                <a href="tel:0906641225"
+                   data-i18n="footer.phone">
+                    Phone
+                </a>
+
+                <a href="contact.html">
+                    Zalo
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p data-i18n="home.footer.copyright">
+            © 2024 YWN. All rights reserved.
+        </p>
+
+        <p data-i18n="footer.credit">
+            Designed & Developed with care by Yeo Woon Nam.
+        </p>
+
+    </div>
+
+</footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="../js/navbar.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/programs.js"></script>
+    <script src="../js/faq.js"></script>
+    <script src="../js/mobile-menu.js"></script>
+
+    <script src="../js/language.js"></script>
+</body>
+</html>

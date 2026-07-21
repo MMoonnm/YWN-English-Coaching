@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+    /* outline:1px solid red; */  /* only while debugging */
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+    background:var(--bg);
+    color:var(--text);
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+h1,h2,h3{
+    font-family:'Playfair Display', serif;
+}
+
+/* Lucide Icons */
+.floating-card svg{
+    position:relative;
+    top:7px;
+}
+
+.feature-card svg{
+    position:relative;
+    top:3px;
+}
+
+/* CURSOR */
+a,
+button,
+.hero-button,
+.menu-card,
+.nav-item,
+.language-toggle,
+.programs-trigger,
+.audience-card,
+.flow-card,
+.outcome-card,
+.personal-points div{
+    cursor:pointer;
+}
+

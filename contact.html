@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <title>Tutor YWN, Thầy tiếng Anh YWN</title>
+</head>
+<body>
+<!-- =========================
+        NAVIGATION
+========================= -->
+<nav class="navbar">
+
+    <!-- Logo -->
+    <div class="nav-logo">
+        <a href="index.html">YWN</a>
+    </div>
+
+    <!-- =========================
+            Desktop Navigation
+    ========================= -->
+    <div class="nav-links">
+
+        <!-- Programs -->
+        <div class="nav-item programs-trigger">
+
+            <a href="programs/index.html" data-i18n="nav.programs.label">
+                Programs
+            </a>
+
+            <div class="mega-menu">
+
+                <a href="programs/cambridge.html" class="menu-card">
+                    <h3>
+                        Cambridge
+                    </h3>
+
+                    <p data-i18n="nav.programs.cambridgeDesc">
+                        International curriculum and exam preparation.
+                    </p>
+                </a>
+
+                <a href="programs/ielts.html" class="menu-card">
+                    <h3>
+                        IELTS
+                    </h3>
+
+                    <p data-i18n="nav.programs.ieltsDesc">
+                        Speaking, Listening, Reading & Writing.
+                    </p>
+                </a>
+
+                <a href="programs/sat.html" class="menu-card">
+                    <h3>
+                        SAT
+                    </h3>
+
+                    <p data-i18n="nav.programs.satDesc">
+                        Digital SAT university preparation.
+                    </p>
+                </a>
+
+                <a href="programs/professional.html" class="menu-card">
+                    <h3 data-i18n="nav.programs.professional">
+                        Professional English
+                    </h3>
+
+                    <p data-i18n="nav.programs.professionalDesc">
+                        Business communication & interviews.
+                    </p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Parents -->
+
+        <div class="nav-item">
+            <a href="parents.html" data-i18n="nav.parents">
+                Parents
+            </a>
+        </div>
+
+        <!-- About -->
+
+        <div class="nav-item about-trigger">
+
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <div class="about-menu">
+
+                <a href="testimonials.html" class="about-link">
+
+                    <h3 data-i18n="nav.testimonials">
+                        Testimonials
+                    </h3>
+
+                    <p data-i18n="nav.testimonialsDesc">
+                        Read what students and parents have shared.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Policies -->
+
+        <div class="nav-item">
+            <a href="policies.html" data-i18n="nav.policies">Policies</a>
+        </div>
+
+        <!-- Contact -->
+
+        <div class="nav-item">
+            <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- =========================
+          Desktop Language
+    ========================= -->
+
+    <div class="language-toggle">
+
+        <div class="toggle-pill"></div>
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</nav>
+
+<!-- =========================
+            Hamburger
+    ========================= -->
+
+    <button class="hamburger">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+<div class="mobile-overlay"></div>
+
+<!-- =========================
+        Mobile Drawer
+========================= -->
+<div class="mobile-menu">
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="programs/index.html" data-i18n="nav.programs">
+                Programs
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="programs/cambridge.html">Cambridge</a>
+            <a href="programs/ielts.html">IELTS</a>
+            <a href="programs/sat.html">SAT</a>
+            <a href="programs/professional.html" data-i18n="nav.programs.professional">Professional English</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="parents.html" data-i18n="nav.parents">Parents</a>
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="testimonials.html" data-i18n="nav.testimonials">Testimonials</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="policies.html" data-i18n="nav.policies">
+        Policies
+    </a>
+
+    <a class="mobile-link" href="contact.html" data-i18n="nav.contact">
+        Contact
+    </a>
+
+    <div class="mobile-language">
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</div>
+
+<!-- HERO -->
+<section class="contact-hero">
+
+    <p class="eyebrow" data-i18n="contact.hero.label">
+        GET IN TOUCH
+    </p>
+
+    <h1 data-i18n-html="contact.hero.title">
+        Let's Discuss Your<br>
+        Learning Goals.
+    </h1>
+
+    <p class="hero-description" data-i18n="contact.hero.description">
+
+        Whether you're preparing for Cambridge,
+        IELTS, Digital SAT or improving your
+        professional English, I'd be happy to
+        recommend the most suitable learning path.
+
+    </p>
+
+</section>
+
+<!-- CONTACT METHODS -->
+<section class="contact-methods">
+
+    <div class="section-heading">
+
+        <p data-i18n="contact.methods.label">
+            CONTACT METHODS
+        </p>
+
+        <h2 data-i18n="contact.methods.title">
+            Choose The Method That Works Best For You
+        </h2>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <!-- Messenger -->
+        <a href="https://www.facebook.com/profile.php?id=100006512059024"
+           target="_blank"
+           class="contact-card">
+
+            <i data-lucide="message-circle"></i>
+
+            <h3 data-i18n="contact.methods.messengerTitle">
+                Messenger
+            </h3>
+
+            <p data-i18n="contact.methods.messengerDesc">
+                The fastest way to ask questions about lessons,
+                schedules and programmes.
+            </p>
+
+            <span data-i18n="contact.methods.messengerButton">
+                Open Messenger →
+            </span>
+
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:yeowoonnam1234@gmail.com"
+           class="contact-card">
+
+            <i data-lucide="mail"></i>
+
+            <h3 data-i18n="contact.methods.emailTitle">
+                Email
+            </h3>
+
+            <p data-i18n="contact.methods.emailDesc">
+                Ideal for detailed enquiries regarding programmes
+                or long-term coaching.
+            </p>
+
+            <span data-i18n="contact.methods.emailButton">
+                Send an Email →
+            </span>
+
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/84707497611?text=Hello%20Yeo!%20I%20would%20like%20to%20enquire%20about%20your%20English%20coaching."
+            target="_blank"
+            class="contact-card">
+
+            <i data-lucide="messages-square"></i>
+
+            <h3 data-i18n="contact.methods.whatsappTitle">
+                WhatsApp
+            </h3>
+
+            <p data-i18n="contact.methods.whatsappDesc">
+                Preferred contact method for
+                international students and parents.
+            </p>
+
+            <span data-i18n="contact.methods.whatsappButton">
+                Chat on WhatsApp →
+            </span>
+
+        </a>
+
+        <!-- Phone -->
+        <a href="tel:0906641225"
+           class="contact-card">
+
+            <i data-lucide="phone"></i>
+
+            <h3 data-i18n="contact.methods.phoneTitle">
+                Phone
+            </h3>
+
+            <p data-i18n="contact.methods.phoneDesc">
+                Available during communication hours
+                in Vietnam.
+            </p>
+
+            <span>
+                0906 641 225
+            </span>
+
+        </a>
+
+    </div>
+</section>
+
+<!-- ZALO -->
+<section class="zalo-section">
+
+    <div class="section-heading">
+        <p data-i18n="contact.methods.zaloLabel">
+            LOCAL CONTACT
+        </p>
+
+        <h2 data-i18n="contact.methods.zaloSectionTitle">
+            Connect Through Zalo
+        </h2>
+    </div>
+
+    <div class="zalo-card">
+
+        <div class="zalo-text">
+
+            <h3 data-i18n="contact.methods.zaloTitle">
+                Add Me On Zalo
+            </h3>
+
+            <p data-i18n="contact.methods.zaloDesc">
+                If you're located in Vietnam,
+                simply scan the QR code using the
+                Zalo app to add me as a contact.
+            </p>
+
+        </div>
+
+        <div class="zalo-image">
+
+            <img src="assets/images/contact/Zalo-QR.jfif"
+                 alt="Zalo QR Code">
+
+        </div>
+
+    </div>
+</section>
+
+<!-- BEFORE CONTACT -->
+<section class="before-contact">
+
+    <div class="section-heading">
+
+        <p data-i18n="contact.methods.beforeLabel">
+            BEFORE YOU CONTACT ME
+        </p>
+
+        <h2 data-i18n-html="contact.methods.beforeTitle">
+            A Few Details Help Me Recommend<br>
+            The Right Programme
+        </h2>
+
+    </div>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+            <span>01</span>
+
+            <h3 data-i18n="contact.methods.ageTitle">
+                Student's Age
+            </h3>
+
+            <p data-i18n="contact.methods.ageDesc">
+                Helps determine the most suitable programme.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <span>02</span>
+
+            <h3 data-i18n="contact.methods.levelTitle">
+                Current English Level
+            </h3>
+
+            <p data-i18n="contact.methods.levelDesc">
+                Cambridge, IELTS,
+                SAT or general English.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <span>03</span>
+
+            <h3 data-i18n="contact.methods.goalTitle">
+                Learning Goal
+            </h3>
+
+            <p data-i18n="contact.methods.goalDesc">
+                Examination, school improvement,
+                communication or career.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <span>04</span>
+
+            <h3 data-i18n="contact.methods.scheduleTitle">
+                Preferred Schedule
+            </h3>
+
+            <p data-i18n="contact.methods.scheduleDesc">
+                Weekdays, weekends,
+                mornings or evenings.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- COMMUNICATION HOURS -->
+<section class="communication-hours">
+
+    <div class="section-heading">
+
+        <p data-i18n="contact.methods.communicationLabel">
+            COMMUNICATION
+        </p>
+
+        <h2 data-i18n="contact.methods.communicationTitle">
+            Response Time
+        </h2>
+
+    </div>
+
+    <div class="hours-box">
+
+        <h3 data-i18n="contact.methods.hours">
+            08:00 – 21:00
+        </h3>
+
+        <p data-i18n="contact.methods.timezone">
+            Vietnam Time (GMT+7)
+        </p>
+
+        <p data-i18n="contact.methods.responseTime">
+            Messages are usually answered within
+            24 hours.
+        </p>
+
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="contact-faq">
+
+    <div class="section-heading">
+
+        <p data-i18n="contact.faq.label">
+            COMMON QUESTIONS
+        </p>
+
+        <h2 data-i18n="contact.faq.title">
+            Before You Send A Message
+        </h2>
+
+    </div>
+
+    <div class="faq-list">
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                <h3 data-i18n="contact.faq.onlineTitle">
+                    Do you teach online only?
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                <p data-i18n="contact.faq.onlineDesc">
+
+                    Yes. All coaching sessions are conducted online,
+                    allowing students to join from anywhere in the world.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                <h3 data-i18n="contact.faq.internationalTitle">
+                    Do you teach international students?
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                <p data-i18n="contact.faq.internationalDesc">
+
+                    Yes. Students from any country are welcome as long as
+                    lesson times can be arranged across time zones.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                <h3 data-i18n="contact.faq.paymentTitle">
+                    How can international students pay?
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                <p data-i18n="contact.faq.paymentDesc">
+
+                    International payments are accepted through Wise.
+                    Vietnamese students may pay via local bank transfer.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-item">
+
+            <div class="faq-question">
+
+                <h3 data-i18n="contact.faq.assessmentTitle">
+                    Can I request a trial assessment?
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="faq-answer">
+
+                <p data-i18n="contact.faq.assessmentDesc">
+
+                    Absolutely. A diagnostic assessment helps identify
+                    strengths, weaknesses and the most appropriate
+                    learning pathway.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+<section class="contact-cta">
+
+    <h2 data-i18n="contact.cta.title">
+        Ready To Begin?
+    </h2>
+
+    <p data-i18n="contact.cta.description">
+
+        Whether you're preparing for an examination or simply
+        want to become a more confident English user,
+        I'd be happy to discuss your goals.
+
+    </p>
+
+    <a href="index.html#contact"
+       class="hero-button">
+
+        <span data-i18n="contact.cta.button">
+            Get In Touch
+        </span>
+
+    </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <h2>YEO</h2>
+
+            <p data-i18n="home.footer.description">
+                Personalised one-to-one English coaching designed
+                to help every student grow with confidence.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4 data-i18n="home.footer.programs">
+                    Programs
+                </h4>
+
+                <a href="programs/cambridge.html">Cambridge</a>
+
+                <a href="programs/ielts.html">IELTS</a>
+
+                <a href="programs/sat.html">SAT</a>
+
+                <a href="programs/professional.html"
+                   data-i18n="home.footer.professional">
+                    Professional English
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="home.footer.resources">
+                    Resources
+                </h4>
+
+                <a href="parents.html"
+                   data-i18n="home.footer.parents">
+                    Parents
+                </a>
+
+                <a href="about.html"
+                   data-i18n="home.footer.about">
+                    About
+                </a>
+
+                <a href="policies.html"
+                   data-i18n="home.footer.policies">
+                    Student & Parent Policies
+                </a>
+
+                <a href="index.html#faq">
+                    FAQ
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="home.footer.contact">
+                    Contact
+                </h4>
+
+                <a href="mailto:yeowoonnam1234@gmail.com"
+                   data-i18n="home.footer.email">
+                    Email
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100006512059024"
+                   target="_blank"
+                   data-i18n="home.footer.messenger">
+                    Messenger
+                </a>
+
+                <a href="tel:0906641225"
+                   data-i18n="home.footer.phone">
+                    Phone
+                </a>
+
+                <a href="contact.html">
+                    Zalo
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p data-i18n="home.footer.copyright">
+            © 2024 YWN. All rights reserved.
+        </p>
+
+        <p data-i18n="home.footer.credit">
+            Designed & Developed with care by Yeo Woon Nam.
+        </p>
+
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/programs.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/mobile-menu.js"></script>
+
+    <script src="js/language.js"></script>
+</body>
+</html>        

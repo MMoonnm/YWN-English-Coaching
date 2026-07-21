@@ -1,0 +1,1078 @@
+{
+  "nav": {
+
+    "programs": {
+
+        "label": "Chương Trình Học",
+
+        "cambridgeDesc": "Chương trình quốc tế và luyện thi Cambridge.",
+
+        "ieltsDesc": "Luyện Nghe, Nói, Đọc và Viết IELTS.",
+
+        "satDesc": "Luyện thi Digital SAT dành cho đại học.",
+
+        "professional": "Tiếng Anh Chuyên Nghiệp",
+
+        "professionalDesc": "Giao tiếp trong công việc và phỏng vấn."
+
+    },
+
+    "parents": "Phụ Huynh",
+
+    "about": "Giới Thiệu",
+
+    "policies": "Chính Sách",
+
+    "contact": "Liên Hệ",
+
+    "testimonials": "Đánh Giá",
+
+    "testimonialsDesc": "Những chia sẻ từ học sinh và phụ huynh."
+
+},
+
+  "home": {
+    "hero": {
+
+    "tag": "Gia sư Tiếng Anh 1 kèm 1",
+
+    "title": "Xây Dựng Sự Tự Tin.<br>Làm Chủ Tiếng Anh.<br>Mở Ra Những Cơ Hội Mới.",
+
+    "description": "Các chương trình Cambridge, IELTS, SAT và Tiếng Anh Chuyên nghiệp dành cho học sinh, sinh viên, người đi làm và phụ huynh mong muốn một lộ trình học rõ ràng với sự tiến bộ có thể đo lường.",
+
+    "professional": "Tiếng Anh Chuyên nghiệp",
+
+    "button": "Khám Phá Chương Trình →",
+
+    "card1": "Buổi Đánh Giá Năng Lực",
+
+    "card2": "Lộ Trình Cá Nhân Hóa",
+
+    "card3": "Học Theo Mục Tiêu"
+
+},
+    "why": {
+  "label": "TẠI SAO CHỌN YWN",
+
+  "title": "Không Chỉ Là Những Buổi Học.<br>Mà Là Một Hành Trình Học Tập Có Định Hướng.",
+
+  "goalTitle": "Học Tập Theo Mục Tiêu",
+  "goalDesc": "Mỗi buổi học đều được xây dựng dựa trên các mục tiêu rõ ràng để học viên luôn biết mình đang hướng tới điều gì.",
+
+  "coachTitle": "Kèm Cặp Cá Nhân",
+  "coachDesc": "Lộ trình học được điều chỉnh theo trình độ, điểm mạnh và những kỹ năng cần cải thiện của từng học viên.",
+
+  "progressTitle": "Theo Dõi Tiến Bộ",
+  "progressDesc": "Các cột mốc rõ ràng giúp học viên và phụ huynh dễ dàng nhìn thấy sự tiến bộ trong suốt quá trình học.",
+
+  "scheduleTitle": "Lịch Học Linh Hoạt",
+  "scheduleDesc": "Lịch học được sắp xếp phù hợp với thời gian của học sinh, sinh viên và người đi làm."
+},
+    "programs": {
+
+    "label": "CHƯƠNG TRÌNH",
+
+    "title": "Lựa Chọn Lộ Trình Học Phù Hợp",
+
+    "cambridge": {
+
+        "primary": "Tiểu học",
+        "checkpoint": "Checkpoint",
+        "igcse": "IGCSE",
+        "alevel": "AS & A Level",
+
+        "button": "Tìm Hiểu Thêm →"
+
+    },
+
+    "ielts": {
+
+        "listening": "Nghe",
+        "reading": "Đọc",
+        "writing": "Viết",
+        "speaking": "Nói",
+
+        "button": "Tìm Hiểu Thêm →"
+
+    },
+
+    "sat": {
+
+        "digital": "SAT Kỹ Thuật Số",
+        "rw": "Đọc & Viết",
+        "math": "Toán",
+
+        "button": "Tìm Hiểu Thêm →"
+
+    },
+
+    "professional": {
+
+        "title": "Tiếng Anh Chuyên Nghiệp",
+
+        "business": "Giao Tiếp Doanh Nghiệp",
+        "emails": "Email",
+        "interviews": "Phỏng Vấn",
+        "meetings": "Họp",
+
+        "button": "Tìm Hiểu Thêm →"
+
+    }
+
+},
+    "testimonials": {
+  "label": "CẢM NHẬN HỌC VIÊN",
+  "title": "Những Câu Chuyện Trưởng Thành",
+
+  "studentInfo": "Học viên Cambridge • 🇻🇳 Việt Nam",
+
+  "quote": "\"Điều mình thích nhất là cách anh giải thích kiến thức. Qua cách anh hướng dẫn thì mọi thứ trở nên dễ hiểu, dễ nhớ hơn rất nhiều.\"",
+
+  "button": "Xem Thêm Cảm Nhận →",
+
+  "stat1Number": "Buổi",
+  "stat1Text": "Đánh Giá Trình Độ",
+
+  "stat2Number": "1 Kèm 1",
+  "stat2Text": "Kèm Cặp Cá Nhân",
+
+  "stat3Number": "Linh Hoạt",
+  "stat3Text": "Lịch Học",
+
+  "stat4Number": "Cá Nhân Hóa",
+  "stat4Text": "Lộ Trình Học"
+},
+    "faq": {
+  "label": "CÂU HỎI THƯỜNG GẶP",
+  "title": "Những Câu Hỏi Thường Gặp",
+
+  "q1": {
+    "question": "Khóa học phù hợp với những ai?",
+    "answer": "Các buổi học được thiết kế dành cho học sinh, sinh viên đại học, người đi làm và bất kỳ ai đang chuẩn bị cho Cambridge, IELTS, SAT hoặc Tiếng Anh Chuyên Nghiệp."
+  },
+
+  "q2": {
+  "question": "Bạn có cung cấp buổi đánh giá trình độ không?",
+  "answer": "Có. Mọi học viên mới đều bắt đầu bằng một buổi đánh giá trình độ. Trong buổi này, chúng ta sẽ trao đổi về mục tiêu học tập, đánh giá trình độ tiếng Anh hiện tại, xác định điểm mạnh, những nội dung cần cải thiện và tư vấn lộ trình học phù hợp nhất. Buổi đánh giá có thu một khoản phí nhỏ."
+  },
+
+  "q3": {
+    "question": "Các buổi học được tổ chức trực tuyến hay trực tiếp?",
+    "answer": "Hiện tại tất cả các buổi học đều được tổ chức trực tuyến, mang lại sự linh hoạt về thời gian trong khi vẫn đảm bảo tính tương tác và cá nhân hóa."
+  },
+
+  "q4": {
+    "question": "Các buổi học được cá nhân hóa như thế nào?",
+    "answer": "Mỗi học viên đều có một lộ trình học riêng dựa trên trình độ hiện tại, mục tiêu, điểm mạnh và những kỹ năng cần cải thiện. Giáo án sẽ được điều chỉnh liên tục theo sự tiến bộ của học viên."
+  },
+
+  "q5": {
+    "question": "Học viên quốc tế có thể thanh toán như thế nào?",
+    "answer": "Học viên ngoài Việt Nam có thể thanh toán thông qua Wise để chuyển tiền an toàn bằng đồng nội tệ của mình. Học viên tại Việt Nam có thể thanh toán bằng chuyển khoản ngân hàng. Thông tin thanh toán đầy đủ sẽ được gửi kèm hóa đơn hàng tháng và tôi luôn sẵn sàng hỗ trợ nếu bạn có bất kỳ câu hỏi nào."
+  },
+
+  "q6": {
+    "question": "Học phí được thanh toán khi nào?",
+    "answer": "Hóa đơn hàng tháng sẽ được gửi vào <strong>ngày 25 hằng tháng</strong> cho lịch học của tháng tiếp theo. Học phí cần được thanh toán trước buổi học đầu tiên của tháng mới, giúp phụ huynh và học viên có khoảng một tuần để sắp xếp thanh toán và đảm bảo việc học không bị gián đoạn."
+  },
+
+  "q7": {
+    "question": "Có thể đổi lịch học không?",
+    "answer": "Có. Nếu bạn cần đổi lịch học, vui lòng thông báo trước ít nhất 24 giờ khi có thể. Điều này giúp chúng ta sắp xếp một thời gian học thay thế thuận tiện hơn."
+  }
+},
+    "contact": {
+  "label": "BẮT ĐẦU",
+
+  "title": "Hãy Cùng Xây Dựng Hành Trình Học Tiếng Anh Của Bạn",
+
+  "tag": "Buổi Đánh Giá Trình Độ",
+
+  "heading": "Đặt Lịch Đánh Giá",
+
+  "description": "Dù bạn đang chuẩn bị cho Cambridge, IELTS, SAT hay Tiếng Anh Chuyên Nghiệp, chúng ta sẽ cùng trao đổi về mục tiêu học tập, đánh giá trình độ hiện tại và xây dựng một lộ trình học cá nhân hóa phù hợp nhất với bạn.",
+
+  "email": "Email",
+
+  "messenger": "Messenger",
+
+  "messageYwn": "Nhắn Tin Cho YWN",
+
+  "lessonFormat": "Hình Thức Học",
+
+  "lessonMode": "Học Trực Tuyến • Toàn Cầu",
+
+  "note": "⭐ Phản hồi trung bình trong vòng 6 giờ",
+
+  "form": {
+    "name": "Họ và tên",
+
+    "email": "Địa chỉ Email",
+
+    "selectProgram": "Chọn Chương Trình Học",
+
+    "professional": "Tiếng Anh Chuyên Nghiệp",
+
+    "message": "Hãy cho tôi biết mục tiêu của bạn...",
+
+    "button": "Đăng Ký Học Thử"
+  }
+}
+  },
+
+  "parents": {
+  "hero": {
+    "label": "DÀNH CHO PHỤ HUYNH",
+
+    "title": "Kỳ Vọng Rõ Ràng.<br>Lộ Trình Có Cấu Trúc.<br>Tiến Bộ Thực Sự.",
+
+    "description": "Tôi tin rằng việc học hiệu quả đến từ sự phối hợp giữa học viên, phụ huynh và giáo viên. Trang này sẽ giải thích rõ cách tôi giảng dạy, trao đổi và đồng hành cùng sự tiến bộ của mỗi học viên."
+  },
+  "intro": {
+  "label": "PHƯƠNG PHÁP GIẢNG DẠY",
+
+  "title": "Chất Lượng Quan Trọng Hơn Số Lượng",
+
+  "description": "Mỗi buổi học đều được thiết kế riêng dựa trên trình độ hiện tại, phong cách học tập và mục tiêu lâu dài của từng học viên. Thay vì chỉ hoàn thành thật nhiều bài tập, tôi tập trung vào việc giúp học viên hiểu bản chất, phát triển tư duy phản biện và xây dựng sự tự tin bền vững vượt xa các kỳ thi."
+},
+"philosophy": {
+  "label": "TRIẾT LÝ GIẢNG DẠY",
+
+  "title": "Những Điều Mọi Học Viên Có Thể Mong Đợi",
+
+  "understandTitle": "Hiểu Trước Khi Ghi Nhớ",
+  "understandDesc": "Học viên hiểu bản chất của kiến thức trước khi tự mình vận dụng.",
+
+  "personalTitle": "Lộ Trình Cá Nhân Hóa",
+  "personalDesc": "Mỗi buổi học được điều chỉnh theo tốc độ và nhu cầu của từng học viên thay vì áp dụng một giáo án giống nhau cho tất cả.",
+
+  "growthTitle": "Phát Triển Lâu Dài",
+  "growthDesc": "Mục tiêu là giúp học viên trở thành người học độc lập, không chỉ cải thiện điểm số trong ngắn hạn."
+},
+"policies": {
+  "label": "THÔNG TIN QUAN TRỌNG",
+  "title": "Cùng Đồng Hành Trong Quá Trình Học Tập",
+
+  "homeworkTitle": "Bài Tập Về Nhà",
+  "homeworkDesc": "Bài tập về nhà là một phần quan trọng của quá trình học tập chứ không chỉ là phần luyện tập bổ sung. Mỗi bài tập đều được thiết kế để củng cố kiến thức đã học trên lớp và xác định những nội dung cần được cải thiện thêm.\n\nHọc viên cần hoàn thành bài tập trước buổi học tiếp theo. Bài tập chưa hoàn thành sẽ làm giảm hiệu quả của buổi học vì thời gian trên lớp phải dành cho việc hoàn thiện bài cũ thay vì tiếp cận kiến thức mới.",
+
+  "preparationTitle": "Chuẩn Bị Trước Buổi Học",
+  "preparationDesc": "Học viên nên tham gia lớp học đúng giờ, chuẩn bị đầy đủ tài liệu, hoàn thành bài tập và đảm bảo có kết nối Internet ổn định. Việc chuẩn bị kỹ lưỡng giúp buổi học bắt đầu ngay lập tức và tối ưu thời gian dành cho việc học thay vì xử lý các vấn đề kỹ thuật.\n\nĐối với học viên nhỏ tuổi, nên học trong một không gian yên tĩnh và hạn chế tối đa các yếu tố gây xao nhãng.",
+
+  "communicationTitle": "Trao Đổi Với Phụ Huynh",
+  "communicationDesc": "Phụ huynh được khuyến khích trao đổi thường xuyên về tình hình học tập, những băn khoăn hoặc mục tiêu của con em mình. Mọi câu hỏi có thể được gửi qua Messenger, Zalo hoặc Email ngoài giờ học.\n\nTôi luôn cố gắng phản hồi sớm nhất có thể, tuy nhiên trong thời gian giảng dạy, việc phản hồi đôi khi có thể chậm hơn.",
+
+  "progressTitle": "Theo Dõi Tiến Độ",
+  "progressDesc": "Tiến độ học tập được theo dõi liên tục thay vì chỉ dựa vào kết quả các kỳ thi. Phụ huynh sẽ nhận được những nhận xét trung thực về điểm mạnh, điểm cần cải thiện và các kỹ năng cần được luyện tập thêm.\n\nKhi học viên tiến bộ, lộ trình học sẽ được điều chỉnh để đảm bảo sự phát triển ổn định và lâu dài thay vì chỉ ghi nhớ ngắn hạn.",
+
+  "attendanceTitle": "Chuyên Cần",
+  "attendanceDesc": "Việc tham gia đầy đủ các buổi học là một trong những yếu tố quan trọng nhất đối với quá trình học ngoại ngữ. Việc nghỉ học thường xuyên sẽ làm gián đoạn quá trình tiếp thu kiến thức và ảnh hưởng đến sự tiến bộ lâu dài.\n\nNếu cần đổi lịch học, gia đình vui lòng thông báo sớm nhất có thể để thuận tiện cho việc sắp xếp.",
+
+  "questionsTitle": "Câu Hỏi Ngoài Giờ Học",
+  "questionsDesc": "Học viên luôn được khuyến khích gửi những câu hỏi ngắn giữa các buổi học khi cần làm rõ kiến thức. Điều này giúp ngăn những thắc mắc nhỏ trở thành lỗ hổng kiến thức lớn trước buổi học tiếp theo.\n\nNhững nội dung phức tạp cần giải thích chi tiết sẽ thường được xử lý trong buổi học kế tiếp."
+},
+"communication": {
+  "label": "LIÊN LẠC",
+  "title": "Luôn Đồng Hành Cùng Phụ Huynh",
+
+  "quickTitle": "Câu Hỏi Nhanh",
+  "quickDesc": "Messenger là cách nhanh nhất để liên hệ với tôi về các thắc mắc hoặc trao đổi hằng ngày.",
+
+  "detailTitle": "Trao Đổi Chi Tiết",
+  "detailDesc": "Email phù hợp cho những cuộc trao đổi dài hơn hoặc các thông tin quan trọng.",
+
+  "urgentTitle": "Trường Hợp Khẩn Cấp",
+  "urgentDesc": "Đối với các vấn đề cần thay đổi lịch học gấp, phụ huynh có thể liên hệ trực tiếp qua điện thoại hoặc Zalo."
+},
+"cta": {
+  "title": "Vẫn Còn Thắc Mắc?",
+  "description": "Tôi luôn sẵn sàng trao đổi về mục tiêu học tập của con em bạn và giải đáp mọi câu hỏi trước khi các buổi học bắt đầu.",
+  "button": "Liên Hệ Với Tôi"
+}
+},
+
+  "about": {
+  "hero": {
+    "label": "GIỚI THIỆU",
+
+    "title": "Hơn Hai Thập Kỷ Học Tiếng Anh. Ba Năm Đồng Hành Cùng Học Viên.",
+
+    "paragraph1": "Tôi sinh ra trong một gia đình có bố là người Hàn Quốc và mẹ là người Việt Nam, đồng thời lớn lên trong môi trường giáo dục quốc tế từ bậc mẫu giáo. Trong hơn hai mươi năm, tiếng Anh là ngôn ngữ chính xuyên suốt quá trình học tập của tôi dưới sự hướng dẫn của các giáo viên đến từ nhiều quốc gia nói tiếng Anh khác nhau và theo học chương trình quốc tế.",
+
+    "paragraph2": "Chính môi trường ấy giúp tôi tiếp cận tiếng Anh một cách tự nhiên — không chỉ là một môn học ở trường, mà còn là ngôn ngữ được sử dụng hằng ngày trong học tập, giao tiếp và phát triển học thuật.",
+
+    "paragraph3": "Trong ba năm qua, tôi tập trung vào hình thức giảng dạy trực tuyến cá nhân hóa cho Cambridge English, IELTS và Digital SAT. Mỗi buổi học đều được thiết kế riêng dựa trên điểm mạnh, điểm cần cải thiện và mục tiêu dài hạn của từng học viên thay vì áp dụng một giáo trình cố định cho tất cả mọi người.",
+
+    "paragraph4": "Mục tiêu của tôi không chỉ dừng lại ở kết quả các kỳ thi. Tôi mong muốn giúp học viên trở thành những người sử dụng tiếng Anh độc lập, có khả năng hiểu ngôn ngữ, tư duy phản biện và giao tiếp tự tin trong môi trường học thuật cũng như công việc thực tế."
+  },
+  "credentials": {
+  "label": "NỀN TẢNG",
+  "title": "Kinh Nghiệm Được Xây Dựng Từ Môi Trường Giáo Dục Quốc Tế",
+
+  "card1": {
+    "title": "Giáo Dục Quốc Tế",
+    "desc": "Theo học tại các trường quốc tế từ bậc mẫu giáo, sử dụng tiếng Anh hằng ngày trong suốt quá trình học tập."
+  },
+
+  "card2": {
+    "title": "Nền Tảng Đa Văn Hóa",
+    "desc": "Lớn lên trong gia đình Hàn Quốc – Việt Nam giúp tôi tiếp xúc với nhiều nền văn hóa và góc nhìn khác nhau từ nhỏ."
+  },
+
+  "card3": {
+    "title": "Kinh Nghiệm Giao Tiếp Quốc Tế",
+    "desc": "Bốn năm làm việc và giao tiếp với khách hàng quốc tế đến từ nhiều quốc gia khác nhau, giúp phát triển kỹ năng sử dụng tiếng Anh thực tế ngoài môi trường lớp học."
+  },
+
+  "card4": {
+    "title": "Quán Quân Học Tập ×3",
+    "desc": "Ba lần đạt danh hiệu Quán quân Học tập tại Trường Quốc tế Singapore."
+  },
+
+  "card5": {
+    "title": "IELTS 8.0",
+    "desc": "Đạt được khi còn học trung học sau nhiều năm được đào tạo tiếng Anh học thuật bài bản."
+  },
+
+  "card6": {
+    "title": "Cambridge Distinction",
+    "desc": "Tốt nghiệp chương trình Cambridge với thành tích Distinction."
+  },
+
+  "card7": {
+    "title": "Sáng Tạo Nội Dung & Giáo Dục",
+    "desc": "Sản xuất nội dung giáo dục được ghi nhận thông qua các giải thưởng dành cho nhà sáng tạo YouTube tại Vương quốc Anh."
+  },
+
+  "card8": {
+    "title": "Giảng Dạy Trực Tuyến",
+    "desc": "Ba năm giảng dạy cá nhân hóa 1 kèm 1 các chương trình Cambridge, IELTS và Digital SAT tại Trung tâm Funix."
+  }
+},
+  "philosophy": {
+    "label": "TRIẾT LÝ GIẢNG DẠY",
+    "title": "Tiếng Anh Là Một Ngôn Ngữ,<br>Không Phải Một Công Thức.",
+
+    "intro": "Nhiều học sinh dành nhiều năm ghi nhớ các quy tắc ngữ pháp nhưng vẫn gặp khó khăn khi giao tiếp một cách tự nhiên. Mục tiêu của tôi không chỉ là giúp học sinh ghi nhớ tiếng Anh, mà là giúp các em tư duy bằng tiếng Anh.",
+
+    "card1": {
+    "title": "Tư Duy Trước Khi Dịch",
+    "desc": "Người mới học thường dựa vào tiếng Việt khi học tiếng Anh, và điều đó hoàn toàn bình thường. Khi học sinh tự tin hơn, tôi từng bước khuyến khích các em tư duy trực tiếp bằng tiếng Anh thay vì dịch từng câu từng chữ. Điều này giúp cải thiện tốc độ đọc, nghe và nói."
+},
+
+"card2": {
+    "title": "Giao Tiếp Quan Trọng Hơn Ghi Nhớ",
+    "desc": "Việc ghi nhớ các câu trả lời mẫu có thể hữu ích trong một số tình huống, nhưng giao tiếp thực sự đòi hỏi sự linh hoạt. Thay vì học thuộc hội thoại, học sinh sẽ hiểu cách tiếng Anh vận hành để có thể tự tin diễn đạt ý tưởng của chính mình."
+},
+
+"card3": {
+    "title": "Học Từ Sai Lầm",
+    "desc": "Sai lầm là một trong những phần giá trị nhất của quá trình học. Học sinh được khuyến khích nói và viết một cách tự nhiên, trong khi tôi sẽ chỉ ra các lỗi thường gặp, giải thích nguyên nhân và hướng dẫn cách tránh để chúng không trở thành thói quen."
+},
+
+"card4": {
+    "title": "Xây Dựng Người Học Độc Lập",
+    "desc": "Thành công không được đo bằng việc học sinh học với tôi bao lâu. Thành công được đo bằng mức độ tự tin khi các em có thể tự học, tự phân tích và giao tiếp một cách độc lập."
+}
+  },
+"difference": {
+  "label": "NHỮNG GÌ BẠN NHẬN ĐƯỢC",
+  "title": "Mỗi Buổi Học Đều Được Thiết Kế Riêng Cho Từng Học Sinh",
+
+  "item1": {
+    "title": "Lộ Trình Học Cá Nhân Hóa",
+    "desc": "Một kế hoạch học tập có hệ thống, được xây dựng dựa trên trình độ hiện tại và mục tiêu dài hạn của từng học sinh."
+  },
+
+  "item2": {
+    "title": "Theo Dõi Tiến Độ",
+    "desc": "Tiến độ học tập được theo dõi liên tục và bài học sẽ được điều chỉnh khi học sinh tiến bộ."
+  },
+
+  "item3": {
+    "title": "Phát Triển Từ Vựng",
+    "desc": "Xây dựng vốn từ vựng hữu ích thông qua việc sử dụng thực tế thay vì học thuộc các danh sách từ riêng lẻ."
+  },
+
+  "item4": {
+    "title": "Nhận Xét Bài Viết",
+    "desc": "Chỉnh sửa chi tiết, giải thích cả những điểm cần thay đổi và lý do tại sao."
+  },
+
+  "item5": {
+    "title": "Chỉnh Sửa Kỹ Năng Nói",
+    "desc": "Hướng dẫn liên tục về phát âm, độ trôi chảy và cách diễn đạt tự nhiên."
+  },
+
+  "item6": {
+    "title": "Phân Tích Lỗi Lặp Lại",
+    "desc": "Các lỗi thường xuyên được theo dõi và sửa chữa trước khi trở thành thói quen lâu dài."
+  },
+
+  "item7": {
+    "title": "Bài Tập Theo Điểm Yếu",
+    "desc": "Bài tập được thiết kế tập trung vào những điểm yếu của từng học sinh thay vì giao cùng một dạng bài cho tất cả."
+  },
+
+  "item8": {
+    "title": "Hỗ Trợ Giữa Các Buổi Học",
+    "desc": "Học sinh luôn có thể gửi các câu hỏi ngắn ngoài giờ học bất cứ khi nào cần được giải đáp."
+  }
+},
+"expectations": {
+  "label": "ĐIỀU BẠN CÓ THỂ MONG ĐỢI",
+  "title": "Mỗi Buổi Học Đều Có Mục Tiêu Rõ Ràng",
+
+  "assessmentTitle": "Đánh Giá Trình Độ",
+  "assessmentDesc": "Mỗi học viên đều bắt đầu bằng một buổi đánh giá để xác định trình độ hiện tại, điểm mạnh, điểm cần cải thiện và mục tiêu học tập. Từ đó, lộ trình học được xây dựng riêng thay vì áp dụng một giáo trình chung cho tất cả.",
+
+  "structuredTitle": "Bài Học Có Cấu Trúc",
+  "structuredDesc": "Mỗi buổi học đều có mục tiêu rõ ràng. Học viên luôn hiểu mình đang học gì, vì sao nội dung đó quan trọng và nó liên kết như thế nào với các bài học trước.",
+
+  "feedbackTitle": "Phản Hồi Liên Tục",
+  "feedbackDesc": "Học viên được chỉnh sửa và góp ý ngay trong suốt buổi học thay vì đợi đến cuối. Điều này giúp cải thiện ngay lập tức và hạn chế việc lặp lại các lỗi sai.",
+
+  "growthTitle": "Phát Triển Lâu Dài",
+  "growthDesc": "Mục tiêu không chỉ là ghi nhớ kiến thức trong ngắn hạn. Các bài học được thiết kế để xây dựng sự tự tin, khả năng tự học và kỹ năng sử dụng tiếng Anh lâu dài, vượt ra ngoài các kỳ thi."
+},
+"belief": {
+  "label": "ĐIỀU TÔI TIN TƯỞNG",
+
+  "title": "Giảng Dạy Xuất Sắc Giúp Học Sinh<br>Trở Thành Người Học Độc Lập.",
+
+  "quote": "\"Việc học không nên dựa trên sự sợ hãi.<br><br>Sai lầm là bằng chứng cho thấy quá trình học đang diễn ra.<br><br>Sự tự tin đến từ quá trình chuẩn bị.<br><br>Kỷ luật tạo nên sự tự do.<br><br>Vai trò của tôi là giúp học sinh một ngày nào đó không còn cần đến tôi nữa.\"", 
+
+  "button": "Liên Hệ"
+}
+},
+
+  "testimonials": {
+  "hero": {
+    "label": "CẢM NHẬN HỌC VIÊN",
+    "title": "Những Câu Chuyện Thật.<br>Những Tiến Bộ Thật.",
+    "description": "Mỗi lời nhận xét trên trang này đều được chia sẻ bởi học viên hoặc phụ huynh đã từng tham gia các buổi học 1 kèm 1 được cá nhân hóa. Mỗi hành trình học tập đều khác nhau, nhưng tất cả đều phản ánh cùng một cam kết hướng đến sự tiến bộ thực sự trong tiếng Anh.",
+    "note": "Tất cả lời nhận xét trên trang này đều được đăng tải với sự đồng ý của học viên hoặc phụ huynh sau khi hoàn thành quá trình học."
+  },
+  "stats": {
+  "feedbackNumber": "★★★★",
+  "feedbackText": "Đánh Giá Trung Bình Từ Học Viên",
+
+  "verifiedNumber": "Xác Thực",
+  "verifiedText": "Đánh Giá Từ Học Viên",
+
+  "programsNumber": "4",
+  "programsText": "Chương Trình Giảng Dạy",
+
+  "coachingNumber": "1-kèm-1",
+  "coachingText": "Lộ Trình Cá Nhân Hóa"
+  },
+  "filter": {
+  "all": "Tất Cả",
+  "cambridge": "Cambridge",
+  "ielts": "IELTS",
+  "sat": "SAT",
+  "professional": "Tiếng Anh Chuyên Nghiệp",
+  "parent": "Phụ Huynh"
+  },
+
+  "loadMore": "Xem Thêm",
+
+  "cta": {
+  "title": "Sẵn Sàng Bắt Đầu Hành Trình Của Riêng Bạn?",
+  "description": "Dù mục tiêu của bạn là Cambridge, IELTS, Digital SAT hay giao tiếp chuyên nghiệp, các buổi học cá nhân hóa sẽ giúp bạn xây dựng sự tự tin lâu dài trong việc sử dụng tiếng Anh.",
+  "button": "Liên Hệ Ngay"
+}
+},
+
+  "policies": {
+    "hero": {
+    "label": "QUY ĐỊNH DÀNH CHO HỌC VIÊN & PHỤ HUYNH",
+    "title": "Quy Định Rõ Ràng.<br>Học Tập Hiệu Quả.",
+    "description": "Những quy định này được xây dựng nhằm tạo ra một môi trường học tập chuyên nghiệp, tôn trọng lẫn nhau và hiệu quả cho mọi học viên và phụ huynh."
+},
+  "updated": "Cập nhật lần cuối: Tháng 6 năm 2026",
+
+  "introduction": "Khi đăng ký học với giáo viên tiếng Anh Yeo, học viên và phụ huynh xác nhận rằng mình đã đọc, hiểu và đồng ý với các quy định dưới đây.\n\nNhững hướng dẫn này được xây dựng nhằm đảm bảo mọi buổi học diễn ra có tổ chức, hiệu quả và công bằng cho tất cả mọi người.",
+  
+  "enrollment": {
+  "label": "MỤC 01",
+  "title": "Đăng Ký & Thanh Toán",
+
+  "paymentTitle": "Đăng Ký Và Thanh Toán Hàng Tháng",
+  "paymentDesc": "Học phí được tính dựa trên số buổi học đã được lên lịch cho tháng tiếp theo. Hóa đơn sẽ được gửi vào <strong>ngày 25 hằng tháng</strong>. Học phí cần được thanh toán <strong>trước buổi học đầu tiên của tháng mới</strong>. Nếu chưa nhận được thanh toán trước buổi học thứ hai theo lịch, toàn bộ các buổi học còn lại sẽ tạm ngừng cho đến khi hoàn tất thanh toán.",
+
+  "confirmationTitle": "Xác Nhận Tiếp Tục Học Hàng Tháng",
+  "confirmationDesc": "Cùng với hóa đơn hàng tháng, học viên hoặc phụ huynh sẽ được hỏi để xác nhận liệu có tiếp tục học trong tháng tiếp theo hay không. Điều này giúp sắp xếp lịch học trước và đảm bảo khung giờ đã được giữ chỗ vẫn được duy trì.",
+
+  "withdrawalTitle": "Thông Báo Ngừng Học",
+  "withdrawalDesc": "Nếu muốn ngừng học, học viên vui lòng thông báo trước <strong>ngày 25 của tháng hiện tại</strong>. Vì lịch học được lên kế hoạch và giữ chỗ theo từng tháng, việc thông báo sớm giúp tôi có đủ thời gian sắp xếp lại lịch dạy và dành khung giờ đó cho học viên khác. Nếu không nhận được thông báo trước ngày xác nhận hàng tháng, tôi sẽ hiểu rằng học viên sẽ không tiếp tục học trong tháng kế tiếp."
+},
+  "schedule": {
+  "label": "MỤC 02",
+  "title": "Chính Sách Lịch Học",
+
+  "reservedTitle": "Khung Giờ Học Được Giữ Cố Định",
+  "reservedDesc": "Khung giờ học hằng tuần của mỗi học viên sẽ được giữ riêng. Việc duy trì lịch học ổn định giúp đảm bảo quá trình học tập lâu dài và công bằng cho tất cả học viên. Nếu học viên ngừng học, khung giờ này có thể được chuyển cho học viên trong danh sách chờ.",
+
+  "durationTitle": "Thời Lượng Buổi Học",
+  "durationDesc": "Thời lượng mỗi buổi học phụ thuộc vào chương trình. Các lớp Cambridge Young Learners, Tiếng Anh Học Đường và Tiếng Anh Giao Tiếp kéo dài <strong>60 phút</strong>. Các lớp IELTS và SAT Reading & Writing kéo dài <strong>90 phút</strong>.",
+
+  "rescheduleTitle": "Chính Sách Đổi Lịch",
+  "rescheduleDesc": "Nếu cần đổi lịch học, học viên vui lòng thông báo trước ít nhất <strong>24 giờ</strong>. Những buổi học được báo trước đầy đủ sẽ được sắp xếp lại dựa trên thời gian phù hợp của cả hai bên. Những buổi học bị hủy <strong>trong vòng dưới một giờ trước giờ học</strong> có thể được tính là đã hoàn thành, trừ trường hợp khẩn cấp. Nếu tôi cần đổi lịch, tôi sẽ luôn sắp xếp một buổi học bù.",
+
+  "lateTitle": "Chính Sách Đi Trễ",
+  "lateDesc": "Buổi học sẽ kết thúc đúng theo thời gian đã được sắp xếp ban đầu. Học viên đến trễ vẫn sẽ kết thúc vào giờ kết thúc đã định để đảm bảo công bằng cho các học viên học sau.",
+
+  "holidayTitle": "Chính Sách Nghỉ Lễ & Nghỉ Dài Hạn",
+  "holidayDesc": "Nếu học viên dự định nghỉ dài ngày (ví dụ như kỳ nghỉ, mùa thi hoặc chương trình hè), vui lòng thông báo trước ít nhất <strong>hai tuần</strong>. Tùy vào tình hình, buổi học có thể được tạm dừng, đổi lịch hoặc khung giờ học sẽ được nhường cho học viên khác."
+},
+  "learning": {
+  "label": "PHẦN 03",
+  "title": "Kỳ Vọng Trong Quá Trình Học",
+
+  "homeworkTitle": "Bài Tập & Tự Học",
+  "homeworkDesc": "Sự tiến bộ không chỉ phụ thuộc vào thời lượng của buổi học mà còn đến từ việc tự luyện tập đều đặn. Học viên được kỳ vọng hoàn thành bài tập được giao, ôn lại ghi chú, thường xuyên củng cố từ vựng, đồng thời luyện nói và viết giữa các buổi học. Bài tập nên được hoàn thành trước buổi học tiếp theo hoặc trong vòng một tuần, trừ khi có hướng dẫn khác.",
+
+  "progressTitle": "Theo Dõi Tiến Độ",
+  "progressDesc": "Mỗi học viên đều có một lộ trình học tập riêng. Tiến độ sẽ được theo dõi liên tục ở các kỹ năng như ngữ pháp, từ vựng, đọc, viết, nói, phát âm và các lỗi thường gặp. Nội dung bài học sẽ được điều chỉnh dựa trên sự tiến bộ của từng học viên thay vì chỉ bám theo một giáo trình cố định.",
+
+  "assessmentTitle": "Buổi Đánh Giá",
+  "assessmentDesc": "Học viên có thể đăng ký <strong>buổi đánh giá năng lực 30 phút có tính phí</strong> trước khi bắt đầu chương trình học dài hạn. Buổi đánh giá sẽ xác định trình độ hiện tại, điểm mạnh, điểm cần cải thiện, mục tiêu học tập và đề xuất một lộ trình học phù hợp."
+},
+"communication": {
+  "label": "PHẦN 04",
+  "title": "Liên Lạc",
+
+  "hoursTitle": "Thời Gian Liên Lạc",
+  "hoursDesc": "Để đảm bảo sự cân bằng giữa công việc và cuộc sống cũng như có đủ thời gian chuẩn bị bài giảng, tin nhắn thường sẽ được phản hồi trong khoảng <strong>10:00 đến 21:00 (Giờ Việt Nam)</strong>. Những tin nhắn gửi ngoài khung giờ này sẽ được phản hồi sớm nhất có thể.",
+
+  "questionsTitle": "Câu Hỏi Ngoài Giờ Học",
+  "questionsDesc": "Học viên được khuyến khích gửi những câu hỏi học thuật ngắn khi cần làm rõ kiến thức. Tuy nhiên, các phần giải thích chi tiết, chữa bài luận hoặc giải nhiều câu hỏi luyện tập sẽ được xem là một phần của các buổi học chính thức và sẽ được giải đáp trong giờ học."
+},
+"professional": {
+  "label": "PHẦN 05",
+  "title": "Tiêu Chuẩn Chuyên Nghiệp",
+
+  "environmentTitle": "Môi Trường Học Tập Chuyên Nghiệp",
+  "environmentDesc": "Học viên nên chuẩn bị đầy đủ tài liệu cần thiết, tham gia buổi học đúng giờ và hạn chế các yếu tố gây xao nhãng. Sự tôn trọng lẫn nhau và giao tiếp chuyên nghiệp được kỳ vọng từ cả giáo viên và học viên trong suốt quá trình học tập.",
+
+  "responsibilitiesTitle": "Trách Nhiệm Của Giáo Viên",
+  "responsibilitiesDesc": "Giáo viên cam kết chuẩn bị bài học phù hợp với trình độ của từng học viên, đưa ra phản hồi mang tính xây dựng, theo dõi tiến độ học tập liên tục và duy trì một môi trường học tập chuyên nghiệp, tôn trọng và hỗ trợ."
+},
+  "general": {
+  "label": "PHẦN 06",
+  "title": "Chính Sách Chung",
+
+  "recordingTitle": "Chính Sách Ghi Âm & Ghi Hình",
+  "recordingDesc": "Các buổi học không được phép ghi âm, ghi hình, phát tán hoặc chia sẻ dưới bất kỳ hình thức nào nếu chưa có sự đồng ý trước từ cả giáo viên và học viên.",
+
+  "integrityTitle": "Trung Thực Học Thuật",
+  "integrityDesc": "Các buổi học được thiết kế nhằm phát triển năng lực tiếng Anh thực sự. Tôi sẽ không hỗ trợ bất kỳ hành vi đạo văn, gian lận hay thiếu trung thực trong học tập.",
+
+  "updatesTitle": "Cập Nhật Chính Sách",
+  "updatesDesc": "Các chính sách này có thể được cập nhật định kỳ nhằm phản ánh những cải tiến trong phương pháp giảng dạy hoặc quy trình quản lý. Phiên bản mới nhất được đăng tải trên website này sẽ thay thế tất cả các phiên bản trước đó."
+}
+},
+
+  "contact": {
+  "hero": {
+    "label": "LIÊN HỆ",
+
+    "title": "Hãy Cùng Trao Đổi<br>Về Mục Tiêu Học Tập Của Bạn.",
+
+    "description": "Dù bạn đang chuẩn bị cho Cambridge, IELTS, Digital SAT hay muốn nâng cao tiếng Anh trong công việc, tôi luôn sẵn sàng tư vấn lộ trình học phù hợp nhất với mục tiêu của bạn."
+  },
+"methods": {
+  "label": "PHƯƠNG THỨC LIÊN HỆ",
+  "title": "Chọn Phương Thức Liên Hệ Phù Hợp Với Bạn",
+
+  "messengerTitle": "Messenger",
+  "messengerDesc": "Cách nhanh nhất để hỏi về lịch học, khóa học và các thông tin khác.",
+  "messengerButton": "Mở Messenger →",
+
+  "emailTitle": "Email",
+  "emailDesc": "Phù hợp cho các câu hỏi chi tiết về chương trình học hoặc kế hoạch học tập dài hạn.",
+  "emailButton": "Gửi Email →",
+
+  "whatsappTitle": "WhatsApp",
+  "whatsappDesc": "Phương thức liên hệ ưu tiên dành cho học sinh và phụ huynh quốc tế.",
+  "whatsappButton": "Nhắn qua WhatsApp →",
+
+  "phoneTitle": "Điện Thoại",
+  "phoneDesc": "Có thể liên hệ trong giờ làm việc tại Việt Nam.",
+
+  "zaloLabel": "LIÊN HỆ TẠI VIỆT NAM",
+  "zaloSectionTitle": "Kết Nối Qua Zalo",
+  "zaloTitle": "Thêm Tôi Trên Zalo",
+  "zaloDesc": "Nếu bạn đang ở Việt Nam, chỉ cần quét mã QR bằng ứng dụng Zalo để kết nối với tôi.",
+
+  "beforeLabel": "TRƯỚC KHI LIÊN HỆ",
+
+  "beforeTitle": "Một Vài Thông Tin Sẽ Giúp Tôi Tư Vấn<br>Lộ Trình Phù Hợp Nhất",
+
+  "ageTitle": "Độ Tuổi Học Viên",
+  "ageDesc": "Giúp xác định chương trình học phù hợp nhất.",
+
+  "levelTitle": "Trình Độ Tiếng Anh Hiện Tại",
+  "levelDesc": "Cambridge, IELTS, SAT hoặc tiếng Anh tổng quát.",
+
+  "goalTitle": "Mục Tiêu Học Tập",
+  "goalDesc": "Luyện thi, cải thiện kết quả học tập, giao tiếp hoặc phát triển nghề nghiệp.",
+
+  "scheduleTitle": "Thời Gian Học Mong Muốn",
+  "scheduleDesc": "Các ngày trong tuần, cuối tuần, buổi sáng hoặc buổi tối.",
+
+  "communicationLabel": "THỜI GIAN LIÊN HỆ",
+
+  "communicationTitle": "Thời Gian Phản Hồi",
+  "hours": "08:00 – 21:00",
+  "timezone": "Giờ Việt Nam (GMT+7)",
+  "responseTime": "Tin nhắn thường được phản hồi trong vòng 24 giờ."
+},
+"faq": {
+  "label": "CÂU HỎI THƯỜNG GẶP",
+  "title": "Trước Khi Gửi Tin Nhắn",
+
+  "onlineTitle": "Các buổi học chỉ diễn ra trực tuyến phải không?",
+  "onlineDesc": "Đúng vậy. Tất cả các buổi học đều được tổ chức trực tuyến, giúp học viên có thể tham gia từ bất kỳ đâu trên thế giới.",
+
+  "internationalTitle": "Thầy có dạy học viên quốc tế không?",
+  "internationalDesc": "Có. Học viên từ mọi quốc gia đều được chào đón, miễn là có thể sắp xếp thời gian học phù hợp giữa các múi giờ.",
+
+  "paymentTitle": "Học viên quốc tế có thể thanh toán như thế nào?",
+  "paymentDesc": "Học viên quốc tế có thể thanh toán qua Wise. Học viên tại Việt Nam có thể chuyển khoản qua ngân hàng.",
+
+  "assessmentTitle": "Tôi có thể đăng ký buổi đánh giá trình độ không?",
+  "assessmentDesc": "Hoàn toàn được. Buổi đánh giá sẽ giúp xác định điểm mạnh, điểm cần cải thiện và lộ trình học phù hợp nhất."
+},
+"cta": {
+  "title": "Sẵn Sàng Bắt Đầu?",
+  "description": "Dù bạn đang chuẩn bị cho một kỳ thi hay chỉ đơn giản muốn sử dụng tiếng Anh tự tin hơn, tôi rất sẵn lòng trao đổi và cùng bạn xây dựng lộ trình học phù hợp.",
+  "button": "Liên Hệ Ngay"
+}
+  },
+
+  "programs": {
+    "index": {
+      "hero": {
+        "label": "CHƯƠNG TRÌNH",
+        "title": "Mỗi Học Viên Đều Bắt Đầu<br>Từ Một Điểm Khác Nhau.",
+        "description": "Từ Cambridge, IELTS, Digital SAT đến Tiếng Anh Chuyên Nghiệp, mỗi chương trình đều được thiết kế dựa trên mục tiêu cá nhân của bạn, thay vì một giáo trình chung cho tất cả.",
+        "button": "Đặt Lịch Buổi Đánh Giá"
+      },
+      "selector": {
+        "cambridgeTitle": "Cambridge",
+        "cambridgeDesc": "Tiểu Học • Checkpoint • IGCSE • A Level",
+
+        "ieltsTitle": "IELTS",
+        "ieltsDesc": "Học Thuật & Tổng Quát",
+
+        "satTitle": "SAT",
+        "satDesc": "Luyện Thi Digital SAT",
+
+        "professionalTitle": "Tiếng Anh Chuyên Nghiệp",
+        "professionalDesc": "Giao Tiếp Trong Công Việc"
+      },
+      "compare": {
+        "label": "SO SÁNH",
+        "title": "Chương Trình Nào Phù Hợp Với Bạn?",
+
+        "cambridge": "Cambridge",
+        "ielts": "IELTS",
+        "sat": "SAT",
+        "professional": "Tiếng Anh Chuyên Nghiệp",
+
+        "bestFor": "Phù Hợp Với",
+        "bestForCambridge": "Học Sinh",
+        "bestForIELTS": "Du Học",
+        "bestForSAT": "Đại Học Mỹ",
+        "bestForProfessional": "Người Đi Làm",
+
+        "focus": "Trọng Tâm",
+        "focusCambridge": "Chương Trình Học",
+        "focusIELTS": "Điểm Band",
+        "focusSAT": "Tuyển Sinh Đại Học",
+        "focusProfessional": "Phát Triển Sự Nghiệp",
+
+        "format": "Hình Thức",
+        "formatValue": "1 kèm 1",
+
+        "online": "Học Trực Tuyến"
+      },
+      "cta": {
+        "label": "BUỔI ĐÁNH GIÁ",
+        "title": "Chưa Chắc Chương Trình Nào Phù Hợp Với Bạn?",
+        "description": "Tôi sẽ giúp bạn xác định lộ trình học phù hợp nhất thông qua buổi đánh giá được thiết kế riêng cho bạn.",
+        "button": "Liên Hệ"
+      }
+    },
+
+    "cambridge": {
+      "hero": {
+        "label": "CAMBRIDGE",
+        "title": "Tiếng Anh Học Thuật<br>Cho Mọi Giai Đoạn<br>Phát Triển.",
+        "overlayLabel": "CHƯƠNG TRÌNH CAMBRIDGE",
+        "overlayLine1": "Tiểu học • Checkpoint",
+        "overlayLine2": "IGCSE • AS & A Level",
+        "description": "Các buổi học 1 kèm 1 được thiết kế theo chương trình Cambridge, từ Tiểu học đến A Level, giúp học sinh xây dựng sự tự tin, khả năng tự học và nền tảng vững chắc cho thành công lâu dài.",
+        "button": "Đặt Lịch Đánh Giá"
+      },
+      "audience": {
+        "label": "ĐỐI TƯỢNG PHÙ HỢP",
+        "title": "Mỗi Học Sinh Đều Có Một Điểm Khởi Đầu Khác Nhau",
+
+        "primaryTitle": "Tiểu Học",
+        "primaryDesc": "Xây dựng nền tảng tiếng Anh vững chắc thông qua các bài học hấp dẫn và lộ trình luyện tập có hệ thống.",
+
+        "checkpointTitle": "Checkpoint",
+        "checkpointDesc": "Phát triển tư duy phân tích đồng thời chuẩn bị hiệu quả cho các bài đánh giá tại trường.",
+
+        "igcseTitle": "IGCSE",
+        "igcseDesc": "Nâng cao kỹ năng đọc, viết và chiến lược làm bài thi với lộ trình học được cá nhân hóa.",
+
+        "alevelTitle": "AS & A Level",
+        "alevelDesc": "Rèn luyện kỹ năng viết học thuật và tư duy phản biện để chuẩn bị cho bậc đại học."
+      },
+      "journey": {
+        "label": "LỘ TRÌNH HỌC TẬP",
+        "title": "Một Chương Trình Được Xây Dựng Dựa Trên Sự Tiến Bộ",
+
+        "step1Title": "Đánh Giá",
+        "step1Desc": "Xác định điểm mạnh, điểm yếu và phong cách học tập của học sinh.",
+
+        "step2Title": "Lộ Trình Học",
+        "step2Desc": "Các buổi học được xây dựng dựa trên chương trình học tại trường và mục tiêu của học sinh.",
+
+        "step3Title": "Học 1 Kèm 1 Hàng Tuần",
+        "step3Desc": "Các buổi học đều đặn với mục tiêu rõ ràng và có thể theo dõi được sự tiến bộ.",
+
+        "step4Title": "Đánh Giá & Phản Hồi",
+        "step4Desc": "Lộ trình học được điều chỉnh liên tục khi sự tự tin và năng lực của học sinh ngày càng phát triển."
+      },
+      "personalised": {
+        "label": "HỌC TẬP CÁ NHÂN HÓA",
+        "title": "Bài Học Được Điều Chỉnh Theo Từng Học Sinh",
+        "description": "Không có hai học sinh nào học theo cùng một cách. Mỗi buổi học đều được điều chỉnh phù hợp với tốc độ, điểm mạnh và yêu cầu học tập của từng học sinh, đồng thời vẫn đảm bảo các mục tiêu học thuật rõ ràng.",
+
+        "point1Title": "Theo Chương Trình Học",
+        "point1Desc": "Các buổi học hỗ trợ và bổ sung cho việc học trên lớp.",
+
+        "point2Title": "Theo Tốc Độ Học",
+        "point2Desc": "Học sinh chỉ chuyển sang nội dung mới khi đã nắm vững kiến thức hiện tại.",
+
+        "point3Title": "Phản Hồi Liên Tục",
+        "point3Desc": "Phụ huynh và học sinh luôn biết rõ mình đang tiến bộ ở những điểm nào."
+      },
+      "outcomes": {
+        "label": "KẾT QUẢ ĐẠT ĐƯỢC",
+        "title": "Không Chỉ Là Điểm Số Tốt Hơn",
+
+        "card1Title": "Viết Học Thuật",
+        "card1Desc": "Viết rõ ràng, mạch lạc và tự tin hơn.",
+
+        "card2Title": "Đọc Hiểu Phản Biện",
+        "card2Desc": "Phân tích văn bản hiệu quả hơn, xác định ý chính và bằng chứng hỗ trợ một cách tự tin.",
+
+        "card3Title": "Tự Tin Giao Tiếp",
+        "card3Desc": "Diễn đạt ý tưởng tự nhiên thông qua thảo luận, thuyết trình và giao tiếp trong môi trường học tập.",
+
+        "card4Title": "Chiến Lược Làm Bài Thi",
+        "card4Desc": "Tiếp cận các kỳ thi Cambridge với phương pháp làm bài hiệu quả và kỹ năng quản lý thời gian tốt hơn.",
+
+        "card5Title": "Khả Năng Tự Học",
+        "card5Desc": "Hình thành thói quen học tập giúp duy trì sự tiến bộ ngay cả ngoài các buổi học hàng tuần.",
+
+        "card6Title": "Phát Triển Lâu Dài",
+        "card6Desc": "Xây dựng nền tảng tiếng Anh vững chắc để hỗ trợ thành công trong học tập và bậc đại học sau này."
+      },
+      "cta": {
+        "title": "Hãy Bắt Đầu Hành Trình Cambridge Của Bạn.",
+        "description": "Đặt lịch buổi đánh giá cá nhân để chúng ta cùng xây dựng lộ trình học tập phù hợp nhất với mục tiêu của bạn.",
+        "button": "Đặt Lịch Đánh Giá"
+      }
+},
+
+    "ielts": {
+      "hero": {
+        "label": "IELTS",
+        "title": "Xây Dựng Kỹ Năng Tiếng Anh Để Đạt<br>Mục Tiêu Band Của Bạn.",
+        "overlayLabel": "LUYỆN THI IELTS",
+        "overlayLine1": "Band 5.0 → 8.0+",
+        "description": "Các buổi học IELTS 1 kèm 1 được cá nhân hóa, tập trung phát triển đồng đều bốn kỹ năng Nghe, Đọc, Viết và Nói, với lộ trình phù hợp với trình độ hiện tại và mục tiêu band điểm của bạn.",
+        "button": "Đặt Lịch Đánh Giá"
+      },
+      "audience": {
+        "label": "ĐỐI TƯỢNG PHÙ HỢP",
+        "title": "Mỗi Học Sinh Đều Có Một Điểm Xuất Phát Khác Nhau",
+
+        "card1Title": "Người Mới Bắt Đầu",
+        "card1Desc": "Xây dựng sự tự tin trước khi tham gia kỳ thi IELTS chính thức.",
+
+        "card2Title": "Học Sinh & Sinh Viên",
+        "card2Desc": "Chuẩn bị cho điều kiện tuyển sinh đại học hoặc du học.",
+
+        "card3Title": "Người Đi Làm",
+        "card3Desc": "Đáp ứng yêu cầu tiếng Anh cho định cư hoặc phát triển nghề nghiệp.",
+
+        "card4Title": "Thi Lại IELTS",
+        "card4Desc": "Xác định điểm yếu và cải thiện hiệu quả để đạt band điểm cao hơn."
+      },
+      "journey": {
+        "label": "LỘ TRÌNH HỌC TẬP",
+        "title": "Một Chương Trình Được Xây Dựng Dựa Trên Sự Tiến Bộ",
+
+        "step1Title": "Đánh Giá",
+        "step1Desc": "Xác định điểm mạnh và con đường cải thiện hiệu quả nhất.",
+
+        "step2Title": "Kế Hoạch Học Tập Cá Nhân",
+        "step2Desc": "Lộ trình học hàng tuần tập trung vào những kỹ năng quan trọng nhất.",
+
+        "step3Title": "Luyện Tập Chuyên Sâu",
+        "step3Desc": "Thực hành với các bài tập theo chuẩn IELTS cùng phản hồi chi tiết.",
+
+        "step4Title": "Thi Thử",
+        "step4Desc": "Xây dựng sự tự tin thông qua các bài thi mô phỏng trong điều kiện như kỳ thi thật."
+      },
+      "personalised": {
+        "label": "LỘ TRÌNH CÁ NHÂN HÓA",
+        "title": "Luyện Thi Phù Hợp Với Mục Tiêu Của Bạn",
+        "description": "Mỗi học viên đều bắt đầu ở một trình độ khác nhau. Các buổi học tập trung vào những kỹ năng mang lại sự cải thiện lớn nhất thay vì đi theo một giáo trình cố định.",
+
+        "point1Title": "Nhận Xét Bài Viết",
+        "point1Desc": "Chỉnh sửa chi tiết về ngữ pháp, từ vựng và cách tổ chức bài viết.",
+
+        "point2Title": "Luyện Nói",
+        "point2Desc": "Phát triển sự lưu loát thông qua các buổi mô phỏng phỏng vấn IELTS thực tế.",
+
+        "point3Title": "Theo Dõi Tiến Bộ",
+        "point3Desc": "Đánh giá sự tiến bộ thường xuyên thông qua các bài thi thử định kỳ."
+      },
+      "outcomes": {
+        "label": "KẾT QUẢ ĐẠT ĐƯỢC",
+        "title": "Không Chỉ Là Điểm Số Cao Hơn",
+
+        "card1Title": "Viết Học Thuật",
+        "card1Desc": "Viết bài luận mạch lạc, có cấu trúc và tự tin hơn.",
+
+        "card2Title": "Đọc Hiểu Phân Tích",
+        "card2Desc": "Phân tích văn bản hiệu quả hơn, xác định ý chính và các luận điểm hỗ trợ.",
+
+        "card3Title": "Nói Lưu Loát Hơn",
+        "card3Desc": "Giao tiếp tự nhiên với sự tự tin ngày càng cao.",
+
+        "card4Title": "Độ Chính Xác Khi Đọc",
+        "card4Desc": "Hiểu các văn bản phức tạp nhanh chóng và hiệu quả hơn.",
+
+        "card5Title": "Kỹ Năng Nghe",
+        "card5Desc": "Nhận diện và xử lý thông tin nhanh hơn trong các bài nghe.",
+
+        "card6Title": "Chiến Lược Làm Bài Thi",
+        "card6Desc": "Cải thiện kỹ năng quản lý thời gian và tối đa hóa cơ hội đạt điểm cao.",
+
+        "card7Title": "Đạt Band Mục Tiêu",
+        "card7Desc": "Tiến bộ có hệ thống để đạt được band điểm IELTS mong muốn."
+      },
+      "cta": {
+        "title": "Hãy Chinh Phục Band Điểm Mục Tiêu Của Bạn.",
+        "description": "Đặt lịch buổi đánh giá cá nhân để chúng ta cùng xây dựng lộ trình học tập phù hợp nhất với mục tiêu IELTS của bạn.",
+        "button": "Đặt Lịch Đánh Giá"
+      }
+},
+
+    "sat": {
+      "hero": {
+        "label": "SAT",
+        "title": "Chinh Phục Digital SAT<br>Bằng Chiến Lược,<br>Không Chỉ Ghi Nhớ.",
+        "overlayLabel": "Digital SAT",
+        "overlaySubtitle": "Đọc • Viết • Toán",
+        "description": "Chương trình luyện thi SAT một kèm một giúp phát triển kỹ năng Đọc, Viết và Toán, đồng thời trang bị các chiến lược làm bài hiệu quả để tối đa hóa điểm số.",
+        "button": "Đặt Lịch Buổi Đánh Giá"
+      },
+      "audience": {
+        "label": "ĐỐI TƯỢNG PHÙ HỢP",
+        "title": "Mỗi Học Sinh Đều Có Một Điểm Xuất Phát Khác Nhau",
+
+        "card1Title": "Lớp 9–10",
+        "card1Desc": "Xây dựng nền tảng vững chắc từ sớm.",
+
+        "card2Title": "Lớp 11",
+        "card2Desc": "Chuẩn bị trước cho quá trình nộp hồ sơ đại học.",
+
+        "card3Title": "Lớp 12",
+        "card3Desc": "Tối đa hóa điểm số trước các thời hạn quan trọng.",
+
+        "card4Title": "Ứng Viên Quốc Tế",
+        "card4Desc": "Đáp ứng yêu cầu đầu vào của các trường đại học cạnh tranh."
+      },
+      "journey": {
+        "label": "LỘ TRÌNH HỌC TẬP",
+        "title": "Một Chương Trình Được Xây Dựng Dựa Trên Sự Tiến Bộ",
+
+        "card1Title": "Kiểm Tra Đầu Vào",
+        "card1Desc": "Đánh giá trình độ và điểm xuất phát của bạn.",
+
+        "card2Title": "Rèn Luyện Chiến Lược",
+        "card2Desc": "Học các chiến lược và kỹ thuật được sử dụng bởi những học sinh đạt điểm cao.",
+
+        "card3Title": "Luyện Tập Có Trọng Tâm",
+        "card3Desc": "Tập trung cải thiện những điểm còn yếu.",
+
+        "card4Title": "Thi Thử",
+        "card4Desc": "Luyện tập trong điều kiện mô phỏng kỳ thi Digital SAT."
+      },
+      "personalised": {
+        "label": "LỘ TRÌNH CÁ NHÂN HÓA",
+        "title": "Mỗi Điểm Số Đều Quan Trọng",
+        "description": "Các buổi học tập trung vào việc cải thiện hiệu quả thông qua phân tích câu hỏi, tư duy chiến lược và luyện tập có hệ thống thay vì làm quá nhiều bài tập lặp đi lặp lại.",
+
+        "point1Title": "Đọc & Viết",
+        "point1Desc": "Nắm vững kỹ năng phân tích bằng chứng, từ vựng và ngữ pháp.",
+
+        "point2Title": "Chiến Lược Môn Toán",
+        "point2Desc": "Giải bài nhanh hơn với các phương pháp đã được kiểm chứng.",
+
+        "point3Title": "Phân Tích Điểm Số",
+        "point3Desc": "Theo dõi sự tiến bộ sau mỗi bài kiểm tra luyện tập."
+      },
+      "outcomes": {
+        "label": "KẾT QUẢ ĐẠT ĐƯỢC",
+        "title": "Không Chỉ Là Điểm Số Cao Hơn",
+
+        "card1Title": "Điểm SAT Cao Hơn",
+        "card1Desc": "Nâng cao kết quả thông qua luyện tập có trọng tâm và lộ trình học cá nhân hóa ở mọi nội dung của kỳ thi.",
+
+        "card2Title": "Quản Lý Thời Gian Hiệu Quả",
+        "card2Desc": "Học các chiến lược phân bổ thời gian đã được chứng minh để hoàn thành từng phần thi nhanh chóng mà vẫn đảm bảo độ chính xác.",
+
+        "card3Title": "Đọc Hiểu Phân Tích",
+        "card3Desc": "Phát triển kỹ năng đọc hiểu bằng cách xác định bằng chứng, lập luận và ý đồ của tác giả một cách hiệu quả hơn.",
+
+        "card4Title": "Độ Chính Xác Ngữ Pháp",
+        "card4Desc": "Thành thạo ngữ pháp, dấu câu và cấu trúc câu thường xuất hiện trong kỳ thi Digital SAT.",
+
+        "card5Title": "Tự Tin Với Môn Toán",
+        "card5Desc": "Phát triển kỹ năng giải quyết vấn đề, đồng thời cải thiện tốc độ và độ chính xác ở mọi chủ đề Toán của SAT.",
+
+        "card6Title": "Sẵn Sàng Cho Đại Học",
+        "card6Desc": "Xây dựng tư duy học thuật và thói quen học tập giúp học sinh thích nghi với môi trường đại học."
+      },
+      "cta": {
+        "title": "Bắt Đầu Chinh Phục Điểm SAT Của Bạn.",
+        "description": "Đặt lịch buổi đánh giá để cùng xây dựng lộ trình học tập phù hợp với mục tiêu của bạn.",
+        "button": "Đặt Lịch Buổi Đánh Giá"
+      }
+    },
+
+    "professional": {
+      "hero": {
+        "label": "TIẾNG ANH CHUYÊN NGHIỆP",
+        "title": "Tiếng Anh Chuyên Nghiệp Dành Cho<br>Thành Công Trong Công Việc.",
+        "overlayLabel": "TIẾNG ANH CHUYÊN NGHIỆP",
+        "overlayLine1": "Giao Tiếp Trong Kinh Doanh",
+        "description": "Phát triển khả năng giao tiếp tự tin trong các cuộc họp, phỏng vấn, thuyết trình và môi trường làm việc quốc tế thông qua các buổi học 1 kèm 1 được cá nhân hóa.",
+        "button": "Đặt Lịch Đánh Giá"
+      },
+      "audience": {
+        "label": "ĐỐI TƯỢNG PHÙ HỢP",
+        "title": "Mỗi Học Viên Đều Có Một Điểm Xuất Phát Khác Nhau",
+
+        "card1Title": "Sinh Viên Đại Học",
+        "card1Desc": "Chuẩn bị cho kỳ thực tập và các buổi phỏng vấn xin việc.",
+
+        "card2Title": "Người Mới Đi Làm",
+        "card2Desc": "Giao tiếp tự tin với đồng nghiệp trong môi trường làm việc.",
+
+        "card3Title": "Quản Lý",
+        "card3Desc": "Điều hành các cuộc họp và thuyết trình một cách hiệu quả.",
+
+        "card4Title": "Người Chuyển Hướng Nghề Nghiệp",
+        "card4Desc": "Nâng cao tiếng Anh để mở ra những cơ hội nghề nghiệp mới."
+      },
+      "journey": {
+        "label": "LỘ TRÌNH HỌC TẬP",
+        "title": "Một Chương Trình Được Xây Dựng Dựa Trên Sự Tiến Bộ",
+
+        "step1Title": "Đánh Giá Khả Năng Giao Tiếp",
+        "step1Desc": "Đánh giá trình độ tiếng Anh hiện tại và nhu cầu giao tiếp trong công việc của bạn.",
+
+        "step2Title": "Lộ Trình Học Tập Cá Nhân",
+        "step2Desc": "Xây dựng kế hoạch học tập phù hợp với mục tiêu nghề nghiệp và các tình huống giao tiếp hằng ngày.",
+
+        "step3Title": "Huấn Luyện Thực Tiễn",
+        "step3Desc": "Phát triển kỹ năng nói, viết và giao tiếp nơi công sở thông qua các buổi học được cá nhân hóa.",
+
+        "step4Title": "Mô Phỏng Môi Trường Làm Việc",
+        "step4Desc": "Áp dụng kỹ năng vào các tình huống thực tế như họp, thuyết trình và phỏng vấn."
+      },
+      "personalised": {
+        "label": "LỘ TRÌNH HỌC TẬP CÁ NHÂN",
+        "title": "Tiếng Anh Được Ứng Dụng Ngoài Lớp Học",
+        "description": "Các buổi học tập trung vào những tình huống thực tế trong môi trường làm việc thay vì các đoạn hội thoại trong sách giáo khoa, giúp học viên giao tiếp tự nhiên và chuyên nghiệp hơn.",
+
+        "point1Title": "Cuộc Họp",
+        "point1Desc": "Dẫn dắt các cuộc thảo luận một cách tự tin.",
+
+        "point2Title": "Email",
+        "point2Desc": "Viết email rõ ràng và chuyên nghiệp.",
+
+        "point3Title": "Thuyết Trình",
+        "point3Desc": "Trình bày tự tin trước khách hàng hoặc đồng nghiệp."
+      },
+      "outcomes": {
+        "label": "KẾT QUẢ ĐẠT ĐƯỢC",
+        "title": "Không Chỉ Là Điểm Số",
+
+        "card1Title": "Sự Tự Tin Trong Công Việc",
+        "card1Desc": "Giao tiếp tự nhiên và tự tin trong các cuộc họp, thảo luận và những tình huống thường gặp tại nơi làm việc.",
+
+        "card2Title": "Giao Tiếp Rõ Ràng",
+        "card2Desc": "Trình bày ý tưởng rõ ràng và chuyên nghiệp khi làm việc với đồng nghiệp, quản lý và khách hàng quốc tế.",
+
+        "card3Title": "Thành Công Trong Phỏng Vấn",
+        "card3Desc": "Chuẩn bị cho các buổi phỏng vấn thông qua những tình huống thực tế, phản hồi cá nhân hóa và chiến lược giao tiếp hiệu quả.",
+
+        "card4Title": "Kỹ Năng Thuyết Trình",
+        "card4Desc": "Thuyết trình tự tin hơn, thu hút người nghe bằng cách giao tiếp rõ ràng và thuyết phục.",
+
+        "card5Title": "Viết Trong Môi Trường Công Việc",
+        "card5Desc": "Soạn email, báo cáo và các văn bản công việc một cách rõ ràng, chính xác và phù hợp với ngữ cảnh chuyên nghiệp.",
+
+        "card6Title": "Phát Triển Sự Nghiệp",
+        "card6Desc": "Phát triển kỹ năng giao tiếp tiếng Anh để hỗ trợ thăng tiến, mở rộng cơ hội quốc tế và xây dựng sự nghiệp lâu dài."
+      },
+      "cta": {
+        "title": "Phát Triển Sự Nghiệp Với Tiếng Anh Tốt Hơn.",
+        "description": "Đặt lịch buổi đánh giá để cùng xây dựng lộ trình học tập phù hợp với mục tiêu của bạn.",
+        "button": "Đặt Lịch Buổi Đánh Giá"
+      }
+}
+  },
+
+  "footer": {
+  "description": "Lớp học tiếng Anh 1 kèm 1 được thiết kế riêng để giúp mỗi học viên phát triển sự tự tin và đạt được mục tiêu của mình.",
+
+  "programs": "Chương Trình",
+
+  "professional": "Tiếng Anh Chuyên Nghiệp",
+
+  "resources": "Thông Tin",
+
+  "parents": "Phụ Huynh",
+
+  "about": "Giới Thiệu",
+
+  "policies": "Chính Sách Học Viên & Phụ Huynh",
+
+  "contact": "Liên Hệ",
+
+  "email": "Email",
+
+  "messenger": "Messenger",
+
+  "phone": "Điện thoại",
+
+  "copyright": "© 2024 YWN. Bảo lưu mọi quyền.",
+
+  "credit": "Thiết kế & phát triển bởi Yeo Woon Nam."
+}
+}

@@ -1,0 +1,1077 @@
+{
+"nav": {
+
+    "programs": {
+
+        "label": "Programs",
+
+        "cambridgeDesc": "International curriculum and exam preparation.",
+
+        "ieltsDesc": "Speaking, Listening, Reading & Writing.",
+
+        "satDesc": "Digital SAT university preparation.",
+
+        "professional": "Professional English",
+
+        "professionalDesc": "Business communication & interviews."
+
+    },
+
+    "parents": "Parents",
+
+    "about": "About",
+
+    "policies": "Policies",
+
+    "contact": "Contact",
+
+    "testimonials": "Testimonials",
+
+    "testimonialsDesc": "Read what students and parents have shared."
+
+},
+
+  "home": {
+    "hero": {
+
+    "tag": "1-on-1 English Coaching",
+
+    "title": "Build Confidence.<br>Master English.<br>Unlock New Opportunities.",
+
+    "description": "Cambridge, IELTS, SAT and Professional English coaching designed for ambitious students, university learners, working professionals, and parents who value structured learning and measurable progress.",
+
+    "professional": "Professional English",
+
+    "button": "Explore Programs →",
+
+    "card1": "Assessment Session",
+
+    "card2": "Personalised Coaching",
+
+    "card3": "Goal-Oriented Learning"
+
+},
+    "why": {
+  "label": "WHY YEO",
+  "title": "More Than Lessons.<br>A Structured Learning Journey.",
+
+  "goalTitle": "Goal-Oriented Learning",
+  "goalDesc": "Every lesson is planned around measurable objectives so students always know what they are working towards.",
+
+  "personalTitle": "Personal Coaching",
+  "personalDesc": "Lessons are adapted to each student's pace, strengths and areas for improvement.",
+
+  "progressTitle": "Track Your Progress",
+  "progressDesc": "Clear milestones help students and parents see continuous improvement throughout the course.",
+
+  "flexibleTitle": "Flexible Scheduling",
+  "flexibleDesc": "Study plans designed around school, university and working professionals."
+},
+    "programs": {
+
+    "label": "PROGRAMS",
+
+    "title": "Find The Right Learning Path",
+
+    "cambridge": {
+
+        "primary": "Primary",
+        "checkpoint": "Checkpoint",
+        "igcse": "IGCSE",
+        "alevel": "AS & A Level",
+
+        "button": "Learn More →"
+
+    },
+
+    "ielts": {
+
+        "listening": "Listening",
+        "reading": "Reading",
+        "writing": "Writing",
+        "speaking": "Speaking",
+
+        "button": "Learn More →"
+
+    },
+
+    "sat": {
+
+        "digital": "Digital SAT",
+        "rw": "Reading & Writing",
+        "math": "Math",
+
+        "button": "Learn More →"
+
+    },
+
+    "professional": {
+
+        "title": "Professional English",
+
+        "business": "Business Communication",
+        "emails": "Emails",
+        "interviews": "Interviews",
+        "meetings": "Meetings",
+
+        "button": "Learn More →"
+
+    }
+
+},
+    "testimonials": {
+  "label": "TESTIMONIALS",
+  "title": "Growth Stories",
+
+  "studentInfo": "Cambridge Student • 🇻🇳 Vietnam",
+
+  "quote": "\"Điều mình thích nhất là cách anh giải thích kiến thức. Qua cách anh hướng dẫn thì mọi thứ trở nên dễ hiểu, dễ nhớ hơn rất nhiều.\"",
+
+  "button": "Read More Testimonials →",
+
+  "stat1Number": "Initial",
+  "stat1Text": "Assessment Session",
+
+  "stat2Number": "1-on-1",
+  "stat2Text": "Personal Coaching",
+
+  "stat3Number": "Flexible",
+  "stat3Text": "Schedule",
+
+  "stat4Number": "Tailored",
+  "stat4Text": "Learning Plans"
+},
+    "faq": {
+  "label": "FAQ",
+  "title": "Frequently Asked Questions",
+
+  "q1": {
+    "question": "Who are your lessons suitable for?",
+    "answer": "Lessons are designed for school students, university students, working professionals, and anyone preparing for Cambridge, IELTS, SAT or Professional English."
+  },
+
+  "q2": {
+  "question": "Do you offer an assessment session?",
+  "answer": "Yes. Every new student begins with an initial assessment session. During this session, we'll discuss your goals, evaluate your current English level, identify strengths and areas for improvement, and recommend the most suitable learning plan. A small assessment fee applies."
+  },
+
+  "q3": {
+    "question": "Are lessons conducted online or in person?",
+    "answer": "Lessons are currently conducted online, allowing flexible scheduling while maintaining an interactive and personalised learning experience."
+  },
+
+  "q4": {
+    "question": "How are lessons personalised?",
+    "answer": "Every student receives a customised learning plan based on their current level, objectives, strengths, and areas that require improvement. Lessons are continuously adjusted as progress is made."
+  },
+
+  "q5": {
+    "question": "How can international students make payments?",
+    "answer": "Students outside Vietnam can make payments through Wise, allowing secure transfers in their local currency. Vietnamese students may pay by local bank transfer. Full payment details are provided with each monthly invoice, and I'm happy to assist if you have any questions about the payment process."
+  },
+
+  "q6": {
+    "question": "When are tuition fees due?",
+    "answer": "Monthly invoices are issued on the <strong>25th of each month</strong> for the following month's lessons. Payment is requested before the first scheduled lesson of the new month, providing approximately one week for students and parents to arrange payment and ensuring lessons continue without interruption."
+  },
+
+  "q7": {
+    "question": "Can lessons be rescheduled?",
+    "answer": "Yes. If you need to reschedule a lesson, please provide at least 24 hours' notice whenever possible. This helps us arrange an alternative lesson time more effectively."
+  }
+},
+    "contact": {
+  "label": "GET STARTED",
+
+  "title": "Let's Build Your English Journey Together",
+
+  "tag": "Initial Assessment Session",
+
+  "heading": "Book Your Assessment",
+
+  "description": "Whether you're preparing for Cambridge, IELTS, SAT or Professional English, we'll discuss your goals, evaluate your current level, and create a personalised learning roadmap designed specifically for you.",
+  
+  "email": "Email",
+
+  "messenger": "Messenger",
+
+  "messageYwn": "Message YWN",
+
+  "lessonFormat": "Lesson Format",
+
+  "lessonMode": "Online • Worldwide",
+
+  "note": "⭐ Average response within 6 hours",
+
+  "form": {
+    "name": "Full Name",
+
+    "email": "Email Address",
+
+    "selectProgram": "Select a Program",
+
+    "professional": "Professional English",
+
+    "message": "Tell me about your goals...",
+
+    "button": "Book My Free Trial"
+  }
+}
+  },
+
+  "parents": {
+  "hero": {
+    "label": "FOR PARENTS",
+
+    "title": "Clear Expectations.<br>Structured Learning.<br>Real Progress.",
+
+    "description": "I believe successful learning comes from a partnership between student, parent and coach. This page explains exactly how I teach, communicate and support every student's progress."
+  },
+  "intro": {
+  "label": "MY APPROACH",
+
+  "title": "Quality Over Quantity",
+
+  "description": "Every lesson is individually planned around the student's current level, learning style and long-term goals. Rather than rushing through worksheets, I focus on understanding, critical thinking and building confidence that lasts beyond examinations."
+},
+"philosophy": {
+  "label": "TEACHING PHILOSOPHY",
+
+  "title": "What Every Student Can Expect",
+
+  "understandTitle": "Understand Before Memorising",
+  "understandDesc": "Students learn why concepts work before applying them independently.",
+
+  "personalTitle": "Personalised Coaching",
+  "personalDesc": "Lessons adapt to every student's pace rather than following identical lesson plans.",
+
+  "growthTitle": "Long-Term Growth",
+  "growthDesc": "The goal is independent learners, not temporary exam improvements."
+},
+"policies": {
+  "label": "IMPORTANT INFORMATION",
+  "title": "Working Together",
+
+  "homeworkTitle": "Homework",
+  "homeworkDesc": "Homework is an essential part of the learning process rather than optional extra practice. Every assignment is designed to reinforce concepts introduced during lessons and identify areas that require further attention.\n\nStudents are expected to complete homework before the next lesson. Incomplete work limits lesson efficiency, as valuable teaching time must be spent reviewing unfinished tasks instead of introducing new concepts.",
+
+  "preparationTitle": "Lesson Preparation",
+  "preparationDesc": "Students should arrive on time with all required learning materials, completed homework and a stable internet connection. Being prepared allows every lesson to begin immediately and ensures that valuable lesson time is focused on learning rather than setup or troubleshooting.\n\nA quiet learning environment with minimal distractions is strongly recommended for younger students.",
+
+  "communicationTitle": "Parent Communication",
+  "communicationDesc": "Parents are encouraged to maintain open communication regarding their child's progress, concerns or academic goals. Questions may be discussed outside lesson hours through Messenger, Zalo or email.\n\nWhile I strive to respond promptly, replies may occasionally take longer during teaching hours.",
+
+  "progressTitle": "Progress Reviews",
+  "progressDesc": "Learning progress is monitored continuously rather than only through examination results. Parents receive honest feedback regarding strengths, weaknesses and areas that require additional practice.\n\nAs students develop, lesson plans are adjusted to ensure steady, long-term improvement instead of short-term memorisation.",
+
+  "attendanceTitle": "Attendance",
+  "attendanceDesc": "Consistent attendance is one of the most important factors in successful language learning. Missing lessons frequently interrupts learning momentum and slows long-term progress.\n\nFamilies are encouraged to inform me as early as possible if a lesson needs to be rescheduled.",
+
+  "questionsTitle": "Questions Outside Lessons",
+  "questionsDesc": "Students are welcome to ask short questions between lessons whenever clarification is needed. This helps prevent misunderstandings from developing into larger learning gaps before the next session.\n\nMore complex topics that require detailed explanation will usually be addressed during the following lesson."
+},
+"communication": {
+  "label": "COMMUNICATION",
+  "title": "Keeping Parents Informed",
+
+  "quickTitle": "Quick Questions",
+  "quickDesc": "Messenger is the fastest way to contact me for everyday enquiries.",
+
+  "detailTitle": "Detailed Discussions",
+  "detailDesc": "Email is recommended for longer conversations or important updates.",
+
+  "urgentTitle": "Urgent Matters",
+  "urgentDesc": "For urgent scheduling matters, parents may contact me directly by phone or Zalo."
+},
+"cta": {
+  "title": "Still Have Questions?",
+  "description": "I'm happy to discuss your child's learning goals and answer any questions before lessons begin.",
+  "button": "Contact Me"
+}
+},
+
+  "about": {
+  "hero": {
+    "label": "ABOUT ME",
+
+    "title": "More Than Two Decades Learning English. Three Years Coaching It.",
+
+    "paragraph1": "I was born to a Korean and Vietnamese family and grew up in an international education environment from kindergarten onwards. For more than twenty years, English has been the primary language used throughout my education, learning under teachers from different English-speaking countries while following an international curriculum.",
+
+    "paragraph2": "This international upbringing allowed me to experience English naturally—not simply as a school subject, but as the language used every day for learning, communication and academic growth.",
+
+    "paragraph3": "For the past three years, I have specialised in personalised online coaching for Cambridge English, IELTS and the Digital SAT. Every lesson is individually planned around each student's strengths, weaknesses and long-term goals rather than relying on a fixed textbook or one-size-fits-all approach.",
+
+    "paragraph4": "My objective extends beyond examination results. I aim to help students become independent English users who understand the language, think critically and communicate confidently in real academic and professional environments."
+  },
+  "credentials": {
+  "label": "BACKGROUND",
+  "title": "Experience Built Through International Education",
+
+  "card1": {
+    "title": "International Education",
+    "desc": "Studied in international schools from kindergarten onwards, using English daily throughout my education."
+  },
+
+  "card2": {
+    "title": "Multicultural Background",
+    "desc": "Growing up in a Korean–Vietnamese family provided exposure to multiple cultures and perspectives from an early age."
+  },
+
+  "card3": {
+    "title": "Global Communication Experience",
+    "desc": "Four years of experience communicating with international customers from a wide range of cultural backgrounds, strengthening practical English communication beyond the classroom."
+  },
+
+  "card4": {
+    "title": "Academic Champion ×3",
+    "desc": "Awarded First Place Academic Champion three times at Singapore International School."
+  },
+
+  "card5": {
+    "title": "IELTS 8.0",
+    "desc": "Achieved during secondary school after years of structured academic English training."
+  },
+
+  "card6": {
+    "title": "Cambridge Distinction",
+    "desc": "Graduated with distinction under the Cambridge curriculum."
+  },
+
+  "card7": {
+    "title": "Content Creation & Education",
+    "desc": "Produced educational content recognised through YouTube creator awards in the United Kingdom."
+  },
+
+  "card8": {
+    "title": "Online Coaching",
+    "desc": "Three years of personalised one-to-one coaching in Cambridge, IELTS and Digital SAT at Funix Center."
+  }
+},
+"philosophy": {
+  "label": "MY PHILOSOPHY",
+  "title": "English Is A Language,<br>Not A Formula.",
+
+  "intro": "Many students spend years memorising grammar rules but still struggle to communicate naturally. My goal isn't simply to help students remember English. It's to help them think in English.",
+
+  "card1": {
+    "title": "Think Before Translating",
+    "desc": "Beginners naturally rely on Vietnamese while learning English, and that's completely normal. As students become more confident, I gradually encourage them to think directly in English instead of translating every sentence word by word. This develops faster reading, listening and speaking skills."
+},
+
+"card2": {
+    "title": "Communication Over Memorisation",
+    "desc": "Memorising model answers can be helpful in some situations, but genuine communication requires flexibility. Instead of learning conversations by heart, students develop an understanding of how English works so they can confidently express their own ideas."
+},
+
+"card3": {
+    "title": "Learn From Mistakes",
+    "desc": "Mistakes are one of the most valuable parts of learning. Students are encouraged to speak and write naturally while I identify recurring errors, explain why they happen and provide strategies to prevent them from becoming long-term habits."
+},
+
+"card4": {
+    "title": "Build Independent Learners",
+    "desc": "Success is not measured by how long students study with me. It is measured by the confidence they gain to learn independently, analyse problems critically and communicate effectively on their own."
+}
+},
+"difference": {
+  "label": "WHAT YOU RECEIVE",
+  "title": "Every Lesson Is Built Around The Student",
+
+  "item1": {
+    "title": "Personalised Learning Roadmap",
+    "desc": "A structured study plan designed around each student's current level and long-term goals."
+  },
+
+  "item2": {
+    "title": "Progress Tracking",
+    "desc": "Learning progress is continuously monitored and lessons adapt as students improve."
+  },
+
+  "item3": {
+    "title": "Vocabulary Development",
+    "desc": "Build useful vocabulary through practical usage rather than memorising isolated word lists."
+  },
+
+  "item4": {
+    "title": "Writing Feedback",
+    "desc": "Detailed corrections explaining both what should change and why."
+  },
+
+  "item5": {
+    "title": "Speaking Correction",
+    "desc": "Continuous coaching on pronunciation, fluency and natural expression."
+  },
+
+  "item6": {
+    "title": "Recurring Mistake Analysis",
+    "desc": "Repeated errors are tracked and corrected before they become long-term habits."
+  },
+
+  "item7": {
+    "title": "Homework Built Around Weaknesses",
+    "desc": "Assignments target each student's weakest areas instead of giving identical worksheets to everyone."
+  },
+
+  "item8": {
+    "title": "Questions Between Lessons",
+    "desc": "Students are welcome to ask short questions outside class whenever they need clarification."
+  }
+},
+"expectations": {
+  "label": "WHAT TO EXPECT",
+  "title": "Every Lesson Has A Purpose",
+
+  "assessmentTitle": "Assessment",
+  "assessmentDesc": "Every student begins with an assessment to identify their current level, strengths, weaknesses and learning goals. Lessons are then planned around those findings rather than following a generic syllabus.",
+
+  "structuredTitle": "Structured Lessons",
+  "structuredDesc": "Every lesson has clear objectives. Students always know what they are learning, why it matters and how it connects to previous lessons.",
+
+  "feedbackTitle": "Continuous Feedback",
+  "feedbackDesc": "Students receive corrections throughout lessons instead of waiting until the end. This encourages immediate improvement and helps prevent repeated mistakes.",
+
+  "growthTitle": "Long-Term Growth",
+  "growthDesc": "The objective is never short-term memorisation. Lessons are designed to develop confidence, independence and lifelong English skills that continue beyond examinations."
+},
+"belief": {
+  "label": "WHAT I BELIEVE",
+
+  "title": "Great Teaching Builds<br>Independent Learners.",
+
+  "quote": "\"Learning should never rely on fear.<br><br>Mistakes are evidence that learning is happening.<br><br>Confidence comes from preparation.<br><br>Discipline creates freedom.<br><br>My role is to help students eventually no longer need me.\"", 
+
+  "button": "Get In Touch"
+}
+},
+
+  "testimonials": {
+  "hero": {
+    "label": "TESTIMONIALS",
+    "title": "Real Stories.<br>Real Progress.",
+    "description": "Every testimonial on this page has been shared by a former student or parent who has experienced personalised one-to-one coaching. Each learning journey is unique, but they all reflect the same commitment to meaningful English progress.",
+    "note": "Every testimonial on this page has been shared with permission by a former student or parent after completing coaching."
+  },
+  "stats": {
+  "feedbackNumber": "★★★★",
+  "feedbackText": "Average Student Feedback",
+
+  "verifiedNumber": "Verified",
+  "verifiedText": "Student Reviews",
+
+  "programsNumber": "4",
+  "programsText": "Coaching Programmes",
+
+  "coachingNumber": "1-to-1",
+  "coachingText": "Personalised Coaching"
+  },
+  "filter": {
+  "all": "All",
+  "cambridge": "Cambridge",
+  "ielts": "IELTS",
+  "sat": "SAT",
+  "professional": "Professional English",
+  "parent": "Parents"
+},
+  "loadMore": "Load More Reviews",
+
+  "cta": {
+  "title": "Ready To Begin Your Own Journey?",
+  "description": "Whether your goal is Cambridge, IELTS, the Digital SAT or professional communication, personalised coaching can help you build lasting confidence in English.",
+  "button": "Get In Touch"
+}
+},
+
+"policies": {
+  "hero": {
+    "label": "STUDENT AND PARENT POLICIES",
+    "title": "Clear Policies.<br>Better Learning.",
+    "description": "These policies are designed to create a professional, respectful and productive learning environment for every student and family."
+  },
+
+  "updated": "Last Updated: June 2026",
+
+  "introduction": "By enrolling in lessons with English coach Yeo, students and parents acknowledge that they have read and agreed to the following policies.\n\nThese guidelines help ensure lessons remain organised, effective and fair for everyone.",
+
+  "enrollment": {
+  "label": "SECTION 01",
+  "title": "Enrollment & Payment",
+
+  "paymentTitle": "Monthly Enrollment & Payment",
+  "paymentDesc": "Tuition is calculated based on the number of scheduled lessons for the upcoming month. An invoice will be issued on the <strong>25th of each month</strong>. Payment is required <strong>before the first scheduled lesson of the new month</strong>. If payment has not been received before the second scheduled lesson, all remaining lessons will be suspended until payment has been completed.",
+
+  "confirmationTitle": "Monthly Continuation Confirmation",
+  "confirmationDesc": "Together with the monthly invoice, students or parents will be asked to confirm whether lessons will continue for the following month. This allows lesson schedules to be arranged in advance and ensures reserved lesson times remain available.",
+
+  "withdrawalTitle": "Notice of Withdrawal",
+  "withdrawalDesc": "Students wishing to discontinue lessons are kindly requested to notify me before the 25th of the current month. As lesson schedules are planned and reserved on a monthly basis, advance notice allows sufficient time to reorganise the teaching schedule and offer the reserved monthly lesson plan to another student. If no notice is received before the monthly confirmation date, lessons will be assumed to discontinue into the following month."
+},
+  "schedule": {
+  "label": "SECTION 02",
+  "title": "Scheduling Policies",
+
+  "reservedTitle": "Reserved Lesson Time",
+  "reservedDesc": "Each student's weekly lesson time is reserved exclusively for them. Consistent scheduling supports long-term learning progress and ensures fairness for all students. Reserved lesson times may be offered to students on the waiting list if lessons are discontinued.",
+
+  "durationTitle": "Lesson Duration",
+  "durationDesc": "Lesson lengths are designed according to each programme. Cambridge Young Learners, School English and Communication English lessons are <strong>60 minutes</strong>. IELTS and SAT Reading & Writing lessons are <strong>90 minutes</strong>.",
+
+  "rescheduleTitle": "Rescheduling Policy",
+  "rescheduleDesc": "Students who need to reschedule should provide at least <strong>24 hours' notice</strong>. Lessons cancelled with sufficient notice will be rescheduled based on mutual availability. Lessons cancelled <strong>less than one hour before the scheduled lesson</strong> may be considered completed unless the absence is due to an emergency. If I need to reschedule a lesson, a make-up lesson will always be arranged.",
+
+  "lateTitle": "Late Arrival Policy",
+  "lateDesc": "Lessons finish at their originally scheduled time. Students arriving late will still finish at the scheduled ending time, ensuring fairness for students with lessons afterwards.",
+
+  "holidayTitle": "Holiday & Long Break Policy",
+  "holidayDesc": "If a student plans to take a long break (such as holidays, examinations or summer programmes), please provide at least <strong>two weeks' notice</strong>. Depending on availability, lessons may be temporarily paused, rescheduled or the reserved lesson time released."
+},
+  "learning": {
+  "label": "SECTION 03",
+  "title": "Learning Expectations",
+
+  "homeworkTitle": "Homework & Independent Study",
+  "homeworkDesc": "Progress depends not only on lesson time but also on consistent independent practice. Students are expected to complete assigned homework, review lesson notes, revise vocabulary regularly, and practise speaking and writing between lessons. Homework should normally be completed before the next lesson or within one week unless otherwise instructed.",
+
+  "progressTitle": "Progress Tracking",
+  "progressDesc": "Every student follows an individual learning roadmap. Progress is continuously monitored across grammar, vocabulary, reading, writing, speaking, pronunciation and recurring mistakes. Lessons are adapted according to each student's progress rather than following a fixed textbook alone.",
+
+  "assessmentTitle": "Assessment Session",
+  "assessmentDesc": "Students may request a paid <strong>30-minute diagnostic assessment</strong> before beginning long-term coaching. The assessment identifies current ability, strengths, weaknesses, learning goals and provides a recommended study roadmap."
+},
+"communication": {
+  "label": "SECTION 04",
+  "title": "Communication",
+
+  "hoursTitle": "Communication Hours",
+  "hoursDesc": "To maintain work-life balance and ensure adequate lesson preparation, messages are normally answered between <strong>10:00 and 21:00 (Vietnam Time)</strong>. Messages received outside these hours will be answered as soon as reasonably possible.",
+
+  "questionsTitle": "Questions Outside Lessons",
+  "questionsDesc": "Students are encouraged to ask brief academic questions whenever clarification is needed. However, detailed explanations, essay corrections or solving multiple practice questions form part of scheduled coaching sessions and will be addressed during lessons."
+},
+"professional": {
+  "label": "SECTION 05",
+  "title": "Professional Standards",
+
+  "environmentTitle": "Professional Learning Environment",
+  "environmentDesc": "Students should prepare all required materials, join lessons punctually and minimise distractions. Mutual respect and professional communication are expected from both coach and student throughout the learning journey.",
+
+  "responsibilitiesTitle": "Coach Responsibilities",
+  "responsibilitiesDesc": "The coach is committed to preparing lessons appropriate to each student's level, providing constructive feedback, monitoring progress continuously and maintaining a respectful, supportive and professional learning environment."
+},
+  "general": {
+  "label": "SECTION 06",
+  "title": "General Policies",
+
+  "recordingTitle": "Recording Policy",
+  "recordingDesc": "Lessons may not be audio recorded, video recorded, distributed or shared without the prior consent of both the coach and the student.",
+
+  "integrityTitle": "Academic Integrity",
+  "integrityDesc": "Coaching is designed to develop genuine English proficiency. Assistance intended to facilitate plagiarism, cheating or academic dishonesty will not be provided.",
+
+  "updatesTitle": "Policy Updates",
+  "updatesDesc": "These policies may be updated periodically to reflect improvements to teaching practices or administrative procedures. The latest version published on this website supersedes all previous versions."
+}
+},
+
+"contact": {
+  "hero": {
+    "label": "GET IN TOUCH",
+
+    "title": "Let's Discuss Your<br>Learning Goals.",
+
+    "description": "Whether you're preparing for Cambridge, IELTS, Digital SAT or improving your professional English, I'd be happy to recommend the most suitable learning path."
+  },
+"methods": {
+  "label": "CONTACT METHODS",
+  "title": "Choose The Method That Works Best For You",
+
+  "messengerTitle": "Messenger",
+  "messengerDesc": "The fastest way to ask questions about lessons, schedules and programmes.",
+  "messengerButton": "Open Messenger →",
+
+  "emailTitle": "Email",
+  "emailDesc": "Ideal for detailed enquiries regarding programmes or long-term coaching.",
+  "emailButton": "Send an Email →",
+
+  "whatsappTitle": "WhatsApp",
+  "whatsappDesc": "Preferred contact method for international students and parents.",
+  "whatsappButton": "Chat on WhatsApp →",
+
+  "phoneTitle": "Phone",
+  "phoneDesc": "Available during communication hours in Vietnam.",
+
+  "zaloLabel": "LOCAL CONTACT",
+  "zaloSectionTitle": "Connect Through Zalo",
+  "zaloTitle": "Add Me On Zalo",
+  "zaloDesc": "If you're located in Vietnam, simply scan the QR code using the Zalo app to add me as a contact.",
+
+  "beforeLabel": "BEFORE YOU CONTACT ME",
+
+  "beforeTitle": "A Few Details Help Me Recommend<br>The Right Programme",
+
+  "ageTitle": "Student's Age",
+  "ageDesc": "Helps determine the most suitable programme.",
+
+  "levelTitle": "Current English Level",
+  "levelDesc": "Cambridge, IELTS, SAT or general English.",
+
+  "goalTitle": "Learning Goal",
+  "goalDesc": "Examination, school improvement, communication or career.",
+
+  "scheduleTitle": "Preferred Schedule",
+  "scheduleDesc": "Weekdays, weekends, mornings or evenings.",
+
+  "communicationLabel": "COMMUNICATION",
+
+  "communicationTitle": "Response Time",
+  "hours": "08:00 – 21:00",
+  "timezone": "Vietnam Time (GMT+7)",
+  "responseTime": "Messages are usually answered within 24 hours."
+},
+"faq": {
+  "label": "COMMON QUESTIONS",
+  "title": "Before You Send A Message",
+
+  "onlineTitle": "Do you teach online only?",
+  "onlineDesc": "Yes. All coaching sessions are conducted online, allowing students to join from anywhere in the world.",
+
+  "internationalTitle": "Do you teach international students?",
+  "internationalDesc": "Yes. Students from any country are welcome as long as lesson times can be arranged across time zones.",
+
+  "paymentTitle": "How can international students pay?",
+  "paymentDesc": "International payments are accepted through Wise. Vietnamese students may pay via local bank transfer.",
+
+  "assessmentTitle": "Can I request a trial assessment?",
+  "assessmentDesc": "Absolutely. A diagnostic assessment helps identify strengths, weaknesses and the most appropriate learning pathway."
+},
+"cta": {
+  "title": "Ready To Begin?",
+  "description": "Whether you're preparing for an examination or simply want to become a more confident English user, I'd be happy to discuss your goals.",
+  "button": "Get In Touch"
+}
+  },
+
+  "programs": {
+    "index": {
+      "hero": {
+        "label": "PROGRAMS",
+        "title": "Every Student Starts<br>Somewhere Different.",
+        "description": "From Cambridge classrooms to IELTS, SAT and workplace communication, every programme is designed around your personal goals—not a generic syllabus.",
+        "button": "Book An Assessment Session"
+      },
+      "selector": {
+        "cambridgeTitle": "Cambridge",
+        "cambridgeDesc": "Primary • Checkpoint • IGCSE • A Level",
+
+        "ieltsTitle": "IELTS",
+        "ieltsDesc": "Academic & General Training",
+
+        "satTitle": "SAT",
+        "satDesc": "Digital SAT Preparation",
+
+        "professionalTitle": "Professional English",
+        "professionalDesc": "Business Communication"
+      },
+      "compare": {
+        "label": "COMPARE",
+        "title": "Which Programme Fits You?",
+
+        "cambridge": "Cambridge",
+        "ielts": "IELTS",
+        "sat": "SAT",
+        "professional": "Professional",
+
+        "bestFor": "Best For",
+        "bestForCambridge": "School Students",
+        "bestForIELTS": "Study Abroad",
+        "bestForSAT": "US Universities",
+        "bestForProfessional": "Working Adults",
+
+        "focus": "Focus",
+        "focusCambridge": "Curriculum",
+        "focusIELTS": "Band Score",
+        "focusSAT": "College Admission",
+        "focusProfessional": "Career Growth",
+
+        "format": "Format",
+        "formatValue": "1-on-1",
+
+        "online": "Online"
+      },
+      "cta": {
+        "label": "ASSESSMENT SESSION",
+        "title": "Not Sure Which Programme Is Right For You?",
+        "description": "I'll help you determine the most suitable learning path during your personalised assessment session.",
+        "button": "Contact Me"
+      }
+    },
+
+    "cambridge": {
+      "hero": {
+        "label": "CAMBRIDGE",
+        "title": "Academic English<br>For Every Stage<br>Of The Journey.",
+        "overlayLabel": "CAMBRIDGE CURRICULUM",
+        "overlayLine1": "Primary • Checkpoint",
+        "overlayLine2": "IGCSE • AS & A Level",
+        "description": "Personalised one-to-one coaching aligned with the Cambridge curriculum—from Primary through A Levels—designed to build confidence, independence and long-term academic success.",
+        "button": "Book My Assessment Session"
+      },
+      "audience": {
+        "label": "WHO THIS IS FOR",
+        "title": "Every Student Has A Different Starting Point",
+
+        "primaryTitle": "Primary",
+        "primaryDesc": "Develop strong English foundations through engaging lessons and structured practice.",
+
+        "checkpointTitle": "Checkpoint",
+        "checkpointDesc": "Strengthen analytical thinking while preparing for school assessments.",
+
+        "igcseTitle": "IGCSE",
+        "igcseDesc": "Improve reading, writing and examination techniques with personalised coaching.",
+
+        "alevelTitle": "AS & A Level",
+        "alevelDesc": "Refine academic writing and critical analysis for university preparation."
+      },
+      "journey": {
+        "label": "THE LEARNING JOURNEY",
+        "title": "A Programme Built Around Progress",
+
+        "step1Title": "Assessment",
+        "step1Desc": "Understand strengths, weaknesses and learning style.",
+
+        "step2Title": "Learning Plan",
+        "step2Desc": "Lessons are planned around your school curriculum and goals.",
+
+        "step3Title": "Weekly Coaching",
+        "step3Desc": "Consistent one-to-one sessions focused on measurable progress.",
+
+        "step4Title": "Review & Feedback",
+        "step4Desc": "Learning plans evolve as confidence and ability grow."
+      },
+      "personalised": {
+        "label": "PERSONALISED LEARNING",
+        "title": "Lessons That Adapt To The Student",
+        "description": "No two students learn the same way. Every lesson is adapted to individual pace, strengths and school requirements while maintaining clear academic objectives.",
+
+        "point1Title": "School Curriculum",
+        "point1Desc": "Lessons complement classroom learning.",
+
+        "point2Title": "Learning Pace",
+        "point2Desc": "Students move forward only after concepts are mastered.",
+
+        "point3Title": "Continuous Feedback",
+        "point3Desc": "Parents and students understand exactly what is improving."
+      },
+      "outcomes": {
+        "label": "OUTCOMES",
+        "title": "Beyond Better Grades",
+
+        "card1Title": "Academic Writing",
+        "card1Desc": "Write with greater clarity, structure and confidence.",
+
+        "card2Title": "Critical Reading",
+        "card2Desc": "Analyse texts more confidently while identifying key ideas and supporting evidence.",
+
+        "card3Title": "Speaking Confidence",
+        "card3Desc": "Express ideas naturally through regular discussions, presentations and classroom communication.",
+
+        "card4Title": "Exam Strategy",
+        "card4Desc": "Approach Cambridge assessments with effective techniques and better time management.",
+
+        "card5Title": "Independent Learning",
+        "card5Desc": "Develop study habits that encourage consistent progress beyond weekly lessons.",
+
+        "card6Title": "Long-Term Growth",
+        "card6Desc": "Build a strong English foundation that supports future academic success and university study."
+      },
+      "cta": {
+        "title": "Let's Build Your Cambridge Journey.",
+        "description": "Book a personalised assessment session and we'll create a learning roadmap tailored specifically to your goals.",
+        "button": "Book My Assessment Session"
+      }
+},
+
+    "ielts": {
+      "hero": {
+        "label": "IELTS",
+        "title": "Build The English<br>Skills Needed<br>For Your Target Score.",
+        "overlayLabel": "IELTS PREPARATION",
+        "overlayLine1": "Band 5.0 → 8.0+",
+        "description": "Personalised one-to-one IELTS coaching focused on practical improvement in Listening, Reading, Writing and Speaking, with lessons tailored to your current band and target score.",
+        "button": "Book My Assessment Session"
+      },
+      "audience": {
+        "label": "WHO THIS IS FOR",
+        "title": "Every Student Has A Different Starting Point",
+
+        "card1Title": "Beginner",
+        "card1Desc": "Build confidence before attempting the official IELTS examination.",
+
+        "card2Title": "Students",
+        "card2Desc": "Prepare for university admissions or overseas study requirements.",
+
+        "card3Title": "Working Professionals",
+        "card3Desc": "Meet immigration or career English requirements.",
+
+        "card4Title": "Retakers",
+        "card4Desc": "Identify weaknesses and improve efficiently for a higher score."
+      },
+      "journey": {
+        "label": "THE LEARNING JOURNEY",
+        "title": "A Programme Built Around Progress",
+
+        "step1Title": "Assessment",
+        "step1Desc": "Identify strengths and the quickest path to improvement.",
+
+        "step2Title": "Personal Study Plan",
+        "step2Desc": "A weekly roadmap targeting the skills that matter most.",
+
+        "step3Title": "Intensive Practice",
+        "step3Desc": "Real IELTS-style exercises with detailed feedback.",
+
+        "step4Title": "Mock Exams",
+        "step4Desc": "Build confidence under real exam conditions."
+      },
+      "personalised": {
+        "label": "PERSONALISED LEARNING",
+        "title": "Preparation That Fits Your Goals",
+        "description": "Every learner starts from a different level. Lessons focus on the areas that deliver the greatest improvement instead of following a fixed textbook sequence.",
+
+        "point1Title": "Writing Feedback",
+        "point1Desc": "Detailed correction for grammar, vocabulary and organisation.",
+
+        "point2Title": "Speaking Practice",
+        "point2Desc": "Develop fluency through realistic interview simulations.",
+
+        "point3Title": "Progress Tracking",
+        "point3Desc": "Monitor improvement with regular mock assessments."
+      },
+      "outcomes": {
+        "label": "OUTCOMES",
+        "title": "Beyond Better Grades",
+
+        "card1Title": "Academic Writing",
+        "card1Desc": "Produce organised and coherent essays confidently.",
+
+        "card2Title": "Critical Reading",
+        "card2Desc": "Analyse texts more confidently while identifying key ideas and supporting evidence.",
+
+        "card3Title": "Higher Speaking Fluency",
+        "card3Desc": "Communicate naturally with greater confidence.",
+
+        "card4Title": "Reading Accuracy",
+        "card4Desc": "Understand complex texts more efficiently.",
+
+        "card5Title": "Listening Skills",
+        "card5Desc": "Recognise information quickly during recordings.",
+
+        "card6Title": "Effective Exam Strategy",
+        "card6Desc": "Improve timing and maximise scoring opportunities.",
+
+        "card7Title": "Target Band Achievement",
+        "card7Desc": "Work systematically towards your desired IELTS score."
+      },
+      "cta": {
+        "title": "Let's Reach Your Target Band.",
+        "description": "Book a personalised assessment session and we'll create a learning roadmap tailored specifically to your goals.",
+        "button": "Book My Assessment Session"
+      }
+},
+
+    "sat": {
+      "hero": {
+        "label": "SAT",
+        "title": "Master The Digital SAT<br>With Strategy,<br>Not Memorisation.",
+        "overlayLabel": "Digital SAT",
+        "overlaySubtitle": "Reading • Writing • Math",
+        "description": "One-to-one SAT coaching designed to strengthen Reading, Writing and Math while teaching the strategies needed to maximise your score.",
+        "button": "Book My Assessment Session"
+      },
+      "audience": {
+        "label": "WHO THIS IS FOR",
+        "title": "Every Student Has A Different Starting Point",
+
+        "card1Title": "Grade 9–10",
+        "card1Desc": "Build foundations early.",
+
+        "card2Title": "Grade 11",
+        "card2Desc": "Prepare before university applications.",
+
+        "card3Title": "Grade 12",
+        "card3Desc": "Maximise scores before deadlines.",
+
+        "card4Title": "International Applicants",
+        "card4Desc": "Meet competitive university requirements."
+      },
+      "journey": {
+        "label": "THE LEARNING JOURNEY",
+        "title": "A Programme Built Around Progress",
+
+        "card1Title": "Diagnostic Test",
+        "card1Desc": "Understand your starting score.",
+
+        "card2Title": "Strategy Training",
+        "card2Desc": "Learn the shortcuts used by high scorers.",
+
+        "card3Title": "Targeted Practice",
+        "card3Desc": "Focus on weaknesses.",
+
+        "card4Title": "Mock Exams",
+        "card4Desc": "Practice under Digital SAT conditions."
+      },
+      "personalised": {
+        "label": "PERSONALISED LEARNING",
+        "title": "Every Point Matters",
+        "description": "Lessons focus on efficient improvement through question analysis, strategic thinking and consistent practice rather than endless worksheets.",
+
+        "point1Title": "Reading & Writing",
+        "point1Desc": "Master evidence, vocabulary and grammar.",
+
+        "point2Title": "Math Strategy",
+        "point2Desc": "Solve questions faster with proven techniques.",
+
+        "point3Title": "Score Analysis",
+        "point3Desc": "Track improvement after every practice test."
+      },
+      "outcomes": {
+        "label": "OUTCOMES",
+        "title": "Beyond Better Grades",
+
+        "card1Title": "Higher SAT Score",
+        "card1Desc": "Improve performance through targeted practice and personalised coaching in every tested area.",
+
+        "card2Title": "Better Time Management",
+        "card2Desc": "Learn proven pacing strategies to complete each module efficiently without sacrificing accuracy.",
+
+        "card3Title": "Critical Reading",
+        "card3Desc": "Strengthen analytical reading skills by identifying evidence, arguments and author intent more effectively.",
+
+        "card4Title": "Grammar Accuracy",
+        "card4Desc": "Master grammar, punctuation and sentence structure commonly tested on the Digital SAT.",
+
+        "card5Title": "Math Confidence",
+        "card5Desc": "Develop stronger problem-solving techniques while improving speed and accuracy across all SAT Math topics.",
+
+        "card6Title": "University Readiness",
+        "card6Desc": "Build academic reasoning and study habits that prepare students for university-level learning."
+      },
+      "cta": {
+        "title": "Start Building Your SAT Score.",
+        "description": "Book an assessment session and we'll create a learning roadmap tailored specifically to your goals.",
+        "button": "Book My Assessment Session"
+      }
+    },
+
+    "professional": {
+      "hero": {
+        "label": "PROFESSIONAL ENGLISH",
+        "title": "Professional English<br>For Real<br>Workplace Success.",
+        "overlayLabel": "PROFESSIONAL ENGLISH",
+        "overlayLine1": "Business Communication",
+        "description": "Develop confident communication for meetings, interviews, presentations and international workplaces through personalised one-to-one coaching.",
+        "button": "Book My Assessment Session"
+      },
+      "audience": {
+        "label": "WHO THIS IS FOR",
+        "title": "Every Student Has A Different Starting Point",
+
+        "card1Title": "University Students",
+        "card1Desc": "Prepare for internships and interviews.",
+
+        "card2Title": "Young Professionals",
+        "card2Desc": "Communicate confidently with colleagues.",
+
+        "card3Title": "Managers",
+        "card3Desc": "Lead meetings and presentations effectively.",
+
+        "card4Title": "Career Changers",
+        "card4Desc": "Improve English for new opportunities."
+      },
+      "journey": {
+        "label": "THE LEARNING JOURNEY",
+        "title": "A Programme Built Around Progress",
+
+        "step1Title": "Communication Assessment",
+        "step1Desc": "Evaluate your current English level and workplace communication needs.",
+
+        "step2Title": "Personal Learning Plan",
+        "step2Desc": "Build a roadmap around your career goals and daily communication tasks.",
+
+        "step3Title": "Practical Coaching",
+        "step3Desc": "Improve speaking, writing and workplace communication through personalised practice.",
+
+        "step4Title": "Real Workplace Practice",
+        "step4Desc": "Apply your skills through realistic meetings, presentations and interview scenarios."
+      },
+      "personalised": {
+        "label": "PERSONALISED LEARNING",
+        "title": "English That Works Outside The Classroom",
+        "description": "Lessons revolve around authentic workplace situations instead of textbook dialogues, helping learners communicate naturally in professional environments.",
+
+        "point1Title": "Meetings",
+        "point1Desc": "Lead discussions confidently.",
+
+        "point2Title": "Emails",
+        "point2Desc": "Write clearly and professionally.",
+
+        "point3Title": "Presentations",
+        "point3Desc": "Speak with confidence before clients or teams."
+      },
+      "outcomes": {
+        "label": "OUTCOMES",
+        "title": "Beyond Better Grades",
+
+        "card1Title": "Professional Confidence",
+        "card1Desc": "Communicate naturally and confidently in meetings, discussions and everyday workplace situations.",
+
+        "card2Title": "Clear Communication",
+        "card2Desc": "Express ideas clearly and professionally when speaking with colleagues, managers and international clients.",
+
+        "card3Title": "Interview Success",
+        "card3Desc": "Prepare for interviews through realistic practice, personalised feedback and effective communication strategies.",
+
+        "card4Title": "Presentation Skills",
+        "card4Desc": "Deliver presentations with greater confidence while engaging audiences through clear and persuasive communication.",
+
+        "card5Title": "Business Writing",
+        "card5Desc": "Write professional emails, reports and workplace messages with clarity, accuracy and appropriate tone.",
+
+        "card6Title": "Career Growth",
+        "card6Desc": "Develop English communication skills that support promotions, international opportunities and long-term career success."
+      },
+      "cta": {
+        "title": "Advance Your Career With Better English.",
+        "description": "Book an assessment session and we'll create a learning roadmap tailored specifically to your goals.",
+        "button": "Book My Assessment Session"
+      }
+}
+  },
+
+  "footer": {
+  "description": "Personalised one-to-one English coaching designed to help every student grow with confidence.",
+
+  "programs": "Programs",
+
+  "professional": "Professional English",
+
+  "resources": "Resources",
+
+  "parents": "Parents",
+
+  "about": "About",
+
+  "policies": "Student & Parent Policies",
+
+  "contact": "Contact",
+
+  "email": "Email",
+
+  "messenger": "Messenger",
+
+  "phone": "Phone",
+
+  "copyright": "© 2024 YWN. All rights reserved.",
+
+  "credit": "Designed & Developed with care by Yeo Woon Nam."
+}
+}

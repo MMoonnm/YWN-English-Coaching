@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/about.css">
+
+    <title>Tutor YEO, Thầy tiếng Anh Yeo</title>
+</head>
+<body>
+<!-- =========================
+        NAVIGATION
+========================= -->
+<nav class="navbar">
+
+    <!-- Logo -->
+    <div class="nav-logo">
+        <a href="index.html">YWN</a>
+    </div>
+
+    <!-- =========================
+            Desktop Navigation
+    ========================= -->
+    <div class="nav-links">
+
+        <!-- Programs -->
+        <div class="nav-item programs-trigger">
+
+            <a href="programs/index.html" data-i18n="nav.programs.label">
+                Programs
+            </a>
+
+            <div class="mega-menu">
+
+                <a href="programs/cambridge.html" class="menu-card">
+                    <h3>
+                        Cambridge
+                    </h3>
+
+                    <p data-i18n="nav.programs.cambridgeDesc">
+                        International curriculum and exam preparation.
+                    </p>
+                </a>
+
+                <a href="programs/ielts.html" class="menu-card">
+                    <h3>
+                        IELTS
+                    </h3>
+
+                    <p data-i18n="nav.programs.ieltsDesc">
+                        Speaking, Listening, Reading & Writing.
+                    </p>
+                </a>
+
+                <a href="programs/sat.html" class="menu-card">
+                    <h3>
+                        SAT
+                    </h3>
+
+                    <p data-i18n="nav.programs.satDesc">
+                        Digital SAT university preparation.
+                    </p>
+                </a>
+
+                <a href="programs/professional.html" class="menu-card">
+                    <h3 data-i18n="nav.programs.professional">
+                        Professional English
+                    </h3>
+
+                    <p data-i18n="nav.programs.professionalDesc">
+                        Business communication & interviews.
+                    </p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Parents -->
+
+        <div class="nav-item">
+            <a href="parents.html" data-i18n="nav.parents">
+                Parents
+            </a>
+        </div>
+
+        <!-- About -->
+
+        <div class="nav-item about-trigger">
+
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <div class="about-menu">
+
+                <a href="testimonials.html" class="about-link">
+
+                    <h3 data-i18n="nav.testimonials">
+                        Testimonials
+                    </h3>
+
+                    <p data-i18n="nav.testimonialsDesc">
+                        Read what students and parents have shared.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Policies -->
+
+        <div class="nav-item">
+            <a href="policies.html" data-i18n="nav.policies">Policies</a>
+        </div>
+
+        <!-- Contact -->
+
+        <div class="nav-item">
+            <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- =========================
+          Desktop Language
+    ========================= -->
+
+    <div class="language-toggle">
+
+        <div class="toggle-pill"></div>
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</nav>
+
+<!-- =========================
+            Hamburger
+    ========================= -->
+
+    <button class="hamburger">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+<div class="mobile-overlay"></div>
+
+<!-- =========================
+        Mobile Drawer
+========================= -->
+<div class="mobile-menu">
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="programs/index.html" data-i18n="nav.programs">
+                Programs
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="programs/cambridge.html">Cambridge</a>
+            <a href="programs/ielts.html">IELTS</a>
+            <a href="programs/sat.html">SAT</a>
+            <a href="programs/professional.html" data-i18n="nav.programs.professional">Professional English</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="parents.html" data-i18n="nav.parents">Parents</a>
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="testimonials.html" data-i18n="nav.testimonials">Testimonials</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="policies.html" data-i18n="nav.policies">
+        Policies
+    </a>
+
+    <a class="mobile-link" href="contact.html" data-i18n="nav.contact">
+        Contact
+    </a>
+
+    <div class="mobile-language">
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</div>
+
+<!-- HERO -->
+<section class="about-story">
+
+    <div class="section-heading">
+
+        <p data-i18n="about.hero.label">
+            ABOUT ME
+        </p>
+
+        <h2 data-i18n="about.hero.title">
+            More Than Two Decades Learning English.
+            Three Years Coaching It.
+        </h2>
+
+    </div>
+
+    <div class="story-content">
+
+        <p data-i18n="about.hero.paragraph1">
+            I was born to a Korean and Vietnamese family and grew up in an
+            international education environment from kindergarten onwards.
+            For more than twenty years, English has been the primary language
+            used throughout my education, learning under teachers from
+            different English-speaking countries while following an
+            international curriculum.
+        </p>
+
+        <p data-i18n="about.hero.paragraph2">
+            This international upbringing allowed me to experience English
+            naturally—not simply as a school subject, but as the language
+            used every day for learning, communication and academic growth.
+        </p>
+
+        <p data-i18n="about.hero.paragraph3">
+            For the past three years, I have specialised in personalised
+            online coaching for Cambridge English, IELTS and the Digital SAT.
+            Every lesson is individually planned around each student's
+            strengths, weaknesses and long-term goals rather than relying on
+            a fixed textbook or one-size-fits-all approach.
+        </p>
+
+        <p data-i18n="about.hero.paragraph4">
+            My objective extends beyond examination results. I aim to help
+            students become independent English users who understand the
+            language, think critically and communicate confidently in real
+            academic and professional environments.
+        </p>
+
+    </div>
+</section>
+
+<!-- CREDENTIALS -->
+<section class="credentials">
+
+    <div class="section-heading">
+        <p data-i18n="about.credentials.label">BACKGROUND</p>
+
+        <h2 class="lang-heading-lg" data-i18n="about.credentials.title">
+            Experience Built Through International Education
+        </h2>
+    </div>
+
+    <div class="credential-grid">
+
+        <div class="credential-card">
+            <i data-lucide="globe"></i>
+
+            <h3 data-i18n="about.credentials.card1.title">
+                International Education
+            </h3>
+
+            <p data-i18n="about.credentials.card1.desc">
+                Studied in international schools from kindergarten onwards,
+                using English daily throughout my education.
+            </p>
+        </div>
+
+        <div class="credential-card">
+            <i data-lucide="languages"></i>
+
+            <h3 data-i18n="about.credentials.card2.title">
+                Multicultural Background
+            </h3>
+
+            <p data-i18n="about.credentials.card2.desc">
+                Growing up in a Korean–Vietnamese family provided exposure
+                to multiple cultures and perspectives from an early age.
+            </p>
+        </div>
+
+        <div class="credential-card">
+            <i data-lucide="users-round"></i>
+
+            <h3 data-i18n="about.credentials.card3.title">
+                Global Communication Experience
+            </h3>
+
+            <p data-i18n="about.credentials.card3.desc">
+                Four years of experience communicating with international
+                customers from a wide range of cultural backgrounds,
+                strengthening practical English communication beyond
+                the classroom.
+            </p>
+        </div>
+
+        <div class="credential-card">
+            <i data-lucide="trophy"></i>
+
+            <h3 data-i18n="about.credentials.card4.title">
+                Academic Champion ×3
+            </h3>
+
+            <p data-i18n="about.credentials.card4.desc">
+                Awarded First Place Academic Champion three times at
+                Singapore International School.
+            </p>
+        </div>
+
+        <div class="credential-card">
+            <i data-lucide="award"></i>
+
+            <h3 data-i18n="about.credentials.card5.title">
+                IELTS 8.0
+            </h3>
+
+            <p data-i18n="about.credentials.card5.desc">
+                Achieved during secondary school after years of structured
+                academic English training.
+            </p>
+        </div>
+
+        <div class="credential-card">
+            <i data-lucide="graduation-cap"></i>
+
+            <h3 data-i18n="about.credentials.card6.title">
+                Cambridge Distinction
+            </h3>
+
+            <p data-i18n="about.credentials.card6.desc">
+                Graduated with distinction under the Cambridge curriculum.
+            </p>
+        </div>
+
+        <div class="credential-card">
+            <i data-lucide="trophy"></i>
+
+            <h3 data-i18n="about.credentials.card7.title">
+                Content Creation & Education
+            </h3>
+
+            <p data-i18n="about.credentials.card7.desc">
+                Produced educational content recognised through
+                YouTube creator awards in the United Kingdom.
+            </p>
+        </div>
+
+        <div class="credential-card">
+            <i data-lucide="monitor-smartphone"></i>
+
+            <h3 data-i18n="about.credentials.card8.title">
+                Online Coaching
+            </h3>
+
+            <p data-i18n="about.credentials.card8.desc">
+                Three years of personalised one-to-one coaching in
+                Cambridge, IELTS and Digital SAT at Funix Center.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- TEACHING PHILOSOPHY -->
+<section class="philosophy">
+
+    <div class="section-heading">
+        <p data-i18n="about.philosophy.label">
+            MY PHILOSOPHY
+        </p>
+
+        <h2 data-i18n-html="about.philosophy.title">
+            English Is A Language,<br>
+            Not A Formula.
+        </h2>
+    </div>
+
+    <div class="philosophy-intro">
+        <p data-i18n="about.philosophy.intro">
+            Many students spend years memorising grammar rules but
+            still struggle to communicate naturally.
+            My goal isn't simply to help students remember English.
+            It's to help them think in English.
+        </p>
+    </div>
+
+    <div class="philosophy-grid">
+
+        <div class="philosophy-card">
+            <h3 data-i18n="about.philosophy.card1.title">
+                Think Before Translating
+            </h3>
+
+            <p data-i18n="about.philosophy.card1.desc">
+
+                Beginners naturally rely on Vietnamese while learning
+                English, and that's completely normal.
+
+                As students become more confident, I gradually encourage
+                them to think directly in English instead of translating
+                every sentence word by word. This develops faster reading,
+                listening and speaking skills.
+
+            </p>
+        </div>
+
+        <div class="philosophy-card">
+            <h3 data-i18n="about.philosophy.card2.title">
+                Communication Before Memorisation
+            </h3>
+
+            <p data-i18n="about.philosophy.card2.desc">
+                Memorising model answers may help in one situation,
+                but genuine communication requires flexibility.
+
+                Rather than memorising conversations, students learn
+                how English works so they can confidently express their
+                own ideas.
+            </p>
+        </div>
+
+        <div class="philosophy-card">
+            <h3 data-i18n="about.philosophy.card3.title">
+                Learn From Mistakes
+            </h3>
+
+            <p data-i18n="about.philosophy.card3.desc">
+
+                Mistakes are one of the most valuable parts of learning.
+
+                Students are encouraged to speak and write freely while
+                I identify recurring errors, explain why they happen and
+                provide strategies to prevent them from becoming habits.
+
+            </p>
+        </div>
+
+        <div class="philosophy-card">
+            <h3 data-i18n="about.philosophy.card4.title">
+                Build Independent Learners
+            </h3>
+
+            <p data-i18n="about.philosophy.card4.desc">
+                Success isn't measured by how long students study with me.
+
+                It's measured by how confidently they can eventually
+                learn, analyse and communicate independently.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- WHY I AM DIFFERENT -->
+<section class="lesson-difference">
+
+    <div class="section-heading">
+        <p data-i18n="about.difference.label">WHAT YOU RECEIVE</p>
+
+        <h2 class="lang-heading-lg" data-i18n="about.difference.title">
+            Every Lesson Is Built Around The Student
+        </h2>
+    </div>
+
+    <div class="difference-grid">
+
+        <div class="difference-item">
+            <i data-lucide="map"></i>
+            <div>
+                <h3 data-i18n="about.difference.item1.title">
+                    Personalised Learning Roadmap
+                </h3>
+
+                <p data-i18n="about.difference.item1.desc">
+                    A structured study plan designed around each student's
+                    current level and long-term goals.
+                </p>
+            </div>
+        </div>
+
+        <div class="difference-item">
+            <i data-lucide="chart-line"></i>
+            <div>
+                <h3 data-i18n="about.difference.item2.title">
+                    Progress Tracking
+                </h3>
+
+                <p data-i18n="about.difference.item2.desc">
+                    Learning progress is continuously monitored and lessons
+                    adapt as students improve.
+                </p>
+            </div>
+        </div>
+
+        <div class="difference-item">
+            <i data-lucide="book-open"></i>
+            <div>
+                <h3 data-i18n="about.difference.item3.title">
+                    Vocabulary Development
+                </h3>
+
+                <p data-i18n="about.difference.item3.desc">
+                    Build useful vocabulary through practical usage rather
+                    than memorising isolated word lists.
+                </p>
+            </div>
+        </div>
+
+        <div class="difference-item">
+            <i data-lucide="pen-tool"></i>
+            <div>
+                <h3 data-i18n="about.difference.item4.title">
+                    Writing Feedback
+                </h3>
+
+                <p data-i18n="about.difference.item4.desc">
+                    Detailed corrections explaining both what should change
+                    and why.
+                </p>
+            </div>
+        </div>
+
+        <div class="difference-item">
+            <i data-lucide="mic"></i>
+            <div>
+                <h3 data-i18n="about.difference.item5.title">
+                    Speaking Correction
+                </h3>
+
+                <p data-i18n="about.difference.item5.desc">
+                    Continuous coaching on pronunciation, fluency and natural
+                    expression.
+                </p>
+            </div>
+        </div>
+
+        <div class="difference-item">
+            <i data-lucide="search-check"></i>
+            <div>
+                <h3 data-i18n="about.difference.item6.title">
+                    Recurring Mistake Analysis
+                </h3>
+
+                <p data-i18n="about.difference.item6.desc">
+                    Repeated errors are tracked and corrected before they
+                    become long-term habits.
+                </p>
+            </div>
+        </div>
+
+        <div class="difference-item">
+            <i data-lucide="clipboard-list"></i>
+            <div>
+                <h3 data-i18n="about.difference.item7.title">
+                    Homework Built Around Weaknesses
+                </h3>
+
+                <p data-i18n="about.difference.item7.desc">
+                    Assignments target each student's weakest areas instead
+                    of giving identical worksheets to everyone.
+                </p>
+            </div>
+        </div>
+
+        <div class="difference-item">
+            <i data-lucide="messages-square"></i>
+            <div>
+                <h3 data-i18n="about.difference.item8.title">
+                    Questions Between Lessons
+                </h3>
+
+                <p data-i18n="about.difference.item8.desc">
+                    Students are welcome to ask short questions outside class
+                    whenever they need clarification.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- EXPECTATIONS -->
+<section class="expectations">
+
+    <div class="section-heading">
+
+        <p data-i18n="about.expectations.label">
+            WHAT TO EXPECT
+        </p>
+
+        <h2 data-i18n="about.expectations.title">
+            Every Lesson Has A Purpose
+        </h2>
+
+    </div>
+
+    <div class="expectation-grid">
+
+        <div class="expectation-card">
+            <span>01</span>
+
+            <h3 data-i18n="about.expectations.assessmentTitle">
+                Assessment
+            </h3>
+
+            <p data-i18n="about.expectations.assessmentDesc">
+                Every student begins with an assessment to identify their
+                current level, strengths, weaknesses and learning goals.
+                Lessons are then planned around those findings rather than
+                following a generic syllabus.
+            </p>
+        </div>
+
+        <div class="expectation-card">
+            <span>02</span>
+
+            <h3 data-i18n="about.expectations.structuredTitle">
+                Structured Lessons
+            </h3>
+
+            <p data-i18n="about.expectations.structuredDesc">
+                Every lesson has clear objectives. Students always know
+                what they are learning, why it matters and how it connects
+                to previous lessons.
+            </p>
+        </div>
+
+        <div class="expectation-card">
+            <span>03</span>
+
+            <h3 data-i18n="about.expectations.feedbackTitle">
+                Continuous Feedback
+            </h3>
+
+            <p data-i18n="about.expectations.feedbackDesc">
+                Students receive corrections throughout lessons instead of
+                waiting until the end. This encourages immediate improvement
+                and helps prevent repeated mistakes.
+            </p>
+        </div>
+
+        <div class="expectation-card">
+            <span>04</span>
+
+            <h3 data-i18n="about.expectations.growthTitle">
+                Long-Term Growth
+            </h3>
+
+            <p data-i18n="about.expectations.growthDesc">
+                The objective is never short-term memorisation. Lessons are
+                designed to develop confidence, independence and lifelong
+                English skills that continue beyond examinations.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- BELIEFS -->
+<section class="belief">
+
+    <div class="belief-content">
+
+        <p class="eyebrow" data-i18n="about.belief.label">
+            WHAT I BELIEVE
+        </p>
+
+        <h2 data-i18n-html="about.belief.title">
+            Great Teaching Builds<br>
+            Independent Learners.
+        </h2>
+
+        <blockquote data-i18n-html="about.belief.quote">
+
+            "Learning should never rely on fear.<br><br>
+
+            Mistakes are evidence that learning is happening.<br><br>
+
+            Confidence comes from preparation.<br><br>
+
+            Discipline creates freedom.<br><br>
+
+            My role is to help students eventually no longer need me."
+
+        </blockquote>
+
+        <a href="contact.html" class="hero-button">
+
+            <span data-i18n="about.belief.button">
+                Get In Touch
+            </span>
+
+        </a>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <h2>YEO</h2>
+
+            <p data-i18n="home.footer.description">
+                Personalised one-to-one English coaching designed
+                to help every student grow with confidence.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4 data-i18n="home.footer.programs">
+                    Programs
+                </h4>
+
+                <a href="programs/cambridge.html">Cambridge</a>
+
+                <a href="programs/ielts.html">IELTS</a>
+
+                <a href="programs/sat.html">SAT</a>
+
+                <a href="programs/professional.html"
+                   data-i18n="home.footer.professional">
+                    Professional English
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="home.footer.resources">
+                    Resources
+                </h4>
+
+                <a href="parents.html"
+                   data-i18n="home.footer.parents">
+                    Parents
+                </a>
+
+                <a href="about.html"
+                   data-i18n="home.footer.about">
+                    About
+                </a>
+
+                <a href="policies.html"
+                   data-i18n="home.footer.policies">
+                    Student & Parent Policies
+                </a>
+
+                <a href="index.html#faq">
+                    FAQ
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="home.footer.contact">
+                    Contact
+                </h4>
+
+                <a href="mailto:yeowoonnam1234@gmail.com"
+                   data-i18n="home.footer.email">
+                    Email
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100006512059024"
+                   target="_blank"
+                   data-i18n="home.footer.messenger">
+                    Messenger
+                </a>
+
+                <a href="tel:0906641225"
+                   data-i18n="home.footer.phone">
+                    Phone
+                </a>
+
+                <a href="contact.html">
+                    Zalo
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p data-i18n="home.footer.copyright">
+            © 2024 YWN. All rights reserved.
+        </p>
+
+        <p data-i18n="home.footer.credit">
+            Designed & Developed with care by Yeo Woon Nam.
+        </p>
+
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/programs.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/mobile-menu.js"></script>
+
+    <script src="js/language.js"></script>
+</body>
+</html>    

@@ -1,0 +1,362 @@
+.eyebrow{
+    color: var(--gold);
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: 2px;
+}
+strong{
+    color: red;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.policy-hero{
+
+    width:min(var(--container),90%);
+    margin:180px auto 70px;
+
+}
+
+.policy-hero h1{
+
+    font-size:5rem;
+
+    line-height:.95;
+
+    margin:22px 0 30px;
+
+}
+
+.policy-hero .hero-description{
+
+    max-width:760px;
+
+    color:var(--text-light);
+
+    line-height:2;
+
+    font-size:1.08rem;
+
+}
+
+/* ==========================
+   LAST UPDATED
+========================== */
+
+.policy-update{
+
+    width:min(var(--container),90%);
+    margin:0 auto 80px;
+
+}
+
+.policy-update p{
+
+    display:inline-block;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:#F8F6F2;
+
+    color:var(--text-light);
+
+    font-size:.9rem;
+
+    border:1px solid var(--border);
+
+}
+
+/* ==========================
+   INTRODUCTION
+========================== */
+
+.policy-intro{
+
+    width:min(820px,90%);
+    margin:0 auto 120px;
+
+}
+
+.policy-intro p{
+
+    line-height:2;
+
+    color:var(--text-light);
+
+    font-size:1.05rem;
+
+}
+
+/* ==========================
+   POLICY SECTIONS
+========================== */
+
+.policy-section{
+
+    width:min(var(--container),90%);
+    margin:0 auto 120px;
+
+    display:grid;
+
+    grid-template-columns:280px 1fr;
+
+    gap:80px;
+
+}
+
+.policy-title{
+
+    position:sticky;
+
+    top:150px;
+
+    align-self:start;
+
+}
+
+.policy-title h2{
+
+    font-size:2.2rem;
+
+    line-height:1.2;
+
+}
+
+.policy-body{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:50px;
+
+}
+
+.policy-body article{
+
+    padding-bottom:45px;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.policy-body article:last-child{
+
+    border-bottom:none;
+
+}
+
+.policy-body h3{
+
+    font-size:1.35rem;
+
+    margin-bottom:18px;
+
+}
+
+.policy-body p{
+
+    color:var(--text-light);
+
+    line-height:2;
+
+}
+
+/* ==========================
+   LISTS
+========================== */
+
+.policy-body ul{
+
+    margin-top:18px;
+
+    padding-left:22px;
+
+}
+
+.policy-body li{
+
+    margin-bottom:14px;
+
+    color:var(--text-light);
+
+    line-height:1.8;
+
+}
+
+/* ==========================
+   CONTACT
+========================== */
+
+.policy-contact{
+
+    width:min(900px,90%);
+
+    margin:160px auto;
+
+    padding-top:70px;
+
+    border-top:1px solid var(--border);
+
+    text-align:center;
+
+}
+
+.policy-contact h2{
+
+    font-size:2.6rem;
+
+    margin-bottom:20px;
+
+}
+
+.policy-contact p{
+
+    max-width:650px;
+
+    margin:0 auto 45px;
+
+    color:var(--text-light);
+
+    line-height:2;
+
+}
+
+.policy-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:24px;
+
+    flex-wrap:wrap;
+
+}
+
+.policy-links a{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:14px 26px;
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    color:var(--text);
+
+    transition:var(--transition);
+
+}
+
+.policy-links a:hover{
+
+    border-color:var(--gold);
+
+    color:var(--gold);
+
+}
+
+/* ==========================
+   DIVIDER
+========================== */
+
+.policy-divider{
+
+    width:min(var(--container),90%);
+
+    margin:0 auto 120px;
+
+    height:1px;
+
+    background:var(--border);
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width:900px){
+
+    .policy-hero h1{
+        font-size:3.6rem;
+    }
+
+    .policy-section{
+
+        grid-template-columns:1fr;
+        gap:45px;
+
+    }
+
+    .policy-title{
+
+        position:static;
+
+    }
+
+    .policy-title h2{
+
+        font-size:2rem;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .policy-hero{
+
+        margin:150px auto 60px;
+
+    }
+
+    .policy-hero h1{
+
+        font-size:3rem;
+
+        line-height:1.05;
+
+    }
+
+    .policy-body{
+
+        gap:40px;
+
+    }
+
+    .policy-body article{
+
+        padding-bottom:35px;
+
+    }
+
+}
+
+@media (max-width:480px){
+
+    .policy-hero h1{
+
+        font-size:2.4rem;
+
+    }
+
+    .policy-body h3{
+
+        font-size:1.2rem;
+
+    }
+
+}

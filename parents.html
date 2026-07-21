@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/parents.css">
+
+    <title>Tutor YEO, Thầy tiếng Anh Yeo</title>
+</head>
+<body>
+<!-- =========================
+        NAVIGATION
+========================= -->
+<nav class="navbar">
+
+    <!-- Logo -->
+    <div class="nav-logo">
+        <a href="index.html">YWN</a>
+    </div>
+
+    <!-- =========================
+            Desktop Navigation
+    ========================= -->
+    <div class="nav-links">
+
+        <!-- Programs -->
+        <div class="nav-item programs-trigger">
+
+            <a href="programs/index.html" data-i18n="nav.programs.label">
+                Programs
+            </a>
+
+            <div class="mega-menu">
+
+                <a href="programs/cambridge.html" class="menu-card">
+                    <h3>
+                        Cambridge
+                    </h3>
+
+                    <p data-i18n="nav.programs.cambridgeDesc">
+                        International curriculum and exam preparation.
+                    </p>
+                </a>
+
+                <a href="programs/ielts.html" class="menu-card">
+                    <h3>
+                        IELTS
+                    </h3>
+
+                    <p data-i18n="nav.programs.ieltsDesc">
+                        Speaking, Listening, Reading & Writing.
+                    </p>
+                </a>
+
+                <a href="programs/sat.html" class="menu-card">
+                    <h3>
+                        SAT
+                    </h3>
+
+                    <p data-i18n="nav.programs.satDesc">
+                        Digital SAT university preparation.
+                    </p>
+                </a>
+
+                <a href="programs/professional.html" class="menu-card">
+                    <h3 data-i18n="nav.programs.professional">
+                        Professional English
+                    </h3>
+
+                    <p data-i18n="nav.programs.professionalDesc">
+                        Business communication & interviews.
+                    </p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Parents -->
+
+        <div class="nav-item">
+            <a href="parents.html" data-i18n="nav.parents">
+                Parents
+            </a>
+        </div>
+
+        <!-- About -->
+
+        <div class="nav-item about-trigger">
+
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <div class="about-menu">
+
+                <a href="testimonials.html" class="about-link">
+
+                    <h3 data-i18n="nav.testimonials">
+                        Testimonials
+                    </h3>
+
+                    <p data-i18n="nav.testimonialsDesc">
+                        Read what students and parents have shared.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Policies -->
+
+        <div class="nav-item">
+            <a href="policies.html" data-i18n="nav.policies">Policies</a>
+        </div>
+
+        <!-- Contact -->
+
+        <div class="nav-item">
+            <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- =========================
+          Desktop Language
+    ========================= -->
+
+    <div class="language-toggle">
+
+        <div class="toggle-pill"></div>
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</nav>
+
+<!-- =========================
+            Hamburger
+    ========================= -->
+
+    <button class="hamburger">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+<div class="mobile-overlay"></div>
+
+<!-- =========================
+        Mobile Drawer
+========================= -->
+<div class="mobile-menu">
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="programs/index.html" data-i18n="nav.programs">
+                Programs
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="programs/cambridge.html">Cambridge</a>
+            <a href="programs/ielts.html">IELTS</a>
+            <a href="programs/sat.html">SAT</a>
+            <a href="programs/professional.html" data-i18n="nav.programs.professional">Professional English</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="parents.html" data-i18n="nav.parents">Parents</a>
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="testimonials.html" data-i18n="nav.testimonials">Testimonials</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="policies.html" data-i18n="nav.policies">
+        Policies
+    </a>
+
+    <a class="mobile-link" href="contact.html" data-i18n="nav.contact">
+        Contact
+    </a>
+
+    <div class="mobile-language">
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</div>
+
+<!-- HERO -->
+<section class="parents-hero">
+
+    <div class="hero-content">
+
+        <span class="eyebrow" data-i18n="parents.hero.label">
+            FOR PARENTS
+        </span>
+
+        <h1 data-i18n-html="parents.hero.title">
+            Clear Expectations.<br>
+            Structured Learning.<br>
+            Real Progress.
+        </h1>
+
+        <p data-i18n="parents.hero.description">
+            I believe successful learning comes from a partnership between
+            student, parent and coach. This page explains exactly how I teach,
+            communicate and support every student's progress.
+        </p>
+
+    </div>
+
+</section>
+
+<div class="section-divider">
+    <span></span>
+</div>
+
+<!-- INTRO -->
+<section class="parents-intro">
+
+    <div class="section-heading">
+
+        <p data-i18n="parents.intro.label">
+            MY APPROACH
+        </p>
+
+        <h2 data-i18n="parents.intro.title">
+            Quality Over Quantity
+        </h2>
+
+    </div>
+
+    <p class="intro-text" data-i18n="parents.intro.description">
+        Every lesson is individually planned around the student's current level,
+        learning style and long-term goals. Rather than rushing through
+        worksheets, I focus on understanding, critical thinking and building
+        confidence that lasts beyond examinations.
+    </p>
+
+</section>
+
+<div class="section-divider">
+    <span></span>
+</div>
+
+<!-- PHILOSOPHY -->
+<section class="info-section">
+
+    <div class="section-heading">
+
+        <p data-i18n="parents.philosophy.label">
+            TEACHING PHILOSOPHY
+        </p>
+
+        <h2 data-i18n="parents.philosophy.title">
+            What Every Student Can Expect
+        </h2>
+
+    </div>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+
+            <i data-lucide="brain"></i>
+
+            <h3 data-i18n="parents.philosophy.understandTitle">
+                Understand Before Memorising
+            </h3>
+
+            <p data-i18n="parents.philosophy.understandDesc">
+                Students learn why concepts work before applying them independently.
+            </p>
+
+        </div>
+
+        <div class="info-card">
+
+            <i data-lucide="target"></i>
+
+            <h3 data-i18n="parents.philosophy.personalTitle">
+                Personalised Coaching
+            </h3>
+
+            <p data-i18n="parents.philosophy.personalDesc">
+                Lessons adapt to every student's pace rather than following identical lesson plans.
+            </p>
+
+        </div>
+
+        <div class="info-card">
+
+            <i data-lucide="trending-up"></i>
+
+            <h3 data-i18n="parents.philosophy.growthTitle">
+                Long-Term Growth
+            </h3>
+
+            <p data-i18n="parents.philosophy.growthDesc">
+                The goal is independent learners, not temporary exam improvements.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<div class="section-divider">
+    <span></span>
+</div>
+
+<!-- EXPECTATIONS -->
+<section class="parent-policies">
+
+    <div class="section-heading">
+
+        <p data-i18n="parents.policies.label">
+            IMPORTANT INFORMATION
+        </p>
+
+        <h2 data-i18n="parents.policies.title">
+            Working Together
+        </h2>
+
+    </div>
+
+    <div class="policy-list">
+
+        <!-- CARD 1 -->
+        <div class="policy-card">
+
+            <div class="policy-header">
+
+                <h3 data-i18n="parents.policies.homeworkTitle">
+                    Homework
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="policy-content">
+
+                <p data-i18n="parents.policies.homeworkDesc">
+                    Homework is an essential part of the learning process rather than optional extra practice. Every assignment is designed to reinforce concepts introduced during lessons and identify areas that require further attention.
+
+                    Students are expected to complete homework before the next lesson. Incomplete work limits lesson efficiency, as valuable teaching time must be spent reviewing unfinished tasks instead of introducing new concepts.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="policy-card">
+
+            <div class="policy-header">
+
+                <h3 data-i18n="parents.policies.preparationTitle">
+                    Lesson Preparation
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="policy-content">
+
+                <p data-i18n="parents.policies.preparationDesc">
+                    Students should arrive on time with all required learning materials, completed homework and a stable internet connection. Being prepared allows every lesson to begin immediately and ensures that valuable lesson time is focused on learning rather than setup or troubleshooting.
+
+                    A quiet learning environment with minimal distractions is strongly recommended for younger students.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="policy-card">
+
+            <div class="policy-header">
+
+                <h3 data-i18n="parents.policies.communicationTitle">
+                    Parent Communication
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="policy-content">
+
+                <p data-i18n="parents.policies.communicationDesc">
+                    Parents are encouraged to maintain open communication regarding their child's progress, concerns or academic goals. Questions may be discussed outside lesson hours through Messenger, Zalo or email.
+
+                    While I strive to respond promptly, replies may occasionally take longer during teaching hours.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="policy-card">
+
+            <div class="policy-header">
+
+                <h3 data-i18n="parents.policies.progressTitle">
+                    Progress Reviews
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="policy-content">
+
+                <p data-i18n="parents.policies.progressDesc">
+                    Learning progress is monitored continuously rather than only through examination results. Parents receive honest feedback regarding strengths, weaknesses and areas that require additional practice.
+
+                    As students develop, lesson plans are adjusted to ensure steady, long-term improvement instead of short-term memorisation.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="policy-card">
+
+            <div class="policy-header">
+
+                <h3 data-i18n="parents.policies.attendanceTitle">
+                    Attendance
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="policy-content">
+
+                <p data-i18n="parents.policies.attendanceDesc">
+                    Consistent attendance is one of the most important factors in successful language learning. Missing lessons frequently interrupts learning momentum and slows long-term progress.
+
+                    Families are encouraged to inform me as early as possible if a lesson needs to be rescheduled.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="policy-card">
+
+            <div class="policy-header">
+
+                <h3 data-i18n="parents.policies.questionsTitle">
+                    Questions Outside Lessons
+                </h3>
+
+                <span>+</span>
+
+            </div>
+
+            <div class="policy-content">
+
+                <p data-i18n="parents.policies.questionsDesc">
+                    Students are welcome to ask short questions between lessons whenever clarification is needed. This helps prevent misunderstandings from developing into larger learning gaps before the next session.
+
+                    More complex topics that require detailed explanation will usually be addressed during the following lesson.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<div class="section-divider">
+    <span></span>
+</div>
+
+<!-- COMMUNICATION -->
+<section class="communication">
+
+    <div class="section-heading">
+
+        <p data-i18n="parents.communication.label">
+            COMMUNICATION
+        </p>
+
+        <h2 data-i18n="parents.communication.title">
+            Keeping Parents Informed
+        </h2>
+
+    </div>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+
+            <i data-lucide="message-circle"></i>
+
+            <h3 data-i18n="parents.communication.quickTitle">
+                Quick Questions
+            </h3>
+
+            <p data-i18n="parents.communication.quickDesc">
+                Messenger is the fastest way to contact me for everyday enquiries.
+            </p>
+
+        </div>
+
+        <div class="info-card">
+
+            <i data-lucide="mail"></i>
+
+            <h3 data-i18n="parents.communication.detailTitle">
+                Detailed Discussions
+            </h3>
+
+            <p data-i18n="parents.communication.detailDesc">
+                Email is recommended for longer conversations or important updates.
+            </p>
+
+        </div>
+
+        <div class="info-card">
+
+            <i data-lucide="phone"></i>
+
+            <h3 data-i18n="parents.communication.urgentTitle">
+                Urgent Matters
+            </h3>
+
+            <p data-i18n="parents.communication.urgentDesc">
+                For urgent scheduling matters, parents may contact me directly by phone or Zalo.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<div class="section-divider">
+    <span></span>
+</div>
+
+<!-- CTA -->
+<section class="parents-cta">
+
+    <h2 data-i18n="parents.cta.title">
+        Still Have Questions?
+    </h2>
+
+    <p data-i18n="parents.cta.description">
+        I'm happy to discuss your child's learning goals and answer any questions before lessons begin.
+    </p>
+
+    <a href="contact.html" class="hero-button">
+        <span data-i18n="parents.cta.button">
+            Contact Me
+        </span>
+    </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <h2>YEO</h2>
+
+            <p data-i18n="home.footer.description">
+                Personalised one-to-one English coaching designed
+                to help every student grow with confidence.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4 data-i18n="home.footer.programs">
+                    Programs
+                </h4>
+
+                <a href="programs/cambridge.html">Cambridge</a>
+
+                <a href="programs/ielts.html">IELTS</a>
+
+                <a href="programs/sat.html">SAT</a>
+
+                <a href="programs/professional.html"
+                   data-i18n="home.footer.professional">
+                    Professional English
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="home.footer.resources">
+                    Resources
+                </h4>
+
+                <a href="parents.html"
+                   data-i18n="home.footer.parents">
+                    Parents
+                </a>
+
+                <a href="about.html"
+                   data-i18n="home.footer.about">
+                    About
+                </a>
+
+                <a href="policies.html"
+                   data-i18n="home.footer.policies">
+                    Student & Parent Policies
+                </a>
+
+                <a href="index.html#faq">
+                    FAQ
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="home.footer.contact">
+                    Contact
+                </h4>
+
+                <a href="mailto:yeowoonnam1234@gmail.com"
+                   data-i18n="home.footer.email">
+                    Email
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100006512059024"
+                   target="_blank"
+                   data-i18n="home.footer.messenger">
+                    Messenger
+                </a>
+
+                <a href="tel:0906641225"
+                   data-i18n="home.footer.phone">
+                    Phone
+                </a>
+
+                <a href="contact.html">
+                    Zalo
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p data-i18n="home.footer.copyright">
+            © 2024 YWN. All rights reserved.
+        </p>
+
+        <p data-i18n="home.footer.credit">
+            Designed & Developed with care by Yeo Woon Nam.
+        </p>
+
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/programs.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/mobile-menu.js"></script>
+
+    <script src="js/language.js"></script>
+</body>
+</html>

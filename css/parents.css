@@ -1,0 +1,486 @@
+/* SECTION DIVIDER */
+.section-divider{
+    width:min(1280px,90%);
+    margin:120px auto;
+    display:flex;
+    align-items:center;
+    gap:30px;
+    opacity:.65;
+}
+
+.section-divider::before,
+.section-divider::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:var(--border);
+}
+
+.section-divider span{
+    width:70px;
+    height:3px;
+    border-radius:999px;
+    background:var(--gold);
+}
+
+/* SECTION HEADING */
+.section-heading{
+    position:relative;
+    margin-bottom:80px;
+}
+
+.section-heading::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:3px;
+    background:var(--gold);
+    margin:24px auto 0;
+    border-radius:999px;
+}
+
+.lang-vi .section-heading h2{
+    font-size:2.7rem;
+}
+
+/* ==========================
+   PARENTS HERO
+========================== */
+.parents-hero{
+    width:min(var(--container),90%);
+    margin:180px auto 140px;
+    text-align:center;
+}
+
+.parents-hero h1{
+    font-size:5rem;
+    line-height:1;
+    margin:30px auto;
+    max-width:900px;
+}
+
+.parents-hero p{
+    max-width:760px;
+    margin:auto;
+    color:var(--text-light);
+    line-height:2;
+    font-size:1.08rem;
+}
+
+.eyebrow{
+    color: var(--gold);
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: 2px;
+}
+
+
+/* ==========================
+   INTRO
+========================== */
+.parents-intro{
+    width:min(900px,90%);
+    margin:0 auto 170px;
+    text-align:center;
+}
+
+.intro-text{
+    color:var(--text-light);
+    line-height:2;
+    font-size:1.05rem;
+}
+
+/* ==========================
+   INFORMATION SECTIONS
+========================== */
+.info-section{
+    width:min(var(--container),90%);
+    margin:170px auto;
+    background:#FCFBF7;
+
+    border-radius:40px;
+
+    padding:100px 70px;
+
+}
+
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.info-card{
+    background:white;
+    padding:45px;
+    border-radius:32px;
+    border:1px solid var(--border);
+    text-align:center;
+    transition:var(--transition);
+}
+
+.info-card:hover{
+    transform:translateY(-8px);
+    box-shadow:var(--shadow);
+}
+
+.info-card i{
+    width:46px;
+    height:46px;
+    color:var(--gold);
+    margin-bottom:28px;
+}
+
+.info-card h3{
+    margin-bottom:18px;
+}
+
+.info-card p{
+    color:var(--text-light);
+    line-height:1.9;
+}
+
+/* ==========================
+   PARENT EXPECTATIONS
+========================== */
+.parent-policies{
+    width:min(900px,90%);
+    margin:180px auto;
+}
+
+.policy-list{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.policy-card{
+    background:white;
+    border:1px solid var(--border);
+    border-radius:28px;
+    overflow:hidden;
+    transition:var(--transition);
+}
+
+.policy-card:hover{
+    box-shadow:var(--shadow);
+}
+
+.policy-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:28px 34px;
+    cursor:pointer;
+}
+
+.policy-header h3{
+    font-size:1.15rem;
+}
+
+.policy-header span{
+    font-size:2rem;
+    transition:.35s ease;
+    color:var(--gold);
+}
+
+.policy-content{
+    max-height:0;
+    overflow:hidden;
+    padding:0 34px;
+    transition:max-height .45s ease;
+}
+
+.policy-content p{
+    padding-bottom:30px;
+    line-height:1.9;
+    color:var(--text-light);
+}
+
+.policy-card.active .policy-content{
+    max-height:250px;
+}
+
+.policy-card.active .policy-header span{
+    transform:rotate(45deg);
+}
+
+/* ==========================
+   COMMUNICATION
+========================== */
+.communication{
+    width:min(var(--container),90%);
+    margin:170px auto;
+}
+
+/* ==========================
+   CTA
+========================== */
+.parents-cta{
+    width:min(var(--container),90%);
+    margin:180px auto;
+    padding:90px;
+    text-align:center;
+    background:#111;
+    color:white;
+    border-radius:40px;
+}
+
+.parents-cta h2{
+    font-size:3rem;
+    margin-bottom:24px;
+}
+
+.parents-cta p{
+    max-width:700px;
+    margin:0 auto 45px;
+    color:#bdbdbd;
+    line-height:1.9;
+}
+
+/* ===================================================
+   TABLET (under 1200px)
+=================================================== */
+
+@media (max-width:1200px){
+
+    .parents-hero{
+
+        margin:170px auto 120px;
+
+    }
+
+    .parents-hero h1{
+
+        font-size:4rem;
+
+    }
+
+    .parents-intro{
+
+        margin-bottom:120px;
+
+    }
+
+    .info-section{
+
+        padding:80px 50px;
+
+        margin:120px auto;
+
+    }
+
+    .communication{
+
+        margin:120px auto;
+
+    }
+
+    .parents-cta{
+
+        padding:70px 60px;
+
+        margin:140px auto;
+
+    }
+
+}
+
+
+/* ===================================================
+   TABLET (under 1024px)
+=================================================== */
+
+@media (max-width:1024px){
+
+    .parents-hero h1{
+
+        font-size:3.5rem;
+
+    }
+
+    .info-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .info-section{
+
+        padding:70px 40px;
+
+    }
+
+    .info-card{
+
+        padding:40px;
+
+    }
+
+    .parents-cta h2{
+
+        font-size:2.6rem;
+
+    }
+
+}
+
+
+/* ===================================================
+   MOBILE (under 768px)
+=================================================== */
+
+@media (max-width:768px){
+
+    /* ---------- HERO ---------- */
+
+    .parents-hero{
+
+        width:100%;
+
+        padding:0 20px;
+
+        margin:140px auto 80px;
+
+    }
+
+    .parents-hero h1{
+
+        font-size:2.5rem;
+
+        line-height:1.15;
+
+    }
+
+    .parents-hero p{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+    }
+
+    /* ---------- DIVIDERS ---------- */
+
+    .section-divider{
+
+        margin:70px auto;
+
+    }
+
+    .section-divider span{
+
+        width:50px;
+
+    }
+
+    /* ---------- SECTION HEADINGS ---------- */
+
+    .section-heading{
+
+        margin-bottom:50px;
+
+    }
+
+    .section-heading h2{
+
+        font-size:2rem;
+
+    }
+
+    /* ---------- INTRO ---------- */
+
+    .parents-intro{
+
+        width:100%;
+
+        padding:0 20px;
+
+        margin-bottom:90px;
+
+    }
+
+    /* ---------- INFO ---------- */
+
+    .info-section,
+    .communication{
+
+        width:100%;
+
+        padding:60px 20px;
+
+        margin:90px auto;
+
+    }
+
+    .info-grid{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .info-card{
+
+        padding:32px;
+
+    }
+
+    /* ---------- POLICIES ---------- */
+
+    .parent-policies{
+
+        width:100%;
+
+        padding:0 20px;
+
+        margin:90px auto;
+
+    }
+
+    .policy-header{
+
+        padding:22px;
+
+    }
+
+    .policy-content{
+
+        padding:0 22px;
+
+    }
+
+    .policy-card.active .policy-content{
+
+        max-height:900px;
+
+    }
+
+    /* ---------- CTA ---------- */
+
+    .parents-cta{
+
+        width:calc(100% - 40px);
+
+        padding:50px 28px;
+
+        margin:90px auto;
+
+        border-radius:28px;
+
+    }
+
+    .parents-cta h2{
+
+        font-size:2rem;
+
+    }
+
+    .parents-cta p{
+
+        font-size:1rem;
+
+    }
+
+}

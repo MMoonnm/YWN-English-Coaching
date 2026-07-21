@@ -1,0 +1,470 @@
+.eyebrow{
+    color:var(--gold);
+    font-weight:600;
+    font-size:.9rem;
+    letter-spacing:2px;
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+.testimonial-hero{
+    width:min(var(--container),90%);
+    margin:180px auto 120px;
+    text-align:center;
+}
+
+.testimonial-hero h1{
+    margin:20px 0 30px;
+}
+
+.hero-description{
+    max-width:760px;
+    margin:auto;
+    color:var(--text-light);
+    line-height:1.9;
+}
+
+.testimonial-note{
+    max-width:700px;
+    margin:35px auto 0;
+    color:var(--text-light);
+    font-size:.95rem;
+    line-height:1.8;
+}
+
+/* =========================================
+   STATS
+========================================= */
+
+.testimonial-stats{
+    width:min(var(--container),90%);
+    margin:0 auto 120px;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.stat-card{
+    background:white;
+    border:1px solid var(--border);
+    border-radius:24px;
+    padding:35px;
+    text-align:center;
+    transition:var(--transition);
+}
+
+.stat-card:hover{
+    transform:translateY(-6px);
+    box-shadow:var(--shadow);
+}
+
+.stat-card h2{
+    color:var(--gold);
+    margin-bottom:12px;
+}
+
+.stat-card p{
+    color:var(--text-light);
+}
+
+/* =========================================
+   FILTER
+========================================= */
+
+.testimonial-filter{
+    width:min(var(--container),90%);
+    margin:0 auto 70px;
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.testimonial-filter button{
+
+    padding:12px 24px;
+
+    border:none;
+    border-radius:999px;
+
+    background:#F8F6F2;
+
+    color:var(--text);
+
+    cursor:pointer;
+
+    transition:var(--transition);
+
+    font:inherit;
+}
+
+/* ALL */
+
+.testimonial-filter .all:hover,
+.testimonial-filter .all.active{
+
+    background:var(--gold);
+    color:white;
+
+}
+
+/* CAMBRIDGE */
+
+.testimonial-filter .cambridge:hover,
+.testimonial-filter .cambridge.active{
+
+    background:var(--cambridge);
+    color:white;
+
+}
+
+/* IELTS */
+
+.testimonial-filter .ielts:hover,
+.testimonial-filter .ielts.active{
+
+    background:var(--ielts);
+    color:white;
+
+}
+
+/* SAT */
+
+.testimonial-filter .sat:hover,
+.testimonial-filter .sat.active{
+
+    background:var(--sat);
+    color:white;
+
+}
+
+/* PROFESSIONAL */
+
+.testimonial-filter .professional:hover,
+.testimonial-filter .professional.active{
+
+    background:var(--professional);
+    color:white;
+
+}
+
+/* PARENTS */
+
+.testimonial-filter .parent:hover,
+.testimonial-filter .parent.active{
+
+    background:var(--navy);
+    color:white;
+
+}
+
+/* =========================================
+   TESTIMONIALS
+========================================= */
+
+.testimonial-list{
+    width:min(var(--container),90%);
+    margin:0 auto 160px;
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.testimonial-card{
+    display:flex;
+    flex-direction:column;
+
+    background:white;
+    border:1px solid var(--border);
+    border-radius:32px;
+    padding:40px;
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        opacity .3s ease;
+}
+
+.testimonial-card.hidden{
+    display:none;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-8px);
+    box-shadow:var(--shadow);
+}
+
+.testimonial-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:24px;
+
+    margin-bottom:24px;
+
+}
+
+.testimonial-info{
+    flex:1;
+}
+
+.testimonial-avatar{
+    flex-shrink:0;
+}
+
+.testimonial-avatar img{
+    width:72px;
+    height:72px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+    border:2px solid var(--border);
+
+    transition:var(--transition);
+}
+
+.testimonial-card:hover .testimonial-avatar img{
+    border-color:var(--gold);
+}
+
+.testimonial-stars{
+    color:var(--gold);
+    font-size:1.15rem;
+    letter-spacing:2px;
+    margin-bottom:12px;
+}
+
+.testimonial-card h3{
+    margin-bottom:8px;
+}
+
+/* TESTIMONIAL CARD FX */
+/* JS Visibility */
+
+.testimonial-card{
+
+    display:none;
+
+}
+
+.testimonial-card.show{
+
+    display:flex;
+
+    animation:fadeUp .45s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+.testimonial-meta{
+    color:var(--text-light);
+    margin-bottom:6px;
+}
+
+.testimonial-country{
+    color:#888;
+    font-size:.92rem;
+    margin:0;
+}
+
+.programme-tag{
+    display:inline-flex;
+    align-self:flex-start;
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:.88rem;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+.programme-tag.cambridge{
+    background:var(--cambridge-bg);
+    color:var(--cambridge);
+}
+
+.programme-tag.ielts{
+    background:var(--ielts-bg);
+    color:var(--ielts);
+}
+
+.programme-tag.sat{
+    background:var(--sat-bg);
+    color:var(--sat);
+}
+
+.programme-tag.professional{
+    background:var(--professional-bg);
+    color:var(--professional);
+}
+
+.testimonial-card blockquote{
+    margin:0;
+    color:var(--text-light);
+    line-height:1.9;
+    font-style:italic;
+    flex:1;
+}
+
+.testimonial-date{
+    display:block;
+    margin-top:auto;
+    padding-top:30px;
+    color:#888;
+    font-size:.9rem;
+}
+
+/* =========================================
+   LOAD MORE
+========================================= */
+.load-more-container{
+    width:min(var(--container),90%);
+    margin:-80px auto 160px;
+    text-align:center;
+}
+
+/* =========================================
+   CTA
+========================================= */
+
+.testimonial-cta{
+    width:min(900px,90%);
+    margin:180px auto;
+    text-align:center;
+}
+
+.testimonial-cta h2{
+    margin-bottom:24px;
+}
+
+.testimonial-cta p{
+    max-width:700px;
+    margin:0 auto 40px;
+    color:var(--text-light);
+    line-height:1.9;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width:900px){
+
+    .testimonial-hero{
+        margin:160px auto 100px;
+    }
+
+    .testimonial-stats{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .testimonial-list{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .testimonial-hero h1{
+        font-size:3.6rem;
+    }
+
+    .testimonial-card{
+        padding:32px;
+    }
+
+    .testimonial-filter{
+        gap:12px;
+    }
+
+    .testimonial-avatar img{
+        width:64px;
+        height:64px;
+    }
+
+}
+
+@media (max-width:600px){
+
+    .testimonial-hero{
+        margin:140px auto 80px;
+    }
+
+    .testimonial-hero h1{
+        font-size:2.8rem;
+        line-height:1.05;
+    }
+
+    .hero-description,
+    .testimonial-note{
+        font-size:.98rem;
+    }
+
+    .testimonial-stats{
+        grid-template-columns:1fr;
+    }
+
+    .stat-card{
+        padding:28px;
+    }
+
+    .testimonial-filter button{
+        width:100%;
+    }
+
+    .testimonial-card{
+        padding:28px;
+    }
+
+    .testimonial-filter{
+        gap:8px;
+    }
+
+    .testimonial-filter button{
+        min-width:unset;
+    }
+
+    .programme-tag{
+        margin-bottom:18px;
+    }
+
+    .testimonial-card blockquote{
+        font-size:1rem;
+    }
+
+    .testimonial-cta{
+        margin:120px auto;
+    }
+
+    .testimonial-header{
+        gap:16px;
+    }
+
+    .testimonial-avatar img{
+        width:56px;
+        height:56px;
+    }
+
+}

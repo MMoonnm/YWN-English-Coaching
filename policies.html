@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/policies.css">
+
+    <title>Tutor YEO, Thầy tiếng Anh Yeo</title>
+</head>
+<body>
+<!-- =========================
+        NAVIGATION
+========================= -->
+<nav class="navbar">
+
+    <!-- Logo -->
+    <div class="nav-logo">
+        <a href="index.html">YWN</a>
+    </div>
+
+    <!-- =========================
+            Desktop Navigation
+    ========================= -->
+    <div class="nav-links">
+
+        <!-- Programs -->
+        <div class="nav-item programs-trigger">
+
+            <a href="programs/index.html" data-i18n="nav.programs.label">
+                Programs
+            </a>
+
+            <div class="mega-menu">
+
+                <a href="programs/cambridge.html" class="menu-card">
+                    <h3>
+                        Cambridge
+                    </h3>
+
+                    <p data-i18n="nav.programs.cambridgeDesc">
+                        International curriculum and exam preparation.
+                    </p>
+                </a>
+
+                <a href="programs/ielts.html" class="menu-card">
+                    <h3>
+                        IELTS
+                    </h3>
+
+                    <p data-i18n="nav.programs.ieltsDesc">
+                        Speaking, Listening, Reading & Writing.
+                    </p>
+                </a>
+
+                <a href="programs/sat.html" class="menu-card">
+                    <h3>
+                        SAT
+                    </h3>
+
+                    <p data-i18n="nav.programs.satDesc">
+                        Digital SAT university preparation.
+                    </p>
+                </a>
+
+                <a href="programs/professional.html" class="menu-card">
+                    <h3 data-i18n="nav.programs.professional">
+                        Professional English
+                    </h3>
+
+                    <p data-i18n="nav.programs.professionalDesc">
+                        Business communication & interviews.
+                    </p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Parents -->
+
+        <div class="nav-item">
+            <a href="parents.html" data-i18n="nav.parents">
+                Parents
+            </a>
+        </div>
+
+        <!-- About -->
+
+        <div class="nav-item about-trigger">
+
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <div class="about-menu">
+
+                <a href="testimonials.html" class="about-link">
+
+                    <h3 data-i18n="nav.testimonials">
+                        Testimonials
+                    </h3>
+
+                    <p data-i18n="nav.testimonialsDesc">
+                        Read what students and parents have shared.
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Policies -->
+
+        <div class="nav-item">
+            <a href="policies.html" data-i18n="nav.policies">Policies</a>
+        </div>
+
+        <!-- Contact -->
+
+        <div class="nav-item">
+            <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- =========================
+          Desktop Language
+    ========================= -->
+
+    <div class="language-toggle">
+
+        <div class="toggle-pill"></div>
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</nav>
+
+<!-- =========================
+            Hamburger
+    ========================= -->
+
+    <button class="hamburger">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+<div class="mobile-overlay"></div>
+
+<!-- =========================
+        Mobile Drawer
+========================= -->
+<div class="mobile-menu">
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="programs/index.html" data-i18n="nav.programs">
+                Programs
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="programs/cambridge.html">Cambridge</a>
+            <a href="programs/ielts.html">IELTS</a>
+            <a href="programs/sat.html">SAT</a>
+            <a href="programs/professional.html" data-i18n="nav.programs.professional">Professional English</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="parents.html" data-i18n="nav.parents">Parents</a>
+
+    <div class="mobile-group">
+
+        <div class="mobile-toggle">
+            <a href="about.html" data-i18n="nav.about">
+                About
+            </a>
+
+            <button class="mobile-expand" type="button">
+                +
+            </button>
+        </div>
+
+        <div class="mobile-submenu">
+            <a href="testimonials.html" data-i18n="nav.testimonials">Testimonials</a>
+        </div>
+
+    </div>
+
+    <a class="mobile-link" href="policies.html" data-i18n="nav.policies">
+        Policies
+    </a>
+
+    <a class="mobile-link" href="contact.html" data-i18n="nav.contact">
+        Contact
+    </a>
+
+    <div class="mobile-language">
+
+        <span class="active" data-lang="en">EN</span>
+        <span data-lang="vi">VI</span>
+
+    </div>
+</div>
+
+<!-- HERO -->
+<section class="policy-hero">
+
+    <p class="eyebrow"
+       data-i18n="policies.hero.label">
+        STUDENT AND PARENT POLICIES
+    </p>
+
+    <h1 data-i18n-html="policies.hero.title">
+        Clear Policies.<br>
+        Better Learning.
+    </h1>
+
+    <p class="hero-description"
+       data-i18n="policies.hero.description">
+        These policies are designed to create a professional,
+        respectful and productive learning environment for every
+        student and family.
+    </p>
+
+</section>
+
+
+<!-- LAST UPDATED -->
+<section class="policy-update">
+
+    <p data-i18n="policies.updated">
+        Last Updated: June 2026
+    </p>
+
+</section>
+
+
+<!-- INTRODUCTION -->
+<section class="policy-intro">
+
+    <p data-i18n="policies.introduction">
+        By enrolling in lessons with English coach Yeo,
+        students and parents acknowledge that they have read
+        and agreed to the following policies.
+
+        These guidelines help ensure lessons remain organised,
+        effective and fair for everyone.
+    </p>
+
+</section>
+
+<!-- SECTION 01 -->
+<section class="policy-section">
+
+    <div class="policy-title">
+
+        <p class="eyebrow"
+           data-i18n="policies.enrollment.label">
+            SECTION 01
+        </p>
+
+        <h2 data-i18n="policies.enrollment.title">
+            Enrollment & Payment
+        </h2>
+
+    </div>
+
+    <div class="policy-body">
+
+        <article>
+
+            <h3 data-i18n="policies.enrollment.paymentTitle">
+                Monthly Enrollment & Payment
+            </h3>
+
+            <p data-i18n-html="policies.enrollment.paymentDesc">
+                Tuition is calculated based on the number of scheduled lessons
+                for the upcoming month.
+                An invoice will be issued on the <strong>25th of each month</strong>.
+                Payment is required <strong>before the first scheduled lesson
+                of the new month</strong>.
+                If payment has not been received before the second scheduled lesson,
+                all remaining lessons will be suspended until payment has been completed.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.enrollment.confirmationTitle">
+                Monthly Continuation Confirmation
+            </h3>
+
+            <p data-i18n="policies.enrollment.confirmationDesc">
+                Together with the monthly invoice, students or parents will be
+                asked to confirm whether lessons will continue for the following month.
+                This allows lesson schedules to be arranged in advance and ensures
+                reserved lesson times remain available.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.enrollment.withdrawalTitle">
+                Notice of Withdrawal
+            </h3>
+
+            <p data-i18n-html="policies.enrollment.withdrawalDesc">
+                Students wishing to discontinue lessons are kindly requested to notify me
+                before the 25th of the current month.
+                As lesson schedules are planned and reserved on a monthly basis, advance
+                notice allows sufficient time to reorganise the teaching schedule and
+                offer the reserved monthly lesson plan to another student.
+                If no notice is received before the monthly confirmation date,
+                lessons will be assumed to discontinue into the following month.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- SECTION 02 -->
+<section class="policy-section">
+
+    <div class="policy-title">
+
+        <p class="eyebrow"
+           data-i18n="policies.schedule.label">
+            SECTION 02
+        </p>
+
+        <h2 data-i18n="policies.schedule.title">
+            Scheduling Policies
+        </h2>
+
+    </div>
+
+    <div class="policy-body">
+
+        <article>
+
+            <h3 data-i18n="policies.schedule.reservedTitle">
+                Reserved Lesson Time
+            </h3>
+
+            <p data-i18n="policies.schedule.reservedDesc">
+                Each student's weekly lesson time is reserved exclusively for them.
+                Consistent scheduling supports long-term learning progress and
+                ensures fairness for all students. Reserved lesson times may be
+                offered to students on the waiting list if lessons are discontinued.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.schedule.durationTitle">
+                Lesson Duration
+            </h3>
+
+            <p data-i18n-html="policies.schedule.durationDesc">
+                Lesson lengths are designed according to each programme.
+                Cambridge Young Learners, School English and Communication English
+                lessons are <strong>60 minutes</strong>.
+                IELTS and SAT Reading & Writing lessons are
+                <strong>90 minutes</strong>.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.schedule.rescheduleTitle">
+                Rescheduling Policy
+            </h3>
+
+            <p data-i18n-html="policies.schedule.rescheduleDesc">
+                Students who need to reschedule should provide at least
+                <strong>24 hours' notice</strong>.
+                Lessons cancelled with sufficient notice will be rescheduled
+                based on mutual availability.
+                Lessons cancelled <strong>less than one hour before the scheduled lesson</strong>
+                may be considered completed unless the absence is due to an emergency.
+                If I need to reschedule a lesson, a make-up lesson will always
+                be arranged.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.schedule.lateTitle">
+                Late Arrival Policy
+            </h3>
+
+            <p data-i18n="policies.schedule.lateDesc">
+                Lessons finish at their originally scheduled time.
+                Students arriving late will still finish at the scheduled ending time,
+                ensuring fairness for students with lessons afterwards.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.schedule.holidayTitle">
+                Holiday & Long Break Policy
+            </h3>
+
+            <p data-i18n-html="policies.schedule.holidayDesc">
+                If a student plans to take a long break (such as holidays,
+                examinations or summer programmes), please provide at least
+                <strong>two weeks' notice</strong>.
+                Depending on availability, lessons may be temporarily paused,
+                rescheduled or the reserved lesson time released.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- SECTION 03 -->
+<section class="policy-section">
+
+    <div class="policy-title">
+
+        <p class="eyebrow"
+           data-i18n="policies.learning.label">
+            SECTION 03
+        </p>
+
+        <h2 data-i18n="policies.learning.title">
+            Learning Expectations
+        </h2>
+
+    </div>
+
+    <div class="policy-body">
+
+        <article>
+
+            <h3 data-i18n="policies.learning.homeworkTitle">
+                Homework & Independent Study
+            </h3>
+
+            <p data-i18n="policies.learning.homeworkDesc">
+                Progress depends not only on lesson time but also on
+                consistent independent practice.
+                Students are expected to complete assigned homework,
+                review lesson notes, revise vocabulary regularly,
+                and practise speaking and writing between lessons.
+                Homework should normally be completed before the next lesson
+                or within one week unless otherwise instructed.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.learning.progressTitle">
+                Progress Tracking
+            </h3>
+
+            <p data-i18n="policies.learning.progressDesc">
+                Every student follows an individual learning roadmap.
+                Progress is continuously monitored across grammar,
+                vocabulary, reading, writing, speaking, pronunciation
+                and recurring mistakes.
+                Lessons are adapted according to each student's progress
+                rather than following a fixed textbook alone.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.learning.assessmentTitle">
+                Assessment Session
+            </h3>
+
+            <p data-i18n-html="policies.learning.assessmentDesc">
+                Students may request a paid
+                <strong>30-minute diagnostic assessment</strong>
+                before beginning long-term coaching.
+                The assessment identifies current ability,
+                strengths, weaknesses, learning goals and provides a
+                recommended study roadmap.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- SECTION 04 -->
+<section class="policy-section">
+
+    <div class="policy-title">
+
+        <p class="eyebrow"
+           data-i18n="policies.communication.label">
+            SECTION 04
+        </p>
+
+        <h2 data-i18n="policies.communication.title">
+            Communication
+        </h2>
+
+    </div>
+
+    <div class="policy-body">
+
+        <article>
+
+            <h3 data-i18n="policies.communication.hoursTitle">
+                Communication Hours
+            </h3>
+
+            <p data-i18n-html="policies.communication.hoursDesc">
+                To maintain work-life balance and ensure adequate lesson
+                preparation, messages are normally answered between
+                <strong>10:00 and 21:00 (Vietnam Time)</strong>.
+                Messages received outside these hours will be answered
+                as soon as reasonably possible.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.communication.questionsTitle">
+                Questions Outside Lessons
+            </h3>
+
+            <p data-i18n="policies.communication.questionsDesc">
+                Students are encouraged to ask brief academic questions
+                whenever clarification is needed.
+                However, detailed explanations, essay corrections or solving
+                multiple practice questions form part of scheduled coaching
+                sessions and will be addressed during lessons.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- SECTION 05 -->
+<section class="policy-section">
+
+    <div class="policy-title">
+
+        <p class="eyebrow"
+           data-i18n="policies.professional.label">
+            SECTION 05
+        </p>
+
+        <h2 data-i18n="policies.professional.title">
+            Professional Standards
+        </h2>
+
+    </div>
+
+    <div class="policy-body">
+
+        <article>
+
+            <h3 data-i18n="policies.professional.environmentTitle">
+                Professional Learning Environment
+            </h3>
+
+            <p data-i18n="policies.professional.environmentDesc">
+                Students should prepare all required materials,
+                join lessons punctually and minimise distractions.
+                Mutual respect and professional communication are expected
+                from both coach and student throughout the learning journey.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.professional.responsibilitiesTitle">
+                Coach Responsibilities
+            </h3>
+
+            <p data-i18n="policies.professional.responsibilitiesDesc">
+                The coach is committed to preparing lessons appropriate
+                to each student's level, providing constructive feedback,
+                monitoring progress continuously and maintaining a respectful,
+                supportive and professional learning environment.
+            </p>
+
+        </article>
+
+    </div>
+</section>
+
+<!-- SECTION 06 -->
+<section class="policy-section">
+
+    <div class="policy-title">
+
+        <p class="eyebrow"
+           data-i18n="policies.general.label">
+            SECTION 06
+        </p>
+
+        <h2 data-i18n="policies.general.title">
+            General Policies
+        </h2>
+
+    </div>
+
+    <div class="policy-body">
+
+        <article>
+
+            <h3 data-i18n="policies.general.recordingTitle">
+                Recording Policy
+            </h3>
+
+            <p data-i18n="policies.general.recordingDesc">
+                Lessons may not be audio recorded, video recorded,
+                distributed or shared without the prior consent of both
+                the coach and the student.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.general.integrityTitle">
+                Academic Integrity
+            </h3>
+
+            <p data-i18n="policies.general.integrityDesc">
+                Coaching is designed to develop genuine English proficiency.
+                Assistance intended to facilitate plagiarism, cheating or
+                academic dishonesty will not be provided.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3 data-i18n="policies.general.updatesTitle">
+                Policy Updates
+            </h3>
+
+            <p data-i18n="policies.general.updatesDesc">
+                These policies may be updated periodically to reflect
+                improvements to teaching practices or administrative procedures.
+                The latest version published on this website supersedes all
+                previous versions.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <h2>YEO</h2>
+
+            <p data-i18n="home.footer.description">
+                Personalised one-to-one English coaching designed
+                to help every student grow with confidence.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4 data-i18n="home.footer.programs">
+                    Programs
+                </h4>
+
+                <a href="programs/cambridge.html">Cambridge</a>
+
+                <a href="programs/ielts.html">IELTS</a>
+
+                <a href="programs/sat.html">SAT</a>
+
+                <a href="programs/professional.html"
+                   data-i18n="home.footer.professional">
+                    Professional English
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="home.footer.resources">
+                    Resources
+                </h4>
+
+                <a href="parents.html"
+                   data-i18n="home.footer.parents">
+                    Parents
+                </a>
+
+                <a href="about.html"
+                   data-i18n="home.footer.about">
+                    About
+                </a>
+
+                <a href="policies.html"
+                   data-i18n="home.footer.policies">
+                    Student & Parent Policies
+                </a>
+
+                <a href="index.html#faq">
+                    FAQ
+                </a>
+
+            </div>
+
+            <div>
+
+                <h4 data-i18n="home.footer.contact">
+                    Contact
+                </h4>
+
+                <a href="mailto:yeowoonnam1234@gmail.com"
+                   data-i18n="home.footer.email">
+                    Email
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100006512059024"
+                   target="_blank"
+                   data-i18n="home.footer.messenger">
+                    Messenger
+                </a>
+
+                <a href="tel:0906641225"
+                   data-i18n="home.footer.phone">
+                    Phone
+                </a>
+
+                <a href="contact.html">
+                    Zalo
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p data-i18n="home.footer.copyright">
+            © 2024 YWN. All rights reserved.
+        </p>
+
+        <p data-i18n="home.footer.credit">
+            Designed & Developed with care by Yeo Woon Nam.
+        </p>
+
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/programs.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/mobile-menu.js"></script>
+
+    <script src="js/language.js"></script>
+</body>
+</html>
