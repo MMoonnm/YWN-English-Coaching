@@ -999,6 +999,16 @@
             method="POST">
 
             <input
+                type="hidden"
+                name="_next"
+                value="https://mmoonnm.github.io/YWN-English-Coaching/thank-you.html">
+
+            <input
+                type="hidden"
+                name="_subject"
+                value="New Coaching Enquiry">
+
+            <input
                 type="text"
                 name="name"
                 data-i18n-placeholder="home.contact.form.name"
@@ -1014,7 +1024,7 @@
 
             <div class="select-wrapper">
 
-                <select required>
+                <select name="program" required>
 
                     <option
                         value=""
@@ -1024,11 +1034,12 @@
                         Select a Program
                     </option>
 
-                    <option>Cambridge</option>
-                    <option>IELTS</option>
-                    <option>SAT</option>
+                    <option value="Cambridge">Cambridge</option>
+                    <option value="IELTS">IELTS</option>
+                    <option value="SAT">SAT</option>
 
                     <option
+                        value="Professional English"
                         data-i18n="home.contact.form.professional">
                         Professional English
                     </option>
